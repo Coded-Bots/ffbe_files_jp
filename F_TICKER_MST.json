@@ -1,0 +1,414 @@
+[
+    {
+        "J5FR0KMs": "BEAST_BOARD", 
+        "N3YcDux2": "SPを消費して、幻獣を強化してください。"
+    }, 
+    {
+        "J5FR0KMs": "BEAST_CHANGE", 
+        "N3YcDux2": "パーティに入れたい幻獣を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "BEAST_TOP", 
+        "N3YcDux2": "詳細を見たい幻獣を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "CLSM_BATTLE_START", 
+        "N3YcDux2": "バトル開始ボタンでバトル開始します。"
+    }, 
+    {
+        "J5FR0KMs": "CLSM_MYPAGE", 
+        "N3YcDux2": "参戦するボタンを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "CLSM_RESULT", 
+        "N3YcDux2": "バトルの結果です。"
+    }, 
+    {
+        "J5FR0KMs": "CLSM_SELECT_GRADE", 
+        "N3YcDux2": "グレードを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "CLSM_SELECT_RANK", 
+        "N3YcDux2": "ランクを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "CLSM_SELECT_ROUND", 
+        "N3YcDux2": "ラウンドを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "CRAFT_COMP", 
+        "N3YcDux2": "作成が終了しました。"
+    }, 
+    {
+        "J5FR0KMs": "CRAFT_CREATE", 
+        "N3YcDux2": "ラピスを使用することですぐに完成します。"
+    }, 
+    {
+        "J5FR0KMs": "CRAFT_RECIPE_CONFIRM", 
+        "N3YcDux2": "作成に必要な素材とギルが揃えば、作成するボタンで作成できます。"
+    }, 
+    {
+        "J5FR0KMs": "CRAFT_TOP", 
+        "N3YcDux2": "クラフトメニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "DECORATION_BATTLE_SCORE", 
+        "N3YcDux2": "さまざまな戦績の一覧です。"
+    }, 
+    {
+        "J5FR0KMs": "DECORATION_REWARD", 
+        "N3YcDux2": "受け取る勲章報酬を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "DECORATION_TOP", 
+        "N3YcDux2": "確認したい勲章を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "FILTER_UNIT", 
+        "N3YcDux2": "ユニットの絞り込みができます。"
+    }, 
+    {
+        "J5FR0KMs": "FRIEND_APPLICATION_DETAIL", 
+        "N3YcDux2": "フレンドの詳細です。"
+    }, 
+    {
+        "J5FR0KMs": "FRIEND_DETAIL", 
+        "N3YcDux2": "お気に入り登録やフレンド削除などができます。"
+    }, 
+    {
+        "J5FR0KMs": "FRIEND_LIST", 
+        "N3YcDux2": "プレイヤー情報を見たいフレンドを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "FRIEND_REQUEST", 
+        "N3YcDux2": "フレンド申請中のプレイヤーやあなたにフレンド申請をしているプレイヤーが表示されます。"
+    }, 
+    {
+        "J5FR0KMs": "FRIEND_SEARCH", 
+        "N3YcDux2": "フレンドをIDで検索できます。お友達にフレンド登録してもらう場合は「あなたのID」に表示されている数字を伝えてください。"
+    }, 
+    {
+        "J5FR0KMs": "FRIEND_SEARCH_LIST", 
+        "N3YcDux2": "フレンド申請をしたいプレイヤーを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "FRIEND_SEARCH_RESULT", 
+        "N3YcDux2": "フレンド申請をすることができます。"
+    }, 
+    {
+        "J5FR0KMs": "FRIEND_TOP", 
+        "N3YcDux2": "フレンドメニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "GACHA_DETAIL_ARENATICKET", 
+        "N3YcDux2": "チケット召喚をタップすると召喚を開始します。連続チケット召喚をタップすると最大10連続で召喚を行います。"
+    }, 
+    {
+        "J5FR0KMs": "GACHA_DETAIL_NORMAL", 
+        "N3YcDux2": "召喚をタップすると召喚を開始します。連続召喚をタップすると最大10連続で召喚を行います。"
+    }, 
+    {
+        "J5FR0KMs": "GACHA_DETAIL_PAY", 
+        "N3YcDux2": "購入したラピスで引けるガチャ（TESTテキスト）"
+    }, 
+    {
+        "J5FR0KMs": "GACHA_DETAIL_RARE", 
+        "N3YcDux2": "召喚をタップすると召喚を開始します。チケット召喚をタップするとレア召喚チケットを消費して召喚を行います。"
+    }, 
+    {
+        "J5FR0KMs": "GACHA_RESULT", 
+        "N3YcDux2": "召喚の結果です。"
+    }, 
+    {
+        "J5FR0KMs": "GACHA_TICKET_LIST", 
+        "N3YcDux2": "所持している召喚チケット一覧です。"
+    }, 
+    {
+        "J5FR0KMs": "GACHA_TOP", 
+        "N3YcDux2": "バナーをタップして実行したい召喚を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "GATE", 
+        "N3YcDux2": "特殊なクエストに挑戦できます。"
+    }, 
+    {
+        "J5FR0KMs": "GATE_DUNGEON", 
+        "N3YcDux2": "特殊なクエストに挑戦できます。"
+    }, 
+    {
+        "J5FR0KMs": "GATE_DUNGEON_SP", 
+        "N3YcDux2": "クエストを選択してください。解放したクエストは午前0時に閉じます。"
+    }, 
+    {
+        "J5FR0KMs": "GATE_MISSION", 
+        "N3YcDux2": "特殊なクエストに挑戦できます。"
+    }, 
+    {
+        "J5FR0KMs": "GIFT_CHOICE", 
+        "N3YcDux2": "欲しいギフトを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "GIFT_LIST", 
+        "N3YcDux2": "ギフトの設定・受け取りを行うことができます。"
+    }, 
+    {
+        "J5FR0KMs": "GIFT_PRESENT", 
+        "N3YcDux2": "ギフトを贈りたいフレンドを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "HOME", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "HOW_TO_PLAY", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_ABILITY_CRYSTAL", 
+        "N3YcDux2": "詳細を見たいアビリティを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_ABILITY_CRYSTAL_SELL", 
+        "N3YcDux2": "売却したいアビリティクリスタルを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_ACCESSORIES", 
+        "N3YcDux2": "詳細を見たい装備品を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_ACCESSORIES_SELL", 
+        "N3YcDux2": "売却したい装備品を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_LIST", 
+        "N3YcDux2": "詳細を見たいアイテムを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_MATERIAL", 
+        "N3YcDux2": "詳細を見たい素材を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_MATERIAL_SELL", 
+        "N3YcDux2": "売却したい素材を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_REVERSE_LIST", 
+        "N3YcDux2": "素材入手先を選択してください。※決定後クエストからこちらには戻れません。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_SELL", 
+        "N3YcDux2": "売却したいアイテムを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_SET", 
+        "N3YcDux2": "アイテムを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "ITEM_TOP", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "LIBRARY_ABILITY", 
+        "N3YcDux2": "詳細説明を見たいアビリティを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "LIBRARY_BEAST", 
+        "N3YcDux2": "詳細説明を見たい幻獣を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "LIBRARY_EQUIP", 
+        "N3YcDux2": "詳細説明を見たい装備品を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "LIBRARY_ITEM", 
+        "N3YcDux2": "詳細説明を見たいアイテムを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "LIBRARY_MATERIAL", 
+        "N3YcDux2": "詳細説明を見たい素材を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "LIBRARY_MONSTER", 
+        "N3YcDux2": "詳細説明を見たいモンスターを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "LIBRARY_RECIPE", 
+        "N3YcDux2": "詳細説明を見たいレシピを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "LIBRARY_TOP", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "LIBRARY_UNIT", 
+        "N3YcDux2": "詳細説明を見たいユニットを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "MAIL_DETAIL", 
+        "N3YcDux2": "メールの詳細です。"
+    }, 
+    {
+        "J5FR0KMs": "MAIL_TOP", 
+        "N3YcDux2": "メール一覧が表示されます。受信日時から３０日以上経過すると削除されます。"
+    }, 
+    {
+        "J5FR0KMs": "MAP_MENU_ITEM_SELECT", 
+        "N3YcDux2": "使用するアイテムを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "MAP_MENU_ITEM_USE", 
+        "N3YcDux2": "対象となるユニットを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "MAP_MENU_MAGIC_SELECT", 
+        "N3YcDux2": "使用する魔法を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "MAP_MENU_MAGIC_UNIT", 
+        "N3YcDux2": "魔法を使用するユニットを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "MAP_MENU_MAGIC_USE", 
+        "N3YcDux2": "対象となるユニットを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "MENU_PLAYER_INFO", 
+        "N3YcDux2": "編集したコメントは他のプレイヤーからも観覧されます。※プレイヤー名は一度変更を行うと、2週間以内は再度変更することはできません。"
+    }, 
+    {
+        "J5FR0KMs": "MENU_SERIAL_CODE", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "MENU_SETTING", 
+        "N3YcDux2": "各種設定を行うことができます。"
+    }, 
+    {
+        "J5FR0KMs": "MENU_TOP", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "MENU_TRANSFAR", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "MENU_TUTORIAL", 
+        "N3YcDux2": "チュートリアルが確認できます。"
+    }, 
+    {
+        "J5FR0KMs": "NEWS", 
+        "N3YcDux2": "参照したい項目を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "RB_BOARD", 
+        "N3YcDux2": "アリーナメダルを消費して、アイテムと交換してください。"
+    }, 
+    {
+        "J5FR0KMs": "RB_SELECT_RIVAL", 
+        "N3YcDux2": "対戦相手を選択してください。※順位、レートは週間ランキングの値が表示されます。"
+    }, 
+    {
+        "J5FR0KMs": "RECOMMEND", 
+        "N3YcDux2": "参照したい項目を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "SHOP_AGE_INPUT", 
+        "N3YcDux2": "生年月を登録してください。"
+    }, 
+    {
+        "J5FR0KMs": "SHOP_BOX_OPEN", 
+        "N3YcDux2": "枠を拡張することができます。"
+    }, 
+    {
+        "J5FR0KMs": "SHOP_BOX_TOP", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "SHOP_LIST", 
+        "N3YcDux2": "ラピスを購入することができます。まとめて買うほどお得です！"
+    }, 
+    {
+        "J5FR0KMs": "SHOP_LIST_SQMK", 
+        "N3YcDux2": "スクエニマーケットポイントでラピスを購入することができます。まとめて買うほどお得です！"
+    }, 
+    {
+        "J5FR0KMs": "SHOP_MAGIC_KEY", 
+        "N3YcDux2": "魔法の鍵を交換することができます。まとめて交換するほどお得です！"
+    }, 
+    {
+        "J5FR0KMs": "SHOP_MAGIC_KEY_BUY", 
+        "N3YcDux2": "ラピスと魔法の鍵を交換する場合は「はい」を選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "SHOP_STAMINA", 
+        "N3YcDux2": "体力を回復することができます。"
+    }, 
+    {
+        "J5FR0KMs": "SHOP_TOP", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "SORT_UNIT", 
+        "N3YcDux2": "ユニットの並べ替えができます。"
+    }, 
+    {
+        "J5FR0KMs": "SUBLIMATION_SKILL_MAIN", 
+        "N3YcDux2": "覚醒に必要な素材とギルが揃えば、覚醒ボタンで覚醒させられます。"
+    }, 
+    {
+        "J5FR0KMs": "SUBLIMATION_SKILL_UNIQUE_SELECT", 
+        "N3YcDux2": "覚醒させたいアビリティを選択してください。暗くなっているアビリティは覚醒できません。"
+    }, 
+    {
+        "J5FR0KMs": "SUBLIMATION_SKILL_UNIT_LIST", 
+        "N3YcDux2": "アビリティを覚醒させたいユニットを選択してください。暗くなっているユニットは覚醒可能アビリティを持っていません。"
+    }, 
+    {
+        "J5FR0KMs": "TOWN_CONFIRM", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "TOWN_MENU", 
+        "N3YcDux2": "メニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "UNIT_CHANGE", 
+        "N3YcDux2": "パーティに入れたいユニットを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "UNIT_CLASSUP_MAIN", 
+        "N3YcDux2": "覚醒に必要な素材とギルが揃えば、覚醒ボタンで覚醒させられます。"
+    }, 
+    {
+        "J5FR0KMs": "UNIT_CLASSUP_SELECT_BASE", 
+        "N3YcDux2": "覚醒させたいユニットを選択してください。暗くなっているユニットは覚醒できません。"
+    }, 
+    {
+        "J5FR0KMs": "UNIT_LIST", 
+        "N3YcDux2": "詳細を見たいユニットを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "UNIT_MIX_MAIN", 
+        "N3YcDux2": "台座をタップして合成する素材ユニットを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "UNIT_MIX_SELECT_BASE", 
+        "N3YcDux2": "強化したいユニットを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "UNIT_MIX_SELECT_MATERIAL", 
+        "N3YcDux2": "合成素材にするユニットを選択してください。素材ユニットは合成すると消滅します。"
+    }, 
+    {
+        "J5FR0KMs": "UNIT_SELL", 
+        "N3YcDux2": "売却したいユニットを選択して、売却ボタンを押してください。"
+    }, 
+    {
+        "J5FR0KMs": "UNIT_TOP", 
+        "N3YcDux2": "ユニットメニューを選択してください。"
+    }, 
+    {
+        "J5FR0KMs": "WORLD", 
+        "N3YcDux2": "リージョンを選択してください。"
+    }
+]

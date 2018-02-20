@@ -1,0 +1,209 @@
+[
+    {
+        "0HUPxDf1": "600000020", 
+        "25oxcKwN": "", 
+        "2dfixko3": "20", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "クレスト", 
+        "Z0EN6jSh": "2"
+    }, 
+    {
+        "0HUPxDf1": "600000030", 
+        "25oxcKwN": "3600", 
+        "2dfixko3": "30", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "経験値キー", 
+        "Z0EN6jSh": "3"
+    }, 
+    {
+        "0HUPxDf1": "600000040", 
+        "25oxcKwN": "3600", 
+        "2dfixko3": "40", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "ジュエルキー", 
+        "Z0EN6jSh": "4"
+    }, 
+    {
+        "0HUPxDf1": "600000050", 
+        "25oxcKwN": "", 
+        "2dfixko3": "50", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "レア召喚チケット", 
+        "Z0EN6jSh": "5"
+    }, 
+    {
+        "0HUPxDf1": "600000060", 
+        "25oxcKwN": "", 
+        "2dfixko3": "60", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "アリーナ召喚チケット", 
+        "Z0EN6jSh": "6"
+    }, 
+    {
+        "0HUPxDf1": "600000070", 
+        "25oxcKwN": "", 
+        "2dfixko3": "70", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "★4以上確定召喚チケット", 
+        "Z0EN6jSh": "7"
+    }, 
+    {
+        "0HUPxDf1": "600000100", 
+        "25oxcKwN": "10", 
+        "2dfixko3": "100", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "199", 
+        "G4L0YIB2": "体力回復薬10", 
+        "Z0EN6jSh": "100"
+    }, 
+    {
+        "0HUPxDf1": "600000110", 
+        "25oxcKwN": "30", 
+        "2dfixko3": "110", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "199", 
+        "G4L0YIB2": "体力回復薬30", 
+        "Z0EN6jSh": "110"
+    }, 
+    {
+        "0HUPxDf1": "600000120", 
+        "25oxcKwN": "50", 
+        "2dfixko3": "120", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "199", 
+        "G4L0YIB2": "体力回復薬50", 
+        "Z0EN6jSh": "120"
+    }, 
+    {
+        "0HUPxDf1": "600000160", 
+        "25oxcKwN": "", 
+        "2dfixko3": "160", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "999", 
+        "G4L0YIB2": "EX召喚チケット", 
+        "Z0EN6jSh": "160"
+    }, 
+    {
+        "0HUPxDf1": "600000170", 
+        "25oxcKwN": "", 
+        "2dfixko3": "170", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "999", 
+        "G4L0YIB2": "★4以上確定EX召喚チケット", 
+        "Z0EN6jSh": "170"
+    }, 
+    {
+        "0HUPxDf1": "600000180", 
+        "25oxcKwN": "", 
+        "2dfixko3": "180", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "999", 
+        "G4L0YIB2": "★5以上確定EX召喚チケット", 
+        "Z0EN6jSh": "180"
+    }, 
+    {
+        "0HUPxDf1": "600000210", 
+        "25oxcKwN": "", 
+        "2dfixko3": "210", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "★4確率30%召喚チケット", 
+        "Z0EN6jSh": "210"
+    }, 
+    {
+        "0HUPxDf1": "600000220", 
+        "25oxcKwN": "", 
+        "2dfixko3": "220", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "★4確率50%召喚チケット", 
+        "Z0EN6jSh": "220"
+    }, 
+    {
+        "0HUPxDf1": "600000230", 
+        "25oxcKwN": "", 
+        "2dfixko3": "230", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "★5確率10%召喚チケット", 
+        "Z0EN6jSh": "230"
+    }, 
+    {
+        "0HUPxDf1": "600000240", 
+        "25oxcKwN": "", 
+        "2dfixko3": "240", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "★5確率30%召喚チケット", 
+        "Z0EN6jSh": "240"
+    }, 
+    {
+        "0HUPxDf1": "600000250", 
+        "25oxcKwN": "", 
+        "2dfixko3": "250", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "★5確率50%召喚チケット", 
+        "Z0EN6jSh": "250"
+    }, 
+    {
+        "0HUPxDf1": "600000260", 
+        "25oxcKwN": "", 
+        "2dfixko3": "260", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "★5セレクト召喚チケット", 
+        "Z0EN6jSh": "260"
+    }, 
+    {
+        "0HUPxDf1": "600000890", 
+        "25oxcKwN": "", 
+        "2dfixko3": "890", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "特別通行許可証", 
+        "Z0EN6jSh": "999"
+    }, 
+    {
+        "0HUPxDf1": "1300000001", 
+        "25oxcKwN": "", 
+        "2dfixko3": "900", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "Ancient Coin", 
+        "Z0EN6jSh": "900"
+    }, 
+    {
+        "0HUPxDf1": "1300000002", 
+        "25oxcKwN": "", 
+        "2dfixko3": "901", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "Advance Token", 
+        "Z0EN6jSh": "901"
+    }, 
+    {
+        "0HUPxDf1": "1300000003", 
+        "25oxcKwN": "", 
+        "2dfixko3": "902", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "Arena Restore", 
+        "Z0EN6jSh": "902"
+    }, 
+    {
+        "0HUPxDf1": "1300000006", 
+        "25oxcKwN": "", 
+        "2dfixko3": "904", 
+        "9J6uRe8f": "99", 
+        "Do3sv8yH": "9999", 
+        "G4L0YIB2": "Expansion Voucher", 
+        "Z0EN6jSh": "904"
+    }
+]
