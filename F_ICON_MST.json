@@ -1980,6 +1980,21 @@
         "qtkvrS60": "memory_plate_chapter_2_3_3.png"
     }, 
     {
+        "0HUPxDf1": "6010120", 
+        "G4L0YIB2": "振り返り2部4章前編", 
+        "qtkvrS60": "memory_plate_chapter_2_4_1.png"
+    }, 
+    {
+        "0HUPxDf1": "6010121", 
+        "G4L0YIB2": "振り返り2部4章中編", 
+        "qtkvrS60": "memory_plate_chapter_2_4_2.png"
+    }, 
+    {
+        "0HUPxDf1": "6010122", 
+        "G4L0YIB2": "振り返り2部4章後編", 
+        "qtkvrS60": "memory_plate_chapter_2_4_3.png"
+    }, 
+    {
         "0HUPxDf1": "7030101", 
         "G4L0YIB2": "FFTイベント", 
         "qtkvrS60": "spd_bn_list_FFT.png"
@@ -3000,6 +3015,36 @@
         "qtkvrS60": "spd_20180219_bn_list_seiken_last_02.png"
     }, 
     {
+        "0HUPxDf1": "8090101", 
+        "G4L0YIB2": "300万ラピスプレゼントキャンペーン", 
+        "qtkvrS60": "spd_20180228_bn_list_3000dl.png"
+    }, 
+    {
+        "0HUPxDf1": "8090102", 
+        "G4L0YIB2": "300万ラピスプレゼントキャンペーン最終日", 
+        "qtkvrS60": "spd_20180228_bn_list_3000dl_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8100101", 
+        "G4L0YIB2": "ビッグブリッジ突入作戦", 
+        "qtkvrS60": "spd_20180228_bn_list_FF0.png"
+    }, 
+    {
+        "0HUPxDf1": "8100102", 
+        "G4L0YIB2": "ビッグブリッジ突入作戦", 
+        "qtkvrS60": "spd_20180228_bn_list_FF0_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8110101", 
+        "G4L0YIB2": "ビッグブリッジ・探索", 
+        "qtkvrS60": "spd_20180228_bn_list_FF0_02.png"
+    }, 
+    {
+        "0HUPxDf1": "8110102", 
+        "G4L0YIB2": "ビッグブリッジ・探索", 
+        "qtkvrS60": "spd_20180228_bn_list_FF0_02_last.png"
+    }, 
+    {
         "0HUPxDf1": "8973001", 
         "G4L0YIB2": "ねむれるしし降臨HELL", 
         "qtkvrS60": "spd_20170731_bn_list_SBF_04.png"
@@ -3113,6 +3158,11 @@
         "0HUPxDf1": "8993019", 
         "G4L0YIB2": "超猛毒性異形植物", 
         "qtkvrS60": "spd_20171227_bn_list_BF_16.png"
+    }, 
+    {
+        "0HUPxDf1": "8993020", 
+        "G4L0YIB2": "カルコブリーナ", 
+        "qtkvrS60": "spd_20180228_bn_list_BF_17.png"
     }, 
     {
         "0HUPxDf1": "9000001", 
@@ -4133,6 +4183,11 @@
         "0HUPxDf1": "106305100", 
         "G4L0YIB2": "祀られし神獣レイドコイン", 
         "qtkvrS60": "item_9194.png"
+    }, 
+    {
+        "0HUPxDf1": "106305200", 
+        "G4L0YIB2": "ノーウィングタグ", 
+        "qtkvrS60": "item_9195.png"
     }, 
     {
         "0HUPxDf1": "107000100", 
@@ -6610,6 +6665,16 @@
         "qtkvrS60": "item_10261.png"
     }, 
     {
+        "0HUPxDf1": "302006500", 
+        "G4L0YIB2": "エクスカリバー(FF零式)", 
+        "qtkvrS60": "item_10262.png"
+    }, 
+    {
+        "0HUPxDf1": "302006600", 
+        "G4L0YIB2": "氷剣ヒムロ", 
+        "qtkvrS60": "item_10263.png"
+    }, 
+    {
         "0HUPxDf1": "303000100", 
         "G4L0YIB2": "グレートソード", 
         "qtkvrS60": "item_10301.png"
@@ -6968,6 +7033,11 @@
         "0HUPxDf1": "304003200", 
         "G4L0YIB2": "忍刀・黒霞", 
         "qtkvrS60": "item_10435.png"
+    }, 
+    {
+        "0HUPxDf1": "304003300", 
+        "G4L0YIB2": "ブシドーブレイド", 
+        "qtkvrS60": "item_10437.png"
     }, 
     {
         "0HUPxDf1": "304020100", 
@@ -8445,6 +8515,11 @@
         "qtkvrS60": "item_11434.png"
     }, 
     {
+        "0HUPxDf1": "316004300", 
+        "G4L0YIB2": "真・魔装銃改", 
+        "qtkvrS60": "item_11435.png"
+    }, 
+    {
         "0HUPxDf1": "316040300", 
         "G4L0YIB2": "アポロンのハープ", 
         "qtkvrS60": "item_11107.png"
@@ -8543,6 +8618,11 @@
         "0HUPxDf1": "401002400", 
         "G4L0YIB2": "ベネヴォレンス", 
         "qtkvrS60": "item_40122.png"
+    }, 
+    {
+        "0HUPxDf1": "401002500", 
+        "G4L0YIB2": "トパーズシールド", 
+        "qtkvrS60": "item_40123.png"
     }, 
     {
         "0HUPxDf1": "402000200", 
@@ -9705,6 +9785,11 @@
         "qtkvrS60": "item_20329.png"
     }, 
     {
+        "0HUPxDf1": "407003700", 
+        "G4L0YIB2": "王の鎧", 
+        "qtkvrS60": "item_20334.png"
+    }, 
+    {
         "0HUPxDf1": "408000100", 
         "G4L0YIB2": "木綿のローブ", 
         "qtkvrS60": "item_20400.png"
@@ -9908,6 +9993,11 @@
         "0HUPxDf1": "408004200", 
         "G4L0YIB2": "エレフィムドレス", 
         "qtkvrS60": "item_20442.png"
+    }, 
+    {
+        "0HUPxDf1": "408004300", 
+        "G4L0YIB2": "ローブオブロード(FFBE)", 
+        "qtkvrS60": "item_20443.png"
     }, 
     {
         "0HUPxDf1": "409000100", 
@@ -10895,6 +10985,11 @@
         "qtkvrS60": "item_50338.png"
     }, 
     {
+        "0HUPxDf1": "409021900", 
+        "G4L0YIB2": "究防のペンダント", 
+        "qtkvrS60": "item_50344.png"
+    }, 
+    {
         "0HUPxDf1": "409023000", 
         "G4L0YIB2": "カレイドムーン", 
         "qtkvrS60": "item_50339.png"
@@ -10913,6 +11008,21 @@
         "0HUPxDf1": "409023300", 
         "G4L0YIB2": "スノーマンリング", 
         "qtkvrS60": "item_50337.png"
+    }, 
+    {
+        "0HUPxDf1": "409023400", 
+        "G4L0YIB2": "氷剣の柄", 
+        "qtkvrS60": "item_50359.png"
+    }, 
+    {
+        "0HUPxDf1": "409023500", 
+        "G4L0YIB2": "シルバーブレス", 
+        "qtkvrS60": "item_50340.png"
+    }, 
+    {
+        "0HUPxDf1": "409023600", 
+        "G4L0YIB2": "呪いの人形", 
+        "qtkvrS60": "item_50358.png"
     }, 
     {
         "0HUPxDf1": "600000010", 
