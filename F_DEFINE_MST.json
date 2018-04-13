@@ -102,12 +102,12 @@
     {
         "AK8Nn7ta": "DIAMOND_POSSESSION_LIMIT", 
         "G4L0YIB2": "ダイヤ最大所持数", 
-        "YjIUDJ97": "999999"
+        "YjIUDJ97": "9999999"
     }, 
     {
         "AK8Nn7ta": "DUNGEON_NO_COST_LV", 
         "G4L0YIB2": "ダンジョンコスト無しレベル", 
-        "YjIUDJ97": "5"
+        "YjIUDJ97": "21"
     }, 
     {
         "AK8Nn7ta": "ENV_VALID_FLG", 
@@ -212,7 +212,7 @@
     {
         "AK8Nn7ta": "GIL_POSSESSION_LIMIT", 
         "G4L0YIB2": "ギル最大所持数", 
-        "YjIUDJ97": "100000000"
+        "YjIUDJ97": "200000000"
     }, 
     {
         "AK8Nn7ta": "HANDLENAME_CHANGE_PERMIT_TIME", 
@@ -425,6 +425,16 @@
         "YjIUDJ97": "54321"
     }, 
     {
+        "AK8Nn7ta": "SP_CHALLENGE_TICKER_DISP_TIME", 
+        "G4L0YIB2": "ミッションクリアテロップの表示時間", 
+        "YjIUDJ97": "3.5"
+    }, 
+    {
+        "AK8Nn7ta": "SP_CHALLENGE_TICKER_FLOW_SPEED", 
+        "G4L0YIB2": "ミッションクリアテロップの移動速度", 
+        "YjIUDJ97": "0.16"
+    }, 
+    {
         "AK8Nn7ta": "SUPER_AFFINITY_REWARD_AFFINITY_PATTERN_ID", 
         "G4L0YIB2": "特別報酬で配布されるトラストパターンID", 
         "YjIUDJ97": "100000008"
@@ -503,6 +513,11 @@
         "AK8Nn7ta": "UNIT_SELL_BULK_CNT", 
         "G4L0YIB2": "ユニット売却一括件数", 
         "YjIUDJ97": "50"
+    }, 
+    {
+        "AK8Nn7ta": "UPDATE_TERMS_OF_SERVICE_SWITCH_ID", 
+        "G4L0YIB2": "利用規約更新判定スイッチ", 
+        "YjIUDJ97": "10000140"
     }, 
     {
         "AK8Nn7ta": "WORLD_CHANGE_EFFECT_SWITCH_ID", 

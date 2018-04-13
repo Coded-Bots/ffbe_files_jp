@@ -2003,14 +2003,14 @@
     }, 
     {
         "ChNp40MG": "0", 
-        "G4L0YIB2": "モーグリ王", 
+        "G4L0YIB2": "モーグリ大臣", 
         "Gh92V3Tx": "9001", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "900112", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "5", 
-        "mBVN12cS": "モーグリ王"
+        "mBVN12cS": "モーグリ大臣"
     }, 
     {
         "ChNp40MG": "0", 
@@ -2036,14 +2036,14 @@
     }, 
     {
         "ChNp40MG": "0", 
-        "G4L0YIB2": "モーグリ王", 
+        "G4L0YIB2": "モーグリ大臣", 
         "Gh92V3Tx": "9001", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "900115", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "5", 
-        "mBVN12cS": "モーグリ王"
+        "mBVN12cS": "モーグリ大臣"
     }, 
     {
         "ChNp40MG": "0", 
@@ -2271,6 +2271,17 @@
         "Gh92V3Tx": "9001", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "900136", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "5", 
+        "mBVN12cS": "モーグリ王"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "モーグリ王", 
+        "Gh92V3Tx": "9001", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "900137", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "5", 
@@ -2557,6 +2568,50 @@
         "Gh92V3Tx": "15104", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "1510401", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "1", 
+        "mBVN12cS": "店主"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "武器屋", 
+        "Gh92V3Tx": "15201", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "1520101", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "1", 
+        "mBVN12cS": "店主"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "防具屋", 
+        "Gh92V3Tx": "15201", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "1520102", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "1", 
+        "mBVN12cS": "店主"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "銃専門店", 
+        "Gh92V3Tx": "15201", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "1520103", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "1", 
+        "mBVN12cS": "店主"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "道具屋", 
+        "Gh92V3Tx": "15201", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "1520104", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "1", 

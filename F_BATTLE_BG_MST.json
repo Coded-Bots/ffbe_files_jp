@@ -1560,6 +1560,54 @@
         "IS4s7uYk": "battle_bg_0273_01.jpg"
     }, 
     {
+        "9ZCEWn0z": "106015", 
+        "DYTx1Is3": "102751", 
+        "Dc5w1Yda": "battle_bg_0275_01.ssbp#battle_bg_0275_01,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_0275_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106015", 
+        "DYTx1Is3": "102761", 
+        "Dc5w1Yda": "battle_bg_0276_01.ssbp#battle_bg_0276_01,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_0276_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106015", 
+        "DYTx1Is3": "102771", 
+        "Dc5w1Yda": "battle_bg_0277_01.ssbp#battle_bg_0277_01,back/anime,0,216&battle_bg_0277_01,front/anime,1", 
+        "IS4s7uYk": "battle_bg_0277_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106015", 
+        "DYTx1Is3": "102781", 
+        "Dc5w1Yda": "battle_bg_0278_01.ssbp#battle_bg_0278_01,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_0278_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106015", 
+        "DYTx1Is3": "102791", 
+        "Dc5w1Yda": "battle_bg_0279_01.ssbp#battle_bg_0279_01,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_0279_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106015", 
+        "DYTx1Is3": "102801", 
+        "Dc5w1Yda": "battle_bg_0280_01.ssbp#battle_bg_0280_01,back/anime,0,216&battle_bg_0280_01,front/anime,1", 
+        "IS4s7uYk": "battle_bg_0280_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106015", 
+        "DYTx1Is3": "102811", 
+        "Dc5w1Yda": "battle_bg_0281_01.ssbp#battle_bg_0281_01,back/anime,0,216&battle_bg_0281_01,front/anime,1", 
+        "IS4s7uYk": "battle_bg_0281_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106015", 
+        "DYTx1Is3": "102821", 
+        "Dc5w1Yda": "battle_bg_0282_01.ssbp#battle_bg_0282_01,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_0282_01.jpg"
+    }, 
+    {
         "9ZCEWn0z": "106501", 
         "DYTx1Is3": "120011", 
         "Dc5w1Yda": "battle_bg_2000_01.ssbp#battle_bg_2000_01,back/anime,0,216", 
@@ -1612,6 +1660,18 @@
         "DYTx1Is3": "120042", 
         "Dc5w1Yda": "battle_bg_2003_02.ssbp#battle_bg_2003_02,back/anime,0,216", 
         "IS4s7uYk": "battle_bg_2003_02.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106504", 
+        "DYTx1Is3": "120043", 
+        "Dc5w1Yda": "battle_bg_2003_03.ssbp#battle_bg_2003_03,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_2003_03.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106504", 
+        "DYTx1Is3": "120044", 
+        "Dc5w1Yda": "battle_bg_2003_04.ssbp#battle_bg_2003_04,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_2003_04.jpg"
     }, 
     {
         "9ZCEWn0z": "106501", 
@@ -1932,6 +1992,12 @@
         "IS4s7uYk": "sg_battle_bg_0004.jpg"
     }, 
     {
+        "9ZCEWn0z": "106504", 
+        "DYTx1Is3": "140021", 
+        "Dc5w1Yda": "battle_bg_4002_01.ssbp#battle_bg_4002_01,back/anime,0,216&battle_bg_4002_01,front/anime,1", 
+        "IS4s7uYk": "battle_bg_4002_01.jpg"
+    }, 
+    {
         "9ZCEWn0z": "106551", 
         "DYTx1Is3": "150011", 
         "Dc5w1Yda": "battle_bg_5000_01.ssbp#battle_bg_5000_01,back/anime,0,216&battle_bg_5000_01,front/anime,1", 
@@ -2020,5 +2086,11 @@
         "DYTx1Is3": "900021", 
         "Dc5w1Yda": "battle_bg_9001_11.ssbp#battle_bg_9001_11,back/anime,0,216&battle_bg_9001_11,front/anime,1", 
         "IS4s7uYk": "battle_bg_9001_09.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106504", 
+        "DYTx1Is3": "900023", 
+        "Dc5w1Yda": "battle_bg_9001_13.ssbp#battle_bg_9001_13,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_9001_13.jpg"
     }
 ]

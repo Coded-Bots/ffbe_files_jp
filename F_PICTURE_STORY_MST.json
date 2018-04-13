@@ -38,8 +38,8 @@
     {
         "1C7GDEv4": "10000117", 
         "2Gszu9xN": "4000", 
-        "G4L0YIB2": "ユニット①", 
-        "Hb8v3xnI": "unit", 
+        "G4L0YIB2": "ユニット①　基本", 
+        "Hb8v3xnI": "script", 
         "SjF52z7N": "10000117", 
         "UV40fcZK": "1", 
         "Z0EN6jSh": "4", 
@@ -50,7 +50,7 @@
     {
         "1C7GDEv4": "10000118", 
         "2Gszu9xN": "5000", 
-        "G4L0YIB2": "ユニット②", 
+        "G4L0YIB2": "ユニット②　強化", 
         "Hb8v3xnI": "unit_mix", 
         "SjF52z7N": "10000118", 
         "UV40fcZK": "1", 
@@ -62,7 +62,7 @@
     {
         "1C7GDEv4": "10000119", 
         "2Gszu9xN": "6000", 
-        "G4L0YIB2": "ユニット③", 
+        "G4L0YIB2": "ユニット③　覚醒", 
         "Hb8v3xnI": "unit_classup", 
         "SjF52z7N": "10000119", 
         "UV40fcZK": "1", 
@@ -72,15 +72,15 @@
         "w7VR6ypY": "3"
     }, 
     {
-        "1C7GDEv4": "10000130", 
+        "1C7GDEv4": "10000131", 
         "2Gszu9xN": "6100", 
-        "G4L0YIB2": "ユニット④", 
+        "G4L0YIB2": "ユニット④　★7覚醒", 
         "Hb8v3xnI": "sacrifice", 
-        "SjF52z7N": "10000130", 
+        "SjF52z7N": "10000131", 
         "UV40fcZK": "1", 
         "Z0EN6jSh": "7", 
         "juA0Z4m7": "10003001", 
-        "r3s2vGfq": "tuto19000_1.png", 
+        "r3s2vGfq": "tuto6100_1.png,tuto6100_2.png,tuto6100_3.png,tuto6100_4.png,tuto6100_5.png,tuto6100_6.png", 
         "w7VR6ypY": "1"
     }, 
     {
@@ -156,15 +156,15 @@
         "w7VR6ypY": "1"
     }, 
     {
-        "1C7GDEv4": "10000113", 
+        "1C7GDEv4": "10000133", 
         "2Gszu9xN": "13000", 
         "G4L0YIB2": "アリーナ①", 
         "Hb8v3xnI": "home", 
-        "SjF52z7N": "10000113", 
+        "SjF52z7N": "10000133", 
         "UV40fcZK": "1", 
         "Z0EN6jSh": "15", 
         "juA0Z4m7": "10010300", 
-        "r3s2vGfq": "tuto13000_3.png,tuto13000_4.png,tuto13000_5.png,tuto13000_6.png,tuto13000_7.png", 
+        "r3s2vGfq": "tuto13000_3.png,tuto13000_4.png,tuto13000_5.png,tuto13000_6.png,tuto13000_7.png,tuto13000_8.png,tuto13000_9.png", 
         "w7VR6ypY": "3"
     }, 
     {
@@ -199,7 +199,7 @@
         "SjF52z7N": "10000129", 
         "UV40fcZK": "1", 
         "Z0EN6jSh": "10", 
-        "juA0Z4m7": "90000000", 
+        "juA0Z4m7": "10002200", 
         "r3s2vGfq": "tuto15000_1.png,tuto15000_2.png", 
         "w7VR6ypY": "3"
     }, 
@@ -307,8 +307,20 @@
         "SjF52z7N": "10000501", 
         "UV40fcZK": "1", 
         "Z0EN6jSh": "23", 
-        "juA0Z4m7": "90000000", 
+        "juA0Z4m7": "10003300", 
         "r3s2vGfq": "tuto24000_1.png,tuto24000_2.png,tuto24000_3.png,tuto24000_4.png,tuto24000_5.png,tuto24000_6.png", 
+        "w7VR6ypY": "2"
+    }, 
+    {
+        "1C7GDEv4": "10000132", 
+        "2Gszu9xN": "27000", 
+        "G4L0YIB2": "エンブレム", 
+        "Hb8v3xnI": "home", 
+        "SjF52z7N": "10000132", 
+        "UV40fcZK": "1", 
+        "Z0EN6jSh": "24", 
+        "juA0Z4m7": "10003001", 
+        "r3s2vGfq": "tuto25000_1.png,tuto25000_2.png", 
         "w7VR6ypY": "2"
     }, 
     {
@@ -420,14 +432,14 @@
         "w7VR6ypY": "99"
     }, 
     {
-        "1C7GDEv4": "999999999", 
+        "1C7GDEv4": "10000512", 
         "2Gszu9xN": "50090", 
         "G4L0YIB2": "探検チョコボ開始", 
         "Hb8v3xnI": "area", 
-        "SjF52z7N": "999999999", 
+        "SjF52z7N": "10000512", 
         "UV40fcZK": "0", 
         "Z0EN6jSh": "50", 
-        "juA0Z4m7": "999999999", 
+        "juA0Z4m7": "10114500", 
         "r3s2vGfq": "tuto_chocobo.png", 
         "w7VR6ypY": "99"
     }, 
@@ -681,66 +693,6 @@
         "Z0EN6jSh": "50", 
         "juA0Z4m7": "10063002", 
         "r3s2vGfq": "tuto_episode_01.png", 
-        "w7VR6ypY": "99"
-    }, 
-    {
-        "1C7GDEv4": "90001079", 
-        "2Gszu9xN": "90001", 
-        "G4L0YIB2": "AG Popup", 
-        "Hb8v3xnI": "home", 
-        "SjF52z7N": "90001079", 
-        "UV40fcZK": "0", 
-        "Z0EN6jSh": "50", 
-        "juA0Z4m7": "90000000", 
-        "r3s2vGfq": "popup_banner.png", 
-        "w7VR6ypY": "99"
-    }, 
-    {
-        "1C7GDEv4": "90001147", 
-        "2Gszu9xN": "90002", 
-        "G4L0YIB2": "Expedition Unlock", 
-        "Hb8v3xnI": "home", 
-        "SjF52z7N": "90001147", 
-        "UV40fcZK": "0", 
-        "Z0EN6jSh": "51", 
-        "juA0Z4m7": "10012300", 
-        "r3s2vGfq": "global_expd_tuto1000_1.png", 
-        "w7VR6ypY": "99"
-    }, 
-    {
-        "1C7GDEv4": "90001148", 
-        "2Gszu9xN": "90003", 
-        "G4L0YIB2": "Expedition Embark", 
-        "Hb8v3xnI": "expedition", 
-        "SjF52z7N": "90001148", 
-        "UV40fcZK": "1", 
-        "Z0EN6jSh": "52", 
-        "juA0Z4m7": "10012300", 
-        "r3s2vGfq": "global_expd_tuto2000_1.png,global_expd_tuto2000_2.png,global_expd_tuto2000_3.png", 
-        "w7VR6ypY": "99"
-    }, 
-    {
-        "1C7GDEv4": "90001149", 
-        "2Gszu9xN": "90004", 
-        "G4L0YIB2": "Expedition Adv Tips", 
-        "Hb8v3xnI": "expedition", 
-        "SjF52z7N": "90001149", 
-        "UV40fcZK": "1", 
-        "Z0EN6jSh": "53", 
-        "juA0Z4m7": "90001146", 
-        "r3s2vGfq": "global_expd_tuto3000_1.png,global_expd_tuto3000_2.png", 
-        "w7VR6ypY": "99"
-    }, 
-    {
-        "1C7GDEv4": "90001150", 
-        "2Gszu9xN": "90005", 
-        "G4L0YIB2": "Expedition Achievements", 
-        "Hb8v3xnI": "expedition_achievement", 
-        "SjF52z7N": "90001150", 
-        "UV40fcZK": "1", 
-        "Z0EN6jSh": "54", 
-        "juA0Z4m7": "10012300", 
-        "r3s2vGfq": "global_expd_tuto4000_1.png,global_expd_tuto4000_2.png", 
         "w7VR6ypY": "99"
     }
 ]

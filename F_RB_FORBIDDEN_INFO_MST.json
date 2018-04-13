@@ -7,7 +7,7 @@
     }, 
     {
         "4JZgSr3A": "2", 
-        "6uvHX2JG": "火属性魔法,アビリティ禁止", 
+        "6uvHX2JG": "火属性攻撃禁止", 
         "G4L0YIB2": "火属性攻撃", 
         "I0YW6Piv": "2"
     }, 
@@ -73,38 +73,26 @@
     }, 
     {
         "4JZgSr3A": "13", 
-        "6uvHX2JG": "複数魔法攻撃系禁止", 
-        "G4L0YIB2": "複数魔法攻撃系", 
+        "6uvHX2JG": "複数回魔法系禁止", 
+        "G4L0YIB2": "複数回魔法系", 
         "I0YW6Piv": "13"
     }, 
     {
         "4JZgSr3A": "14", 
         "6uvHX2JG": "状態異常付与系禁止", 
-        "G4L0YIB2": "状態異常付与系", 
+        "G4L0YIB2": "状態異常付与系（ストップ、魅了含む）", 
         "I0YW6Piv": "14"
     }, 
     {
         "4JZgSr3A": "15", 
-        "6uvHX2JG": "Black Magic forbidden", 
-        "G4L0YIB2": "Black Magic", 
+        "6uvHX2JG": "複数回アビリティ禁止", 
+        "G4L0YIB2": "複数回アビリティ", 
         "I0YW6Piv": "15"
     }, 
     {
-        "4JZgSr3A": "16", 
-        "6uvHX2JG": "White Magic forbidden", 
-        "G4L0YIB2": "White Magic", 
-        "I0YW6Piv": "16"
-    }, 
-    {
-        "4JZgSr3A": "17", 
-        "6uvHX2JG": "Recovery abilities forbidden", 
-        "G4L0YIB2": "Recovery abilities", 
-        "I0YW6Piv": "17"
-    }, 
-    {
-        "4JZgSr3A": "23", 
-        "6uvHX2JG": "Parameter boosts and reductions forbidden", 
-        "G4L0YIB2": "Status altering abilities", 
-        "I0YW6Piv": "23"
+        "4JZgSr3A": "99", 
+        "6uvHX2JG": "共通禁止 SP週間用", 
+        "G4L0YIB2": "なし（共通禁止アビリティのみ）", 
+        "I0YW6Piv": "99"
     }
 ]

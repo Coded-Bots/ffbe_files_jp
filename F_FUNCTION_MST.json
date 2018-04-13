@@ -36,11 +36,6 @@
     }, 
     {
         "5U0bAqgR": "1", 
-        "G1nfeht7": "FUNCTION_REEL_EXPEDITION", 
-        "juA0Z4m7": "10012300"
-    }, 
-    {
-        "5U0bAqgR": "1", 
         "G1nfeht7": "FUNCTION_REEL_WORLD", 
         "juA0Z4m7": "0"
     }, 
@@ -48,6 +43,11 @@
         "5U0bAqgR": "0", 
         "G1nfeht7": "FUNCTION_SHOP_MAGIC_KEY", 
         "juA0Z4m7": "10010004"
+    }, 
+    {
+        "5U0bAqgR": "0", 
+        "G1nfeht7": "FUNCTION_SP_CLASSUP", 
+        "juA0Z4m7": "0"
     }, 
     {
         "5U0bAqgR": "0", 
