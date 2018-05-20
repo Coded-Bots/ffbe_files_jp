@@ -325,6 +325,26 @@
         "qtkvrS60": "map_icon_3530107_1.png"
     }, 
     {
+        "0HUPxDf1": "82302", 
+        "G4L0YIB2": "run20-士魂の古戦場", 
+        "qtkvrS60": "map_icon_3520102_1.png"
+    }, 
+    {
+        "0HUPxDf1": "82303", 
+        "G4L0YIB2": "run20-石積みの丘", 
+        "qtkvrS60": "map_icon_3520106_1.png"
+    }, 
+    {
+        "0HUPxDf1": "82304", 
+        "G4L0YIB2": "run20-カーヴェル宿場町", 
+        "qtkvrS60": "map_icon_3520201_1.png"
+    }, 
+    {
+        "0HUPxDf1": "82306", 
+        "G4L0YIB2": "run20-メインコロシアム", 
+        "qtkvrS60": "map_icon_3550106_1.png"
+    }, 
+    {
         "0HUPxDf1": "110001", 
         "G4L0YIB2": "FF1", 
         "qtkvrS60": "dic_ff1.png"
@@ -2315,9 +2335,29 @@
         "qtkvrS60": "spd_20161001_bn_list_FF12.png"
     }, 
     {
+        "0HUPxDf1": "7270103", 
+        "G4L0YIB2": "ヘネ魔石鉱_復刻", 
+        "qtkvrS60": "spd_20180510_bn_list_FF12.png"
+    }, 
+    {
+        "0HUPxDf1": "7270104", 
+        "G4L0YIB2": "ヘネ魔石鉱_復刻_最終日", 
+        "qtkvrS60": "spd_20180510_bn_list_FF12_last.png"
+    }, 
+    {
         "0HUPxDf1": "7280101", 
         "G4L0YIB2": "FF12強敵", 
         "qtkvrS60": "spd_20161007_bn_list_FF12.png"
+    }, 
+    {
+        "0HUPxDf1": "7280103", 
+        "G4L0YIB2": "FF12強敵_復刻", 
+        "qtkvrS60": "spd_20180510_bn_list_FF12_02.png"
+    }, 
+    {
+        "0HUPxDf1": "7280104", 
+        "G4L0YIB2": "FF12強敵_復刻_最終日", 
+        "qtkvrS60": "spd_20180510_bn_list_FF12_02_last.png"
     }, 
     {
         "0HUPxDf1": "7290101", 
@@ -2650,6 +2690,16 @@
         "qtkvrS60": "spd_20180410_bn_list_FFBE_f_last.png"
     }, 
     {
+        "0HUPxDf1": "7561201", 
+        "G4L0YIB2": "ユニット紹介クエスト（イグニシオ）", 
+        "qtkvrS60": "spd_20180510_bn_list_FFBE_i.png"
+    }, 
+    {
+        "0HUPxDf1": "7561202", 
+        "G4L0YIB2": "ユニット紹介クエスト（イグニシオ）_最終日", 
+        "qtkvrS60": "spd_20180510_bn_list_FFBE_i_last.png"
+    }, 
+    {
         "0HUPxDf1": "7570101", 
         "G4L0YIB2": "超大型機械生命体破壊指令", 
         "qtkvrS60": "spd_20170421_bn_list_NieR_Automata.png"
@@ -2942,12 +2992,12 @@
     {
         "0HUPxDf1": "7860101", 
         "G4L0YIB2": "鍛鉄城メルフィキア", 
-        "qtkvrS60": "spd_20171020_bn_list_wp.png"
+        "qtkvrS60": "spd_20180410_bn_list_wp.png"
     }, 
     {
         "0HUPxDf1": "7860102", 
         "G4L0YIB2": "鍛鉄城メルフィキア_最終日", 
-        "qtkvrS60": "spd_20171031_bn_list_wp_last.png"
+        "qtkvrS60": "spd_20180219_bn_list_wp_last_02.png"
     }, 
     {
         "0HUPxDf1": "7870101", 
@@ -3313,6 +3363,16 @@
         "0HUPxDf1": "8220102", 
         "G4L0YIB2": "エボン＝ドーム・探索_最終日", 
         "qtkvrS60": "spd_20180427_bn_list_FF10_02_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8230101", 
+        "G4L0YIB2": "炎の鍛冶職人", 
+        "qtkvrS60": "spd_20180510_bn_list_ffbe.png"
+    }, 
+    {
+        "0HUPxDf1": "8230102", 
+        "G4L0YIB2": "炎の鍛冶職人_最終日", 
+        "qtkvrS60": "spd_20180510_bn_list_ffbe_last.png"
     }, 
     {
         "0HUPxDf1": "8973001", 
@@ -7705,6 +7765,11 @@
         "qtkvrS60": "item_10824.png"
     }, 
     {
+        "0HUPxDf1": "305002500", 
+        "G4L0YIB2": "イグニッションアックス", 
+        "qtkvrS60": "item_10825.png"
+    }, 
+    {
         "0HUPxDf1": "306000100", 
         "G4L0YIB2": "木槌", 
         "qtkvrS60": "item_10900.png"
@@ -8203,6 +8268,11 @@
         "0HUPxDf1": "309003700", 
         "G4L0YIB2": "スプラッシュナックル", 
         "qtkvrS60": "item_11637.png"
+    }, 
+    {
+        "0HUPxDf1": "309003800", 
+        "G4L0YIB2": "PNK-2パンチ", 
+        "qtkvrS60": "item_11638.png"
     }, 
     {
         "0HUPxDf1": "309020200", 
@@ -9860,6 +9930,11 @@
         "qtkvrS60": "item_30234.png"
     }, 
     {
+        "0HUPxDf1": "404003600", 
+        "G4L0YIB2": "イグニシオの兜", 
+        "qtkvrS60": "item_30236.png"
+    }, 
+    {
         "0HUPxDf1": "405000200", 
         "G4L0YIB2": "皮の服", 
         "qtkvrS60": "item_20100.png"
@@ -10123,6 +10198,11 @@
         "0HUPxDf1": "405005700", 
         "G4L0YIB2": "フェイの胴着", 
         "qtkvrS60": "item_20153.png"
+    }, 
+    {
+        "0HUPxDf1": "405005800", 
+        "G4L0YIB2": "スズメの長着", 
+        "qtkvrS60": "item_20157.png"
     }, 
     {
         "0HUPxDf1": "406000100", 
@@ -11773,6 +11853,11 @@
         "0HUPxDf1": "409024800", 
         "G4L0YIB2": "ラッキーチャーム", 
         "qtkvrS60": "item_50372.png"
+    }, 
+    {
+        "0HUPxDf1": "409024900", 
+        "G4L0YIB2": "PNK-2ブースター", 
+        "qtkvrS60": "item_50375.png"
     }, 
     {
         "0HUPxDf1": "600000010", 

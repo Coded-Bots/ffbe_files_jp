@@ -2748,7 +2748,7 @@
         "xHZj7Va5": ""
     }, 
     {
-        "1X65WPLU": "1664", 
+        "1X65WPLU": "1672", 
         "2odVXyT8": "0", 
         "6Dgaqir0": "bnr_20180427_rotation_kourin.png", 
         "G4L0YIB2": "降臨（ゴーレム＆シヴァ）", 
@@ -2864,6 +2864,126 @@
         "Z0EN6jSh": "41290", 
         "fSxqkF10": "40531", 
         "rUP3Gix0": "4", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "61021", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180510_stepup_rotation.png", 
+        "G4L0YIB2": "ステップアップ召喚", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "41100", 
+        "fSxqkF10": "40532", 
+        "rUP3Gix0": "4", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "50138", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180510_ffbe_gacha_rotation.png", 
+        "G4L0YIB2": "ピックアップ召喚", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "41105", 
+        "fSxqkF10": "40533", 
+        "rUP3Gix0": "4", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "51045", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180510_7days_rotation_05.png", 
+        "G4L0YIB2": "7日間限定ピックアップ召喚", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "41200", 
+        "fSxqkF10": "40534", 
+        "rUP3Gix0": "4", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "51046", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180510_7days_rotation_06.png", 
+        "G4L0YIB2": "7日間限定ピックアップ召喚", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "41200", 
+        "fSxqkF10": "40535", 
+        "rUP3Gix0": "4", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "1692", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180410_wp_rotation.png", 
+        "G4L0YIB2": "武具強化イベント", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "42105", 
+        "fSxqkF10": "40536", 
+        "rUP3Gix0": "3", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "1692", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180219_wp_rotation_last_02.png", 
+        "G4L0YIB2": "武具強化イベント（最終日）", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "42100", 
+        "fSxqkF10": "40537", 
+        "rUP3Gix0": "3", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "1688", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180510_FFBE_i_rotation.png", 
+        "G4L0YIB2": "ユニット紹介（イグニシオ）", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "42115", 
+        "fSxqkF10": "40538", 
+        "rUP3Gix0": "3", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "1688", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180510_FFBE_i_rotation_last.png", 
+        "G4L0YIB2": "ユニット紹介（イグニシオ_最終日）", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "42110", 
+        "fSxqkF10": "40539", 
+        "rUP3Gix0": "3", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "1693", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180510_FF12_rotation.png", 
+        "G4L0YIB2": "復刻イベント（FF12）", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "42310", 
+        "fSxqkF10": "40540", 
+        "rUP3Gix0": "3", 
+        "w2A76noc": "4", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "1693", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "bnr_20180510_FF12_rotation_last.png", 
+        "G4L0YIB2": "復刻イベント（FF12_最終日）", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "42300", 
+        "fSxqkF10": "40541", 
+        "rUP3Gix0": "3", 
         "w2A76noc": "4", 
         "xHZj7Va5": ""
     }, 
@@ -3456,6 +3576,42 @@
         "xHZj7Va5": ""
     }, 
     {
+        "1X65WPLU": "2,21,823,0,0", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "home_20180510_eventBalloon.png", 
+        "G4L0YIB2": "吹き出し_ストイベ24_前半", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "51100", 
+        "fSxqkF10": "50133", 
+        "rUP3Gix0": "8", 
+        "w2A76noc": "5", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "2,21,823,0,0", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "home_20180510_eventBalloon_02.png", 
+        "G4L0YIB2": "吹き出し_ストイベ24_後半", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "51100", 
+        "fSxqkF10": "50134", 
+        "rUP3Gix0": "8", 
+        "w2A76noc": "5", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "2,21,823,0,0", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "home_20180510_eventBalloon_last.png", 
+        "G4L0YIB2": "吹き出し_ストイベ24_最終日", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "51100", 
+        "fSxqkF10": "50135", 
+        "rUP3Gix0": "8", 
+        "w2A76noc": "5", 
+        "xHZj7Va5": ""
+    }, 
+    {
         "1X65WPLU": "http://static.ios.game.exvius.com/lapis/app/php/web/statics/bahamut_raid.php?SumallyId=400105", 
         "2odVXyT8": "0", 
         "6Dgaqir0": "home_icon_efreet", 
@@ -3864,6 +4020,18 @@
         "xHZj7Va5": ""
     }, 
     {
+        "1X65WPLU": "https://v23-ios.game.exvius.com//lapis/app/php/web/statics/arms_reward.php?EventId=70007", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "", 
+        "G4L0YIB2": "武具強化イベント　達成報酬", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "2000", 
+        "fSxqkF10": "62020", 
+        "rUP3Gix0": "1", 
+        "w2A76noc": "7", 
+        "xHZj7Va5": ""
+    }, 
+    {
         "1X65WPLU": "1294", 
         "2odVXyT8": "0", 
         "6Dgaqir0": "", 
@@ -3936,6 +4104,18 @@
         "xHZj7Va5": ""
     }, 
     {
+        "1X65WPLU": "1692", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "", 
+        "G4L0YIB2": "武具強化イベント　お知らせ", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "3000", 
+        "fSxqkF10": "63020", 
+        "rUP3Gix0": "3", 
+        "w2A76noc": "7", 
+        "xHZj7Va5": ""
+    }, 
+    {
         "1X65WPLU": "2,21,786,78601,7860101", 
         "2odVXyT8": "0", 
         "6Dgaqir0": "", 
@@ -3979,6 +4159,18 @@
         "T4o9heqC": "1,2,3,4", 
         "Z0EN6jSh": "1", 
         "fSxqkF10": "70002", 
+        "rUP3Gix0": "1", 
+        "w2A76noc": "9", 
+        "xHZj7Va5": ""
+    }, 
+    {
+        "1X65WPLU": "https://v23-ios.game.exvius.com//lapis/app/php/web/statics/rb_point_reward.php?EventId=99003", 
+        "2odVXyT8": "0", 
+        "6Dgaqir0": "", 
+        "G4L0YIB2": "ランキングpt　個人達成報酬", 
+        "T4o9heqC": "1,2,3,4", 
+        "Z0EN6jSh": "1", 
+        "fSxqkF10": "70003", 
         "rUP3Gix0": "1", 
         "w2A76noc": "9", 
         "xHZj7Va5": ""
