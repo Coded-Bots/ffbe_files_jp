@@ -3375,6 +3375,26 @@
         "qtkvrS60": "spd_20180510_bn_list_ffbe_last.png"
     }, 
     {
+        "0HUPxDf1": "8240101", 
+        "G4L0YIB2": "全ての始まりにして終わりなる者", 
+        "qtkvrS60": "spd_20180521_bn_list_xeno.png"
+    }, 
+    {
+        "0HUPxDf1": "8240102", 
+        "G4L0YIB2": "全ての始まりにして終わりなる者_最終日", 
+        "qtkvrS60": "spd_20180521_bn_list_xeno_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8250101", 
+        "G4L0YIB2": "真紅のゼノギアス", 
+        "qtkvrS60": "spd_20180521_bn_list_xeno_02.png"
+    }, 
+    {
+        "0HUPxDf1": "8250102", 
+        "G4L0YIB2": "真紅のゼノギアス_最終日", 
+        "qtkvrS60": "spd_20180521_bn_list_xeno_last_02.png"
+    }, 
+    {
         "0HUPxDf1": "8973001", 
         "G4L0YIB2": "ねむれるしし降臨HELL", 
         "qtkvrS60": "spd_20170731_bn_list_SBF_04.png"
@@ -4658,6 +4678,11 @@
         "0HUPxDf1": "106305600", 
         "G4L0YIB2": "からっぽのスフィア", 
         "qtkvrS60": "item_9198.png"
+    }, 
+    {
+        "0HUPxDf1": "106305700", 
+        "G4L0YIB2": "デウスレイドコイン", 
+        "qtkvrS60": "item_9201.png"
     }, 
     {
         "0HUPxDf1": "107000100", 
@@ -6285,6 +6310,31 @@
         "qtkvrS60": "item_8397.png"
     }, 
     {
+        "0HUPxDf1": "226000100", 
+        "G4L0YIB2": "ミドリの指輪", 
+        "qtkvrS60": "item_8398.png"
+    }, 
+    {
+        "0HUPxDf1": "226000200", 
+        "G4L0YIB2": "玉鋼の塊", 
+        "qtkvrS60": "item_8400.png"
+    }, 
+    {
+        "0HUPxDf1": "226000300", 
+        "G4L0YIB2": "黒の革布", 
+        "qtkvrS60": "item_8399.png"
+    }, 
+    {
+        "0HUPxDf1": "226000400", 
+        "G4L0YIB2": "黒光りした宝珠", 
+        "qtkvrS60": "item_8401.png"
+    }, 
+    {
+        "0HUPxDf1": "226000500", 
+        "G4L0YIB2": "蒼の欠片", 
+        "qtkvrS60": "item_8402.png"
+    }, 
+    {
         "0HUPxDf1": "270000100", 
         "G4L0YIB2": "白の晶石", 
         "qtkvrS60": "item_8220.png"
@@ -7645,6 +7695,16 @@
         "qtkvrS60": "item_10442.png"
     }, 
     {
+        "0HUPxDf1": "304003800", 
+        "G4L0YIB2": "戦国刀", 
+        "qtkvrS60": "item_10444.png"
+    }, 
+    {
+        "0HUPxDf1": "304003900", 
+        "G4L0YIB2": "無命", 
+        "qtkvrS60": "item_10443.png"
+    }, 
+    {
         "0HUPxDf1": "304020100", 
         "G4L0YIB2": "阿修羅", 
         "qtkvrS60": "item_10406.png"
@@ -8935,6 +8995,11 @@
         "qtkvrS60": "item_11440.png"
     }, 
     {
+        "0HUPxDf1": "313004800", 
+        "G4L0YIB2": "ゴッドファーザー", 
+        "qtkvrS60": "item_11441.png"
+    }, 
+    {
         "0HUPxDf1": "314000200", 
         "G4L0YIB2": "レザーウィップ", 
         "qtkvrS60": "item_11200.png"
@@ -9775,6 +9840,11 @@
         "qtkvrS60": "item_30161.png"
     }, 
     {
+        "0HUPxDf1": "403046000", 
+        "G4L0YIB2": "マリアのゴーグル", 
+        "qtkvrS60": "item_30160.png"
+    }, 
+    {
         "0HUPxDf1": "404000200", 
         "G4L0YIB2": "ブロンズヘルム", 
         "qtkvrS60": "item_30200.png"
@@ -10203,6 +10273,11 @@
         "0HUPxDf1": "405005800", 
         "G4L0YIB2": "スズメの長着", 
         "qtkvrS60": "item_20157.png"
+    }, 
+    {
+        "0HUPxDf1": "405005900", 
+        "G4L0YIB2": "ブラックレザー", 
+        "qtkvrS60": "item_20155.png"
     }, 
     {
         "0HUPxDf1": "406000100", 
@@ -11858,6 +11933,11 @@
         "0HUPxDf1": "409024900", 
         "G4L0YIB2": "PNK-2ブースター", 
         "qtkvrS60": "item_50375.png"
+    }, 
+    {
+        "0HUPxDf1": "409025000", 
+        "G4L0YIB2": "大和ベルト", 
+        "qtkvrS60": "item_50367.png"
     }, 
     {
         "0HUPxDf1": "600000010", 
