@@ -751,6 +751,126 @@
     }, 
     {
         "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_TWELVE_ARMS_CLEAR_CNT", 
+        "XYG0uFv5": "1", 
+        "dIPkNn61": "81500101", 
+        "dX6cor8j": "26:11101:1", 
+        "ds08vefa": "10500100", 
+        "nw2FXyo8": "4", 
+        "t86L4JR3": "500101"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_TWELVE_ARMS_CLEAR_CNT", 
+        "XYG0uFv5": "2", 
+        "dIPkNn61": "81500102", 
+        "dX6cor8j": "26:11102:1", 
+        "ds08vefa": "10500100", 
+        "nw2FXyo8": "8", 
+        "t86L4JR3": "500102"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_TWELVE_ARMS_CLEAR_CNT", 
+        "XYG0uFv5": "3", 
+        "dIPkNn61": "81500103", 
+        "dX6cor8j": "26:11103:1", 
+        "ds08vefa": "10500100", 
+        "nw2FXyo8": "12", 
+        "t86L4JR3": "500103"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_ADVENT_CLEAR_CNT", 
+        "XYG0uFv5": "1", 
+        "dIPkNn61": "81500201", 
+        "dX6cor8j": "26:11201:1", 
+        "ds08vefa": "10500200", 
+        "nw2FXyo8": "6", 
+        "t86L4JR3": "500201"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_ADVENT_CLEAR_CNT", 
+        "XYG0uFv5": "2", 
+        "dIPkNn61": "81500202", 
+        "dX6cor8j": "26:11202:1", 
+        "ds08vefa": "10500200", 
+        "nw2FXyo8": "12", 
+        "t86L4JR3": "500202"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_ADVENT_CLEAR_CNT", 
+        "XYG0uFv5": "3", 
+        "dIPkNn61": "81500203", 
+        "dX6cor8j": "26:11203:1", 
+        "ds08vefa": "10500200", 
+        "nw2FXyo8": "18", 
+        "t86L4JR3": "500203"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_GENUINE_ADVENT_CLEAR_CNT", 
+        "XYG0uFv5": "1", 
+        "dIPkNn61": "81500301", 
+        "dX6cor8j": "26:11301:1", 
+        "ds08vefa": "10500300", 
+        "nw2FXyo8": "5", 
+        "t86L4JR3": "500301"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_GENUINE_ADVENT_CLEAR_CNT", 
+        "XYG0uFv5": "2", 
+        "dIPkNn61": "81500302", 
+        "dX6cor8j": "26:11302:1", 
+        "ds08vefa": "10500300", 
+        "nw2FXyo8": "10", 
+        "t86L4JR3": "500302"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_GENUINE_ADVENT_CLEAR_CNT", 
+        "XYG0uFv5": "3", 
+        "dIPkNn61": "81500303", 
+        "dX6cor8j": "26:11303:1", 
+        "ds08vefa": "10500300", 
+        "nw2FXyo8": "15", 
+        "t86L4JR3": "500303"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_OMEGA_CHALLENGE_CNT", 
+        "XYG0uFv5": "1", 
+        "dIPkNn61": "81500401", 
+        "dX6cor8j": "26:11401:1", 
+        "ds08vefa": "10500400", 
+        "nw2FXyo8": "1", 
+        "t86L4JR3": "500401"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_OMEGA_CHALLENGE_CNT", 
+        "XYG0uFv5": "2", 
+        "dIPkNn61": "81500402", 
+        "dX6cor8j": "26:11402:1", 
+        "ds08vefa": "10500400", 
+        "nw2FXyo8": "3", 
+        "t86L4JR3": "500402"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_OMEGA_CHALLENGE_CNT", 
+        "XYG0uFv5": "3", 
+        "dIPkNn61": "81500403", 
+        "dX6cor8j": "26:11403:1", 
+        "ds08vefa": "10500400", 
+        "nw2FXyo8": "4", 
+        "t86L4JR3": "500403"
+    }, 
+    {
+        "5cfi4jqE": "1", 
         "NYb0Cri6": "AWARD_EXPLOIT_TROPHY_CNT", 
         "XYG0uFv5": "1", 
         "dIPkNn61": "81600201", 
@@ -868,5 +988,35 @@
         "ds08vefa": "10600500", 
         "nw2FXyo8": "12", 
         "t86L4JR3": "600503"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_ENEMY_TROPHY_CNT", 
+        "XYG0uFv5": "1", 
+        "dIPkNn61": "81600601", 
+        "dX6cor8j": "26:10601:1", 
+        "ds08vefa": "10600600", 
+        "nw2FXyo8": "2", 
+        "t86L4JR3": "600601"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_ENEMY_TROPHY_CNT", 
+        "XYG0uFv5": "2", 
+        "dIPkNn61": "81600602", 
+        "dX6cor8j": "26:10602:1", 
+        "ds08vefa": "10600600", 
+        "nw2FXyo8": "6", 
+        "t86L4JR3": "600602"
+    }, 
+    {
+        "5cfi4jqE": "1", 
+        "NYb0Cri6": "AWARD_ENEMY_TROPHY_CNT", 
+        "XYG0uFv5": "3", 
+        "dIPkNn61": "81600603", 
+        "dX6cor8j": "26:10603:1", 
+        "ds08vefa": "10600600", 
+        "nw2FXyo8": "12", 
+        "t86L4JR3": "600603"
     }
 ]

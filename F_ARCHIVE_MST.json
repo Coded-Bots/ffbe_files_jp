@@ -227,6 +227,15 @@
     {
         "0Lhus2Ak": "9", 
         "9BmXtQ7d": "999", 
+        "G4L0YIB2": "「降臨の間」覚醒級クリア数", 
+        "NYb0Cri6": "AWARD_ADVENT_CLEAR_CNT", 
+        "Z0EN6jSh": "907", 
+        "rFd5CiV2": "0", 
+        "rzg51uYX": "2"
+    }, 
+    {
+        "0Lhus2Ak": "9", 
+        "9BmXtQ7d": "999", 
         "G4L0YIB2": "「アリーナ」トロフィー取得数", 
         "NYb0Cri6": "AWARD_ARENA_TROPHY_CNT", 
         "Z0EN6jSh": "905", 
@@ -245,6 +254,15 @@
     {
         "0Lhus2Ak": "9", 
         "9BmXtQ7d": "999", 
+        "G4L0YIB2": "「強敵」トロフィー取得数", 
+        "NYb0Cri6": "AWARD_ENEMY_TROPHY_CNT", 
+        "Z0EN6jSh": "906", 
+        "rFd5CiV2": "0", 
+        "rzg51uYX": "2"
+    }, 
+    {
+        "0Lhus2Ak": "9", 
+        "9BmXtQ7d": "999", 
         "G4L0YIB2": "「功績」トロフィー取得数", 
         "NYb0Cri6": "AWARD_EXPLOIT_TROPHY_CNT", 
         "Z0EN6jSh": "902", 
@@ -254,9 +272,36 @@
     {
         "0Lhus2Ak": "9", 
         "9BmXtQ7d": "999", 
+        "G4L0YIB2": "「真降臨の間」覚醒級クリア数", 
+        "NYb0Cri6": "AWARD_GENUINE_ADVENT_CLEAR_CNT", 
+        "Z0EN6jSh": "908", 
+        "rFd5CiV2": "0", 
+        "rzg51uYX": "2"
+    }, 
+    {
+        "0Lhus2Ak": "9", 
+        "9BmXtQ7d": "999", 
+        "G4L0YIB2": "「最凶の古代兵器・覚醒級」チャレンジ達成数", 
+        "NYb0Cri6": "AWARD_OMEGA_CHALLENGE_CNT", 
+        "Z0EN6jSh": "909", 
+        "rFd5CiV2": "0", 
+        "rzg51uYX": "2"
+    }, 
+    {
+        "0Lhus2Ak": "9", 
+        "9BmXtQ7d": "999", 
         "G4L0YIB2": "「クエスト」トロフィー取得数", 
         "NYb0Cri6": "AWARD_QUEST_TROPHY_CNT", 
         "Z0EN6jSh": "903", 
+        "rFd5CiV2": "0", 
+        "rzg51uYX": "2"
+    }, 
+    {
+        "0Lhus2Ak": "9", 
+        "9BmXtQ7d": "999", 
+        "G4L0YIB2": "「十二武具の間」クリア数", 
+        "NYb0Cri6": "AWARD_TWELVE_ARMS_CLEAR_CNT", 
+        "Z0EN6jSh": "906", 
         "rFd5CiV2": "0", 
         "rzg51uYX": "2"
     }, 

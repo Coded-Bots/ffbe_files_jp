@@ -240,6 +240,11 @@
         "qtkvrS60": "map_icon_3540201_2.png"
     }, 
     {
+        "0HUPxDf1": "16101", 
+        "G4L0YIB2": "飛空艇ユライシャ号", 
+        "qtkvrS60": "map_icon_3610201_2.png"
+    }, 
+    {
         "0HUPxDf1": "76508", 
         "G4L0YIB2": "run9-8", 
         "qtkvrS60": "map_icon_76508.png"
@@ -1940,6 +1945,36 @@
         "qtkvrS60": "map_icon_3550106_2.png"
     }, 
     {
+        "0HUPxDf1": "3560101", 
+        "G4L0YIB2": "マギステルス上空", 
+        "qtkvrS60": "map_icon_3610101_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3560102", 
+        "G4L0YIB2": "強化兵士研究施設", 
+        "qtkvrS60": "map_icon_3610102_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3560103", 
+        "G4L0YIB2": "化学兵器研究施設", 
+        "qtkvrS60": "map_icon_3610103_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3560104", 
+        "G4L0YIB2": "魔導兵器開発施設", 
+        "qtkvrS60": "map_icon_3610104_3.png"
+    }, 
+    {
+        "0HUPxDf1": "3560105", 
+        "G4L0YIB2": "魔獣兵器開発施設", 
+        "qtkvrS60": "map_icon_3610105_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3560106", 
+        "G4L0YIB2": "マギステルス巨大軍事施設", 
+        "qtkvrS60": "map_icon_3610106_2.png"
+    }, 
+    {
         "0HUPxDf1": "4010101", 
         "G4L0YIB2": "強き心の修練", 
         "qtkvrS60": "spd_20161021_bn_list_ffbe.png"
@@ -2123,6 +2158,16 @@
         "0HUPxDf1": "6010122", 
         "G4L0YIB2": "振り返り2部4章後編", 
         "qtkvrS60": "memory_plate_chapter_2_4_3.png"
+    }, 
+    {
+        "0HUPxDf1": "6010123", 
+        "G4L0YIB2": "振り返り2部5章前編", 
+        "qtkvrS60": "memory_plate_chapter_2_5_1.png"
+    }, 
+    {
+        "0HUPxDf1": "6010124", 
+        "G4L0YIB2": "振り返り2部5章後編", 
+        "qtkvrS60": "memory_plate_chapter_2_5_2.png"
     }, 
     {
         "0HUPxDf1": "7030101", 
@@ -3395,6 +3440,26 @@
         "qtkvrS60": "spd_20180521_bn_list_xeno_last_02.png"
     }, 
     {
+        "0HUPxDf1": "8260101", 
+        "G4L0YIB2": "ネルベスカ神殿", 
+        "qtkvrS60": "spd_20180531_bn_list_FFT.png"
+    }, 
+    {
+        "0HUPxDf1": "8260102", 
+        "G4L0YIB2": "ネルベスカ神殿_最終日", 
+        "qtkvrS60": "spd_20180531_bn_list_FFT_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8270101", 
+        "G4L0YIB2": "ティアマット討伐", 
+        "qtkvrS60": "spd_20180531_bn_list_FFT_02.png"
+    }, 
+    {
+        "0HUPxDf1": "8270102", 
+        "G4L0YIB2": "ティアマット討伐_最終日", 
+        "qtkvrS60": "spd_20180531_bn_list_FFT_02_last.png"
+    }, 
+    {
         "0HUPxDf1": "8973001", 
         "G4L0YIB2": "ねむれるしし降臨HELL", 
         "qtkvrS60": "spd_20170731_bn_list_SBF_04.png"
@@ -3418,6 +3483,11 @@
         "0HUPxDf1": "8973005", 
         "G4L0YIB2": "狂魔の行進HELL", 
         "qtkvrS60": "spd_20180330_bn_list_SBF_08.png"
+    }, 
+    {
+        "0HUPxDf1": "8973006", 
+        "G4L0YIB2": "ギルガメッシュ降臨HELL", 
+        "qtkvrS60": "spd_20180531_bn_list_SBF_09.png"
     }, 
     {
         "0HUPxDf1": "8993001", 
@@ -3670,6 +3740,26 @@
         "qtkvrS60": "award_10400400.png"
     }, 
     {
+        "0HUPxDf1": "10500100", 
+        "G4L0YIB2": "輝きの十二武具", 
+        "qtkvrS60": "award_10500100.png"
+    }, 
+    {
+        "0HUPxDf1": "10500200", 
+        "G4L0YIB2": "名もなき英雄", 
+        "qtkvrS60": "award_10500200.png"
+    }, 
+    {
+        "0HUPxDf1": "10500300", 
+        "G4L0YIB2": "新たなる強敵", 
+        "qtkvrS60": "award_10500300.png"
+    }, 
+    {
+        "0HUPxDf1": "10500400", 
+        "G4L0YIB2": "極限の戦い", 
+        "qtkvrS60": "award_10500400.png"
+    }, 
+    {
         "0HUPxDf1": "10600200", 
         "G4L0YIB2": "オールラウンダー", 
         "qtkvrS60": "award_10600200.png"
@@ -3688,6 +3778,11 @@
         "0HUPxDf1": "10600500", 
         "G4L0YIB2": "真なる覇者", 
         "qtkvrS60": "award_10600500.png"
+    }, 
+    {
+        "0HUPxDf1": "10600600", 
+        "G4L0YIB2": "最強を目指す者", 
+        "qtkvrS60": "award_10600600.png"
     }, 
     {
         "0HUPxDf1": "20101001", 
@@ -3938,6 +4033,81 @@
         "0HUPxDf1": "30101015", 
         "G4L0YIB2": "真なる覇者（ブロンズ）", 
         "qtkvrS60": "emblem_70015.png"
+    }, 
+    {
+        "0HUPxDf1": "30101016", 
+        "G4L0YIB2": "最強を目指す者（ゴールド）", 
+        "qtkvrS60": "emblem_70016.png"
+    }, 
+    {
+        "0HUPxDf1": "30101017", 
+        "G4L0YIB2": "最強を目指す者（シルバー）", 
+        "qtkvrS60": "emblem_70017.png"
+    }, 
+    {
+        "0HUPxDf1": "30101018", 
+        "G4L0YIB2": "最強を目指す者（ブロンズ）", 
+        "qtkvrS60": "emblem_70018.png"
+    }, 
+    {
+        "0HUPxDf1": "30101019", 
+        "G4L0YIB2": "輝きの十二武具（ゴールド）", 
+        "qtkvrS60": "emblem_70019.png"
+    }, 
+    {
+        "0HUPxDf1": "30101020", 
+        "G4L0YIB2": "輝きの十二武具（シルバー）", 
+        "qtkvrS60": "emblem_70020.png"
+    }, 
+    {
+        "0HUPxDf1": "30101021", 
+        "G4L0YIB2": "輝きの十二武具（ブロンズ）", 
+        "qtkvrS60": "emblem_70021.png"
+    }, 
+    {
+        "0HUPxDf1": "30101022", 
+        "G4L0YIB2": "名もなき英雄（ゴールド）", 
+        "qtkvrS60": "emblem_70022.png"
+    }, 
+    {
+        "0HUPxDf1": "30101023", 
+        "G4L0YIB2": "名もなき英雄（シルバー）", 
+        "qtkvrS60": "emblem_70023.png"
+    }, 
+    {
+        "0HUPxDf1": "30101024", 
+        "G4L0YIB2": "名もなき英雄（ブロンズ）", 
+        "qtkvrS60": "emblem_70024.png"
+    }, 
+    {
+        "0HUPxDf1": "30101025", 
+        "G4L0YIB2": "新たなる強敵（ゴールド）", 
+        "qtkvrS60": "emblem_70025.png"
+    }, 
+    {
+        "0HUPxDf1": "30101026", 
+        "G4L0YIB2": "新たなる強敵（シルバー）", 
+        "qtkvrS60": "emblem_70026.png"
+    }, 
+    {
+        "0HUPxDf1": "30101027", 
+        "G4L0YIB2": "新たなる強敵（ブロンズ）", 
+        "qtkvrS60": "emblem_70027.png"
+    }, 
+    {
+        "0HUPxDf1": "30101028", 
+        "G4L0YIB2": "極限の戦い（ゴールド）", 
+        "qtkvrS60": "emblem_70028.png"
+    }, 
+    {
+        "0HUPxDf1": "30101029", 
+        "G4L0YIB2": "極限の戦い（シルバー）", 
+        "qtkvrS60": "emblem_70029.png"
+    }, 
+    {
+        "0HUPxDf1": "30101030", 
+        "G4L0YIB2": "極限の戦い（ブロンズ）", 
+        "qtkvrS60": "emblem_70030.png"
     }, 
     {
         "0HUPxDf1": "100000000", 
@@ -4308,6 +4478,11 @@
         "0HUPxDf1": "105007000", 
         "G4L0YIB2": "征服者のガベル・魔", 
         "qtkvrS60": "item_2017.png"
+    }, 
+    {
+        "0HUPxDf1": "105007100", 
+        "G4L0YIB2": "征服者のガベル・精", 
+        "qtkvrS60": "item_2018.png"
     }, 
     {
         "0HUPxDf1": "106000100", 
@@ -4683,6 +4858,11 @@
         "0HUPxDf1": "106305700", 
         "G4L0YIB2": "デウスレイドコイン", 
         "qtkvrS60": "item_9201.png"
+    }, 
+    {
+        "0HUPxDf1": "106305800", 
+        "G4L0YIB2": "青の宝玉", 
+        "qtkvrS60": "item_9204.png"
     }, 
     {
         "0HUPxDf1": "107000100", 
@@ -6995,6 +7175,11 @@
         "qtkvrS60": "item_10134.png"
     }, 
     {
+        "0HUPxDf1": "301004000", 
+        "G4L0YIB2": "聖天使の短剣", 
+        "qtkvrS60": "item_10135.png"
+    }, 
+    {
         "0HUPxDf1": "302000100", 
         "G4L0YIB2": "ブロードソード", 
         "qtkvrS60": "item_10200.png"
@@ -7305,6 +7490,11 @@
         "qtkvrS60": "item_10268.png"
     }, 
     {
+        "0HUPxDf1": "302007200", 
+        "G4L0YIB2": "ナグラロク", 
+        "qtkvrS60": "item_10269.png"
+    }, 
+    {
         "0HUPxDf1": "303000100", 
         "G4L0YIB2": "グレートソード", 
         "qtkvrS60": "item_10301.png"
@@ -7530,6 +7720,11 @@
         "qtkvrS60": "item_10347.png"
     }, 
     {
+        "0HUPxDf1": "303005400", 
+        "G4L0YIB2": "カオスブレイド(FFT)", 
+        "qtkvrS60": "item_10348.png"
+    }, 
+    {
         "0HUPxDf1": "304000100", 
         "G4L0YIB2": "虎鉄", 
         "qtkvrS60": "item_10400.png"
@@ -7703,6 +7898,16 @@
         "0HUPxDf1": "304003900", 
         "G4L0YIB2": "無命", 
         "qtkvrS60": "item_10443.png"
+    }, 
+    {
+        "0HUPxDf1": "304004000", 
+        "G4L0YIB2": "ムラマサ(FFBE)", 
+        "qtkvrS60": "item_10445.png"
+    }, 
+    {
+        "0HUPxDf1": "304004100", 
+        "G4L0YIB2": "金剛石の太刀", 
+        "qtkvrS60": "item_10420.png"
     }, 
     {
         "0HUPxDf1": "304020100", 
@@ -7983,6 +8188,11 @@
         "0HUPxDf1": "307002100", 
         "G4L0YIB2": "棘のメイス・改", 
         "qtkvrS60": "item_11517.png"
+    }, 
+    {
+        "0HUPxDf1": "307002300", 
+        "G4L0YIB2": "Pのバッグ", 
+        "qtkvrS60": "item_11519.png"
     }, 
     {
         "0HUPxDf1": "308000100", 
@@ -8555,6 +8765,11 @@
         "qtkvrS60": "item_10636.png"
     }, 
     {
+        "0HUPxDf1": "310004500", 
+        "G4L0YIB2": "鯨の髭(FFT)", 
+        "qtkvrS60": "item_10639.png"
+    }, 
+    {
         "0HUPxDf1": "311000200", 
         "G4L0YIB2": "サクラの杖", 
         "qtkvrS60": "item_10501.png"
@@ -8823,6 +9038,11 @@
         "0HUPxDf1": "312002300", 
         "G4L0YIB2": "魔弓レイザー・フォーテル", 
         "qtkvrS60": "item_10722.png"
+    }, 
+    {
+        "0HUPxDf1": "312002400", 
+        "G4L0YIB2": "グリフィンボウ", 
+        "qtkvrS60": "item_10723.png"
     }, 
     {
         "0HUPxDf1": "313000400", 
@@ -9523,6 +9743,11 @@
         "0HUPxDf1": "402003000", 
         "G4L0YIB2": "アトラクティブシールド", 
         "qtkvrS60": "item_40229.png"
+    }, 
+    {
+        "0HUPxDf1": "402003100", 
+        "G4L0YIB2": "グリモアシールド", 
+        "qtkvrS60": "item_40230.png"
     }, 
     {
         "0HUPxDf1": "403000100", 
@@ -10278,6 +10503,11 @@
         "0HUPxDf1": "405005900", 
         "G4L0YIB2": "ブラックレザー", 
         "qtkvrS60": "item_20155.png"
+    }, 
+    {
+        "0HUPxDf1": "405006000", 
+        "G4L0YIB2": "ダイヤジャケット", 
+        "qtkvrS60": "item_20156.png"
     }, 
     {
         "0HUPxDf1": "406000100", 
@@ -11938,6 +12168,31 @@
         "0HUPxDf1": "409025000", 
         "G4L0YIB2": "大和ベルト", 
         "qtkvrS60": "item_50367.png"
+    }, 
+    {
+        "0HUPxDf1": "409025100", 
+        "G4L0YIB2": "セッティエムソン", 
+        "qtkvrS60": "item_50373.png"
+    }, 
+    {
+        "0HUPxDf1": "409025200", 
+        "G4L0YIB2": "フェザーマント", 
+        "qtkvrS60": "item_50374.png"
+    }, 
+    {
+        "0HUPxDf1": "409025300", 
+        "G4L0YIB2": "マジックチョーカー", 
+        "qtkvrS60": "item_50371.png"
+    }, 
+    {
+        "0HUPxDf1": "409025400", 
+        "G4L0YIB2": "玄武の指輪", 
+        "qtkvrS60": "item_50376.png"
+    }, 
+    {
+        "0HUPxDf1": "409025500", 
+        "G4L0YIB2": "白虎の指輪", 
+        "qtkvrS60": "item_50377.png"
     }, 
     {
         "0HUPxDf1": "600000010", 

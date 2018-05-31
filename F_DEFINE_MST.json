@@ -345,6 +345,11 @@
         "YjIUDJ97": "12:400102,252:400005"
     }, 
     {
+        "AK8Nn7ta": "OTHER_UNIT_CNT_LIMIT", 
+        "G4L0YIB2": "強化・売却ユニットの所持数上限", 
+        "YjIUDJ97": "1500"
+    }, 
+    {
         "AK8Nn7ta": "OTHER_WORLD_TOWN_ID", 
         "G4L0YIB2": "異界タウンID", 
         "YjIUDJ97": "9001"
@@ -413,6 +418,11 @@
         "AK8Nn7ta": "REVIEW_TRIGGER_STORY_SUB_ID", 
         "G4L0YIB2": "レビュー起動ストーリーサブID", 
         "YjIUDJ97": "109"
+    }, 
+    {
+        "AK8Nn7ta": "SHOP_ITEM_EXCHANGE_MOOGLE_TEXT", 
+        "G4L0YIB2": "交換用", 
+        "YjIUDJ97": "ユニット変換でトラスト100％のユニットを<br>トラストコインに変換できるクポ！<br>コイン数に応じていろんな報酬が<br>獲得できるクポ〜！"
     }, 
     {
         "AK8Nn7ta": "SHOP_MOOGLE_TEXT", 
@@ -513,6 +523,11 @@
         "AK8Nn7ta": "UNIT_SELL_BULK_CNT", 
         "G4L0YIB2": "ユニット売却一括件数", 
         "YjIUDJ97": "50"
+    }, 
+    {
+        "AK8Nn7ta": "UNIT_TRANS_AFFINITY_COUNT", 
+        "G4L0YIB2": "トラスト指定", 
+        "YjIUDJ97": "1000"
     }, 
     {
         "AK8Nn7ta": "UPDATE_TERMS_OF_SERVICE_SWITCH_ID", 
