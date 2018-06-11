@@ -357,7 +357,7 @@
     {
         "AK8Nn7ta": "PASSIVE_ADD_LIMIT", 
         "G4L0YIB2": "パッシブ加算限界", 
-        "YjIUDJ97": "37:100,45:100,47:100"
+        "YjIUDJ97": "37:10000,45:100,47:100"
     }, 
     {
         "AK8Nn7ta": "RAID_MENU_ROUTINE_MARGIN_TIME", 
@@ -427,7 +427,7 @@
     {
         "AK8Nn7ta": "SHOP_MOOGLE_TEXT", 
         "G4L0YIB2": "", 
-        "YjIUDJ97": "ラピスを購入するとEXVIUSポイントが<br>貯まっていくクポ！<br>所持ポイントに応じていろんな特典が<br>獲得できるクポ〜！"
+        "YjIUDJ97": "ラピスを購入するとEXVIUSポイントが<br>貯まっていくクポ！<br>今なら<color=255:0:0>獲得EXポイント1.5倍キャンペーン</color>中クポ！<br>開催期間：6/11 17：00〜6/20 13：59"
     }, 
     {
         "AK8Nn7ta": "SPPT_DEF", 

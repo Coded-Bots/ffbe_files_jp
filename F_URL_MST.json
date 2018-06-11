@@ -20,7 +20,7 @@
         "7Aw3E5od": "https://play.google.com/store/apps/details?id=com.square_enix.ffbejpn", 
         "G4L0YIB2": "アプリダウンロードURL", 
         "TR3HQmV8": "amzn://apps/android?p=com.square_enix.kindle.ffbejpn", 
-        "Vd5z8q7S": "http://an.sqexm.net/sp/site/Page/sqmk/ffbe/top", 
+        "Vd5z8q7S": "https://www.andapp.jp/apps/5744193590788096", 
         "gu8McTA6": "APP_DL_URL"
     }, 
     {
@@ -76,7 +76,7 @@
         "7Aw3E5od": "https://v24-android.game.exvius.com/lapis/app/php/web/statics/probability/summons_list.html", 
         "G4L0YIB2": "ガチャ確率", 
         "TR3HQmV8": "https://v24-kindle.game.exvius.com/lapis/app/php/web/statics/probability/summons_list.html", 
-        "Vd5z8q7S": "https://v24-sqmk.game.exvius.com/lapis/app/php/web/statics/probability/summons_list.html", 
+        "Vd5z8q7S": "https://v24-andapp.game.exvius.com/lapis/app/php/web/statics/probability/summons_list.html", 
         "gu8McTA6": "GACHA_RATE_URL"
     }, 
     {
@@ -92,7 +92,7 @@
         "7Aw3E5od": "https://v24-android.game.exvius.com/lapis/app/php/web/statics/lapis_possessions.php", 
         "G4L0YIB2": "ラピス所持内容", 
         "TR3HQmV8": "https://v24-kindle.game.exvius.com/lapis/app/php/web/statics/lapis_possessions.php", 
-        "Vd5z8q7S": "https://v24-sqmk.game.exvius.com/lapis/app/php/web/statics/lapis_possessions.php", 
+        "Vd5z8q7S": "https://v24-andapp.game.exvius.com/lapis/app/php/web/statics/lapis_possessions.php", 
         "gu8McTA6": "LAPIS_POSSESSIONS_URL"
     }, 
     {
@@ -112,11 +112,11 @@
         "gu8McTA6": "NOTICE_TOP_URL"
     }, 
     {
-        "1X65WPLU": "https://v24.notice.exvius.com/heipchild/etc/2.php", 
-        "7Aw3E5od": "https://v24.notice.exvius.com/heipchild/etc/2.php", 
+        "1X65WPLU": "https://v24.notice.exvius.com/helpchild/etc/2.php", 
+        "7Aw3E5od": "https://v24.notice.exvius.com/helpchild/etc/2.php", 
         "G4L0YIB2": "引き継ぎについて", 
-        "TR3HQmV8": "https://v24.notice.exvius.com/heipchild/etc/2.php", 
-        "Vd5z8q7S": "https://v24.notice.exvius.com/heipchild/etc/2.php", 
+        "TR3HQmV8": "https://v24.notice.exvius.com/helpchild/etc/2.php", 
+        "Vd5z8q7S": "https://v24.notice.exvius.com/helpchild/etc/2.php", 
         "gu8McTA6": "OFFICIAL_URL"
     }, 
     {
@@ -152,11 +152,11 @@
         "gu8McTA6": "SP_CHALLENGE_DETAIL_URL"
     }, 
     {
-        "1X65WPLU": "https://v24.notice.exvius.com/heipchild/etc/2.php", 
-        "7Aw3E5od": "https://v24.notice.exvius.com/heipchild/etc/2.php", 
+        "1X65WPLU": "https://v24.notice.exvius.com/helpchild/etc/2.php", 
+        "7Aw3E5od": "https://v24.notice.exvius.com/helpchild/etc/2.php", 
         "G4L0YIB2": "引き継ぎ説明", 
-        "TR3HQmV8": "https://v24.notice.exvius.com/heipchild/etc/2.php", 
-        "Vd5z8q7S": "https://v24.notice.exvius.com/heipchild/etc/2.php", 
+        "TR3HQmV8": "https://v24.notice.exvius.com/helpchild/etc/2.php", 
+        "Vd5z8q7S": "https://v24.notice.exvius.com/helpchild/etc/2.php", 
         "gu8McTA6": "TAKEOVER_URL"
     }, 
     {

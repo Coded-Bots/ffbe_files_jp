@@ -4,10 +4,6 @@
         "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。"
     }, 
     {
-        "6ZEyK95f": "1,1,17", 
-        "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※ジャンプダメージアップ系の上限は<rate_limit type=12>%です。"
-    }, 
-    {
         "6ZEyK95f": "1,1,2", 
         "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
@@ -50,6 +46,10 @@
     {
         "6ZEyK95f": "1,13", 
         "P9iwo20z": "<color=default>効果</color>：<br><if cond=param;1;3/eq/0>片手用武器装備時、片手が空いた状態だと武具の攻撃が<get_param proc=1 index=1>%アップする。</if><if cond=param;1;3/eq/2>両手の装備品が武器1個だと武具の攻撃が<get_param proc=1 index=1>%アップする。</if><break h=12>※武具ステータスアップ系(武器1個)の上限は<rate_limit type=6>%です。"
+    }, 
+    {
+        "6ZEyK95f": "1,13,70", 
+        "P9iwo20z": "<color=default>効果</color>：<br><if cond=param;1;3/eq/0>片手用武器装備時、片手が空いた状態だと武具の攻撃魔力が<get_param proc=1 index=1>%アップする。</if><if cond=param;1;3/eq/2>両手の装備品が武器1個だと武具の攻撃魔力が<get_param proc=1 index=1>%アップする。</if><break h=12>※武具ステータスアップ系(武器1個)の上限は<rate_limit type=6>%です。"
     }, 
     {
         "6ZEyK95f": "1,14", 
@@ -150,6 +150,10 @@
     {
         "6ZEyK95f": "1,33,69,72", 
         "P9iwo20z": "<color=default>効果</color>：<br>リミットバーストの効果が変化し、毎ターンリミットバーストゲージが<get_param proc=1 index=1>増加し、片手用武器を2つ装備すると武具の<get_status proc=2 index=1>が<get_param proc=2 index=2>%アップする。<break h=12>※武具ステータスアップ系(武器2個)の上限は<rate_limit type=8>%です。<br>※ターン終了時のLBゲージ増加上限値は<rate_limit type=9>です。<br>　<br><color=default>リミットバースト名</color>：<ability_name proc=3 index=1><break h=12><ability proc=3 index=1>"
+    }, 
+    {
+        "6ZEyK95f": "1,37", 
+        "P9iwo20z": "<color=default>効果</color>：<br>クエストクリア時、ギルの獲得量を<get_param proc=1 index=1 div=100>%アップする。"
     }, 
     {
         "6ZEyK95f": "1,38", 
@@ -358,6 +362,14 @@
     {
         "6ZEyK95f": "100019003", 
         "P9iwo20z": "<if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br>　<br></if><color=default>効果</color>：<br><target proc=1>を<get_param proc=1 index=1>ターンの間、攻撃を<get_param proc=1 index=2>%アップさせバーサク状態にし、<get_param proc=2 index=5>ターンの間、攻撃を<get_param proc=2 index=1>%アップする。"
+    }, 
+    {
+        "6ZEyK95f": "100019604", 
+        "P9iwo20z": "<if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br>　<br></if><color=default>効果</color>：<br><get_param proc=1 index=5>ターンの間、<target proc=1>の防御精神を<get_param proc=1 index=2 fmt=abs>%ダウンさせ、<target proc=2>の防御精神を<get_param proc=2 index=2>%アップする。"
+    }, 
+    {
+        "6ZEyK95f": "100019905", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<calc form=param;1;9/2>/<calc form=param;1;10/2><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<calc form=param;1;9/2>/<calc form=param;1;10/2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、<target proc=2>の火雷水風属性耐性を<get_param proc=2 index=1 fmt=abs>%ダウンさせる。<br>さらに、<get_param proc=3 index=4>ターンの間、<target proc=3>のMPを徐々に回復する。<break h=12><if cond=param;3;3/ne/0><color=default>ターンMP回復基礎値</color>：<calc form=param;3;3/param;3;4><br></if><break h=12><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
         "6ZEyK95f": "100730", 
@@ -681,7 +693,7 @@
     }, 
     {
         "6ZEyK95f": "2,60", 
-        "P9iwo20z": "<color=default>TARGET  </color>：<target proc=1><br>　<br><color=default>効果</color>：<br><get_param proc=1 index=1 fmt=abs>ターンの間、<target proc=1>を<get_param proc=1 index=2 fmt=abs>%の確率で魅了状態にする。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
+        "P9iwo20z": "<color=default>TARGET  </color>：<target proc=1><br>　<br><color=default>効果</color>：<br><get_param proc=1 index=1 fmt=abs>ターンの間、<target proc=1>を確率で魅了状態にする。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
     }, 
     {
         "6ZEyK95f": "2,61", 
@@ -729,7 +741,7 @@
     }, 
     {
         "6ZEyK95f": "2,88", 
-        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=2>ターンの間、<target>を<get_param proc=1 index=1>%の確率でストップ状態にする。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;1;1>"
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=2>ターンの間、<target>を確率でストップ状態にする。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;1;1>"
     }, 
     {
         "6ZEyK95f": "2,9", 
@@ -837,7 +849,7 @@
     }, 
     {
         "6ZEyK95f": "202270", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=5><br><if cond=param;1;6/ne/0><color=default>命中補正</color>：<get_param proc=1 index=6>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に、威力<get_param proc=1 index=5>のダメージを<get_param proc=1 index=3>回与え、30%の確率で混乱状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=5><br><if cond=param;1;6/ne/0><color=default>命中補正</color>：<get_param proc=1 index=6>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に、威力<get_param proc=1 index=5>のダメージを<get_param proc=1 index=3>回与え、確率で混乱状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
         "6ZEyK95f": "202350", 
@@ -1041,7 +1053,7 @@
     }, 
     {
         "6ZEyK95f": "206050", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)<br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target>に威力<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=2>ターンの間、<get_param proc=2 index=1>%の確率でストップ状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;2;1>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)<br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target>に威力<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=2>ターンの間、確率でストップ状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;2;1>"
     }, 
     {
         "6ZEyK95f": "206080", 
@@ -1057,7 +1069,7 @@
     }, 
     {
         "6ZEyK95f": "206260", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)<br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target>に威力<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=5>%の確率で麻痺状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)<br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target>に威力<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、確率で麻痺状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
         "6ZEyK95f": "206440", 
@@ -1333,11 +1345,11 @@
     }, 
     {
         "6ZEyK95f": "211830", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<calc form=param;1;9/2>/<calc form=param;1;10/2><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<calc form=param;1;9/2>/<calc form=param;1;10/2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、ランダムで<if cond=param;2;1/gt/0>毒<if/><if cond=param;2;2/gt/0>暗闇<if/><if cond=param;2;3/gt/0>睡眠<if/><if cond=param;2;4/gt/0>沈黙<if/><if cond=param;2;5/gt/0>麻痺<if/><if cond=param;2;6/gt/0>混乱<if/><if cond=param;2;7/gt/0>病気<if/><if cond=param;2;8/gt/0>石化<if/><if cond=param;2;10/gt/1>のいずれかを、<get_param proc=2 index=1>%の確率で最大<get_param proc=2 index=10>種類<if/>付与する。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<calc form=param;1;9/2>/<calc form=param;1;10/2><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<calc form=param;1;9/2>/<calc form=param;1;10/2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、ランダムで<if cond=param;2;1/gt/0>毒<if/><if cond=param;2;2/gt/0>暗闇<if/><if cond=param;2;3/gt/0>睡眠<if/><if cond=param;2;4/gt/0>沈黙<if/><if cond=param;2;5/gt/0>麻痺<if/><if cond=param;2;6/gt/0>混乱<if/><if cond=param;2;7/gt/0>病気<if/><if cond=param;2;8/gt/0>石化<if/><if cond=param;2;10/gt/1>のいずれかを、確率で最大<get_param proc=2 index=10>種類<if/>付与する。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
         "6ZEyK95f": "211840", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃 魔力<break h=12><color=default>攻撃威力</color>：<calc form=param;1;9/2>/<calc form=param;1;10/2><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<calc form=param;1;9/2>/<calc form=param;1;10/2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=1>%の確率でストップ状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;2;1>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃 魔力<break h=12><color=default>攻撃威力</color>：<calc form=param;1;9/2>/<calc form=param;1;10/2><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<calc form=param;1;9/2>/<calc form=param;1;10/2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、確率でストップ状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;2;1>"
     }, 
     {
         "6ZEyK95f": "211850", 
@@ -1517,7 +1529,7 @@
     }, 
     {
         "6ZEyK95f": "216480", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=2>ターンの間、<get_param proc=2 index=1>%の確率でストップ状態にし、氷属性耐性を<get_param proc=3 index=2 fmt=abs>%ダウンする。<br>次のターン、「絶槍迅」が「絶衝槍竜迅」に変化する。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=12><color=default>属性耐性</color>：<br><resist_elem list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=2>ターンの間、確率でストップ状態にし、氷属性耐性を<get_param proc=3 index=2 fmt=abs>%ダウンする。<br>次のターン、「絶槍迅」が「絶衝槍竜迅」に変化する。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;2;1><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
     }, 
     {
         "6ZEyK95f": "216490", 
@@ -1530,6 +1542,10 @@
     {
         "6ZEyK95f": "216650", 
         "P9iwo20z": "<color=default>効果</color>：<br>自分の攻撃防御魔力精神ダウン効果を解除し、HPを全回復する。"
+    }, 
+    {
+        "6ZEyK95f": "216710", 
+        "P9iwo20z": "<color=default>効果</color>：<br>精神を<get_param proc=1 index=4>%アップし、毎ターン自分のHPを回復する。<break h=12><br><color=default>HP回復基礎値</color>：60<br><color=default>HP回復変動値</color>：120<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※HP回復変動値は魔力、精神によって変動します。"
     }, 
     {
         "6ZEyK95f": "217050", 
@@ -1636,6 +1652,10 @@
         "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<calc form=param;1;9/2>/<calc form=param;1;10/2><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<calc form=param;1;9/2>/<calc form=param;1;10/2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、<target proc=2>の火氷雷水風土光闇属性耐性を<get_param proc=2 index=1 fmt=abs>%ダウンする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
+        "6ZEyK95f": "220590", 
+        "P9iwo20z": "<color=default>効果</color>：<br>敵からのアイテムのドロップ率をアップし、クエストクリア時、ギルの獲得量を<get_param proc=2 index=1 div=100>%アップする。"
+    }, 
+    {
         "6ZEyK95f": "220700", 
         "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<calc form=param;1;9/2>/<calc form=param;1;10/2><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<calc form=param;1;9/2>/<calc form=param;1;10/2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、<target proc=2>の<if cond=param;2;1/ne/0>火属性耐性を<get_param proc=2 index=1 fmt=abs></if><if cond=param;2;2/ne/0>氷属性耐性を<get_param proc=2 index=2 fmt=abs></if><if cond=param;2;3/ne/0>雷属性耐性を<get_param proc=2 index=3 fmt=abs></if><if cond=param;2;4/ne/0>水属性耐性を<get_param proc=2 index=4 fmt=abs></if><if cond=param;2;5/ne/0>風属性耐性を<get_param proc=2 index=5 fmt=abs></if><if cond=param;2;6/ne/0>土属性耐性を<get_param proc=2 index=6 fmt=abs></if><if cond=param;2;7/ne/0>光属性耐性を<get_param proc=2 index=7 fmt=abs></if><if cond=param;2;8/ne/0>闇属性耐性を<get_param proc=2 index=8 fmt=abs></if>%アップする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
@@ -1665,7 +1685,7 @@
     }, 
     {
         "6ZEyK95f": "221230", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=5><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br>　<br><color=default>効果</color>：<br>ジャンプで空中に離脱し自分のリミットバーストゲージを800増加、次のターンに落下して敵1体に威力550の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=5><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br>　<br><color=default>効果</color>：<br>ジャンプで空中に離脱し自分のリミットバーストゲージを<if cond=param;1;1/eq/param;1;2><get_param proc=1 index=1 fmt=abs></if><if cond=param;1;1/ne/param;1;2><get_param proc=1 index=1 fmt=abs>〜<get_param proc=1 index=2 fmt=abs></if>増加し、次のターンに落下して敵1体に威力<get_param proc=2 index=5>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
     }, 
     {
         "6ZEyK95f": "221260", 
@@ -1681,15 +1701,15 @@
     }, 
     {
         "6ZEyK95f": "221410", 
-        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=2>ターンの間、<target>を<get_param proc=1 index=1>%の確率でストップ状態にし、100%の確率で暗闇混乱状態にする。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8/9;1;1>"
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=2>ターンの間、<target>を確率で暗闇混乱ストップ状態にする。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8/9;1;1>"
     }, 
     {
         "6ZEyK95f": "221430", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、雷属性耐性を60%ダウンし、80%の確率で麻痺状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、雷属性耐性を60%ダウンし、確率で麻痺状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
     }, 
     {
         "6ZEyK95f": "221440", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、風属性耐性を50%ダウンし、100%の確率で沈黙状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、風属性耐性を50%ダウンし、確率で沈黙状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
     }, 
     {
         "6ZEyK95f": "221450", 
@@ -1697,7 +1717,7 @@
     }, 
     {
         "6ZEyK95f": "221460", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、闇属性耐性を50%ダウンし、100%の確率で毒状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、闇属性耐性を50%ダウンし、確率で毒状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
     }, 
     {
         "6ZEyK95f": "221550", 
@@ -1896,6 +1916,14 @@
         "P9iwo20z": "<ability proc=1 index=6><hr><color=230:230:40><ability_name proc=1 index=2></color>、<color=230:230:40><ability_name proc=1 index=2 param_div=& div_index=2></color>を使用した次のターン<color=230:230:40><ability_name proc=1 index=4></color>に変化する。<break h=12><color=default>アビリティ名</color>：<ability_name proc=1 index=4><break h=12><ability proc=1 index=4>"
     }, 
     {
+        "6ZEyK95f": "224360", 
+        "P9iwo20z": "<color=default>効果</color>：<br>以下のアビリティをランダムで使用する。<br>　<br><hr><color=default>アビリティ名</color>：<ability_name proc=1 index=1 param_div=& div_index=1><br><color=default>発動確率</color>    ：<get_param proc=1 index=1 param_div=& div_index=2>%<br><ability proc=1 index=1 param_div=& div_index=1><br>　<br><hr><color=default>アビリティ名</color>：<ability_name proc=1 index=2 param_div=& div_index=1><br><color=default>発動確率</color>    ：<get_param proc=1 index=2 param_div=& div_index=2>%<br><ability proc=1 index=2 param_div=& div_index=1>"
+    }, 
+    {
+        "6ZEyK95f": "224370", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=2>ターンの間、<target>を確率でストップ状態にし、<get_param proc=2 index=2>ターンの間、物理攻撃を受けると<get_param proc=2 index=1 fmt=abs>%の確率で反撃する。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;1;1><br>　<br><color=default>参照パラメータ</color>：<if cond=param;2;2/eq/1>攻撃</if><if cond=param;2;2/eq/2>防御</if><if cond=param;2;2/eq/3>魔力</if><if cond=param;2;2/eq/4>精神</if><break h=12><color=default>反撃確率</color>：<get_param proc=2 index=1>%<br><color=default>反撃威力</color>：<get_param proc=2 index=3><br>"
+    }, 
+    {
         "6ZEyK95f": "224380", 
         "P9iwo20z": "<color=default>効果</color>：<br>自分のリミットバーストゲージを1000消費し、<target>のリミットバーストゲージを<if cond=param;1;1/eq/param;1;2><get_param proc=1 index=1></if><if cond=param;1;1/ne/param;1;2><get_param proc=1 index=1>〜<get_param proc=1 index=2></if>回復する。"
     }, 
@@ -2013,7 +2041,7 @@
     }, 
     {
         "6ZEyK95f": "226230", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、雷属性耐性を50%ダウンし、50%の確率で麻痺状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、雷属性耐性を50%ダウンし、確率で麻痺状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
     }, 
     {
         "6ZEyK95f": "226380", 
@@ -2069,7 +2097,7 @@
     }, 
     {
         "6ZEyK95f": "226653", 
-        "P9iwo20z": "<color=default>効果</color>：<br>毒暗闇睡眠沈黙麻痺混乱病気石化を無効化し、魅了耐性を50%アップし、火氷雷風属性耐性を60%アップする。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8/10;50>　<br><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
+        "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8/9;3;5/10;3;6>　<br><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
         "6ZEyK95f": "226680", 
@@ -2280,6 +2308,10 @@
         "P9iwo20z": "<color=default>効果</color>：<br>幻獣セット時に反映されるステータスが50%アップし、バーストストーンによる上昇量を150%アップする。<break h=12>※幻獣セット時のステータス反映率アップ系の上限は200%です。"
     }, 
     {
+        "6ZEyK95f": "226891", 
+        "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※アビリティを発動する際の消費MP減少系の上限は80%です。"
+    }, 
+    {
         "6ZEyK95f": "226893", 
         "P9iwo20z": "<color=default>効果</color>：<br>物理攻撃時、死霊系へのダメージを50%アップし、剣を装備すると攻撃が80%アップする。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※種族ダメージアップ系の上限は<rate_limit type=10>%です。"
     }, 
@@ -2329,7 +2361,7 @@
     }, 
     {
         "6ZEyK95f": "227002", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=5><br><if cond=param;1;6/ne/0><color=default>命中補正</color>：<get_param proc=1 index=6>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に、威力<get_param proc=1 index=5>のダメージを<get_param proc=1 index=3>回与え、30%の確率で麻痺状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=5><br><if cond=param;1;6/ne/0><color=default>命中補正</color>：<get_param proc=1 index=6>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に、威力<get_param proc=1 index=5>のダメージを<get_param proc=1 index=3>回与え、確率で麻痺状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
         "6ZEyK95f": "227006", 
@@ -2589,7 +2621,7 @@
     }, 
     {
         "6ZEyK95f": "227325", 
-        "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><br>　<br><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><ability proc=1 index=1>"
+        "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><br>　<br><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=9;1;5/10;1;6>"
     }, 
     {
         "6ZEyK95f": "227326", 
@@ -2953,7 +2985,7 @@
     }, 
     {
         "6ZEyK95f": "227746", 
-        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=2>ターンの間、<target>を<get_param proc=1 index=1>%の確率でストップ状態にし、<get_param proc=2 index=5>ターンの間、<if cond=param;2;1/ne/0>攻撃</if><if cond=param;2;2/ne/0>防御</if><if cond=param;2;3/ne/0>魔力</if><if cond=param;2;4/ne/0>精神</if>を<get_param proc=2 index=2 fmt=abs>%ダウンする。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;1;1>"
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=2>ターンの間、<target>を確率でストップ状態にし、<get_param proc=2 index=5>ターンの間、<if cond=param;2;1/ne/0>攻撃</if><if cond=param;2;2/ne/0>防御</if><if cond=param;2;3/ne/0>魔力</if><if cond=param;2;4/ne/0>精神</if>を<get_param proc=2 index=2 fmt=abs>%ダウンする。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;1;1>"
     }, 
     {
         "6ZEyK95f": "227748", 
@@ -3029,7 +3061,7 @@
     }, 
     {
         "6ZEyK95f": "227851", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、50%の確率で混乱状態にし、<get_param proc=3 index=5>ターンの間、<target proc=3>の攻撃を100%アップする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、確率で混乱状態にし、<get_param proc=3 index=5>ターンの間、<target proc=3>の攻撃を100%アップする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
         "6ZEyK95f": "227853", 
@@ -3185,7 +3217,7 @@
     }, 
     {
         "6ZEyK95f": "228043", 
-        "P9iwo20z": "<color=default>効果</color>：<br>麻痺混乱を無効化し、リミットバーストの効果が変化し、「ファイジャ」「サンダジャ」「エアロジャ」の攻撃威力が100アップし、「ブリザジャ」「フリーズ」の攻撃威力が300アップし、「ゾブリザ」の基礎威力が300アップする。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>　<br><hr><color=default>リミットバースト名</color>：<ability_name proc=2 index=1><break h=12><ability proc=2 index=1>"
+        "P9iwo20z": "<color=default>効果</color>：<br>麻痺混乱を無効化し、リミットバーストの効果が変化し、「ファイジャ」「サンダジャ」「エアロジャ」の攻撃威力が100アップし、「ブリザジャ」「フリーズ」の攻撃威力が<get_param proc=3 index=4>アップし、「ゾブリザ」の基礎威力が<get_param proc=3 index=4>アップする。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>　<br><hr><color=default>リミットバースト名</color>：<ability_name proc=2 index=1><break h=12><ability proc=2 index=1>"
     }, 
     {
         "6ZEyK95f": "228044", 
@@ -3340,6 +3372,10 @@
         "P9iwo20z": "<color=default>効果</color>：<br>暗闇石化を無効化し、毎ターン物理、魔法ダメージを10%軽減する。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
+        "6ZEyK95f": "228233", 
+        "P9iwo20z": "<color=default>効果</color>：<br>HPMPを<get_param proc=1 index=5>%アップし、ジャンプ系アビリティのダメージを<get_param proc=2 index=1>%アップする。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※ジャンプダメージアップ系の上限は<rate_limit type=12>%です。"
+    }, 
+    {
         "6ZEyK95f": "228234", 
         "P9iwo20z": "<color=default>効果</color>：<br>攻撃が60%アップし、物理攻撃時、獣精霊死霊系へのダメージを50%アップする。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※種族ダメージアップ系の上限は<rate_limit type=10>%です。"
     }, 
@@ -3397,7 +3433,7 @@
     }, 
     {
         "6ZEyK95f": "228280", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、5ターンの間、攻撃魔力を50%ダウンし、70%の確率で毒沈黙病気状態にし、<get_param proc=4 index=5>ターンの間、威力<get_param proc=4 index=2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><if cond=param;1;8/ne/0><color=default>命中補正</color>：<get_param proc=1 index=8>%<br></if><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、5ターンの間、攻撃魔力を50%ダウンし、確率で毒沈黙病気状態にし、<get_param proc=4 index=5>ターンの間、威力<get_param proc=4 index=2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=12><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
     }, 
     {
         "6ZEyK95f": "228284", 
@@ -3485,15 +3521,15 @@
     }, 
     {
         "6ZEyK95f": "228401", 
-        "P9iwo20z": "<color=default>効果</color>：<br>敵全体に5%の確率で魅了状態にし、3ターンの間、<get_param proc=2 index=5>%の確率で味方に対する物理攻撃を「ぼうぎょ」状態で代わりに受ける。<break h=12><color=default>ダメージ軽減率</color>：<if cond=param;2;3/eq/param;2;4><get_param proc=2 index=3></if><if cond=param;2;3/ne/param;2;4><get_param proc=2 index=3>〜<get_param proc=2 index=4></if>%<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
+        "P9iwo20z": "<color=default>効果</color>：<br>敵全体を確率で魅了状態にし、3ターンの間、<get_param proc=2 index=5>%の確率で味方に対する物理攻撃を「ぼうぎょ」状態で代わりに受ける。<break h=12><color=default>ダメージ軽減率</color>：<if cond=param;2;3/eq/param;2;4><get_param proc=2 index=3></if><if cond=param;2;3/ne/param;2;4><get_param proc=2 index=3>〜<get_param proc=2 index=4></if>%<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
     }, 
     {
         "6ZEyK95f": "228402", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：防御<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=3><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br>　<br><color=default>効果</color>：<br><target proc=2>に威力<get_param proc=2 index=3>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、5ターンの間、防御を60%ダウンし、5%の確率で魅了状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：防御<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=3><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br>　<br><color=default>効果</color>：<br><target proc=2>に威力<get_param proc=2 index=3>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、5ターンの間、防御を60%ダウンし、確率で魅了状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
     }, 
     {
         "6ZEyK95f": "228403", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：防御<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=3><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br>　<br><color=default>効果</color>：<br><target proc=2>に威力<get_param proc=2 index=3>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、5ターンの間、精神を60%ダウンし、5%の確率で魅了状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：防御<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=3><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br>　<br><color=default>効果</color>：<br><target proc=2>に威力<get_param proc=2 index=3>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、5ターンの間、精神を60%ダウンし、確率で魅了状態にする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
     }, 
     {
         "6ZEyK95f": "228404", 
@@ -4393,7 +4429,7 @@
     }, 
     {
         "6ZEyK95f": "229173", 
-        "P9iwo20z": "<color=default>効果</color>：<br>HPMPが<get_param proc=1 index=5>%アップし、毒暗闇睡眠沈黙麻痺混乱病気石化を無効化し、片手用武器を2つ装備すると武具の<get_status proc=3 index=1><get_status proc=3 index=3>が<get_param proc=3 index=2>%アップする。<break h=12><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=12>※武具ステータスアップ系(武器2個)の上限は<rate_limit type=8>%です。<br><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。"
+        "P9iwo20z": "<color=default>効果</color>：<br>HPMPが<get_param proc=1 index=5>%アップし、毒暗闇睡眠沈黙麻痺混乱病気石化を無効化し、片手用武器を2つ装備すると武具の攻撃魔力が<get_param proc=3 index=2>%アップする。<break h=12><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=12>※武具ステータスアップ系(武器2個)の上限は<rate_limit type=8>%です。<br><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。"
     }, 
     {
         "6ZEyK95f": "229175", 
@@ -4446,6 +4482,122 @@
     {
         "6ZEyK95f": "229218", 
         "P9iwo20z": "<color=default>効果</color>：<br><if cond=param;1;3/eq/0>物理</if><if cond=param;1;2/eq/0>魔法</if><if cond=param;1;2/eq/param;1;3>物理、魔法</if>攻撃時、<get_tribe proc=1 index=1>系へのダメージを<if cond=param;1;2/gt/0><get_param proc=1 index=2></if><if cond=param;1;2/eq/0><get_param proc=1 index=3></if>%、<get_tribe proc=2 index=1>系へのダメージを<if cond=param;2;2/gt/0><get_param proc=2 index=2></if><if cond=param;2;2/eq/0><get_param proc=2 index=3></if>%アップする。<break h=12>※種族ダメージアップ系の上限は<rate_limit type=10>%です。"
+    }, 
+    {
+        "6ZEyK95f": "229230", 
+        "P9iwo20z": "<color=default>効果</color>：<br>HPを<get_param proc=1 index=5>%アップし、ジャンプ系アビリティのダメージを<get_param proc=2 index=1>%アップする。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※ジャンプダメージアップ系の上限は<rate_limit type=12>%です。"
+    }, 
+    {
+        "6ZEyK95f": "229231", 
+        "P9iwo20z": "<color=default>効果</color>：<br>ジャンプ系アビリティのダメージを<get_param proc=2 index=1>%アップし、バーストストーンによる上昇量を<get_param proc=3 index=1>%アップする。<br>さらに、両手の装備品が武器1個だと武具の攻撃が<get_param proc=1 index=1>%アップする。<break h=12>※ジャンプダメージアップ系の上限は<rate_limit type=12>%です。<br>※武具ステータスアップ系(武器1個)の上限は<rate_limit type=6>%です。"
+    }, 
+    {
+        "6ZEyK95f": "229232", 
+        "P9iwo20z": "<color=default>効果</color>：<br>魔力を<get_param proc=1 index=3>%アップし、アビリティを発動する際の消費MPを<get_param proc=2 index=1>%減少する。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※アビリティを発動する際の消費MP減少系の上限は80%です。"
+    }, 
+    {
+        "6ZEyK95f": "229245", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=10>ターンの間、<target proc=1>の火属性耐性を<get_param proc=1 index=1 fmt=abs>%<if cond=param;1;1/gt/0>アップ</if><if cond=param;1;1/lt/0>ダウン</if>させ、<get_param proc=2 index=5>ターンの間、<target proc=2>の以下のアビリティの攻撃威力をアップする。<br><break h=12><color=default><get_param proc=2 index=4>アップ</color><br>「<ability_name ability_id=229241>」<br>「<ability_name ability_id=229242>」<br>「<ability_name ability_id=229243>」<br>「<ability_name ability_id=229244>」<br><break h=12><color=default>属性耐性</color>：<br><resist_elem list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>"
+    }, 
+    {
+        "6ZEyK95f": "229246", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=10>ターンの間、<target proc=1>の雷属性耐性を<get_param proc=1 index=3 fmt=abs>%<if cond=param;1;3/gt/0>アップ</if><if cond=param;1;3/lt/0>ダウン</if>させ、<get_param proc=2 index=5>ターンの間、<target proc=2>の以下のアビリティの攻撃威力をアップする。<br><break h=12><color=default><get_param proc=2 index=4>アップ</color><br>「<ability_name ability_id=229241>」<br>「<ability_name ability_id=229242>」<br>「<ability_name ability_id=229243>」<br>「<ability_name ability_id=229244>」<br><break h=12><color=default>属性耐性</color>：<br><resist_elem list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>"
+    }, 
+    {
+        "6ZEyK95f": "229247", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=10>ターンの間、<target proc=1>の水属性耐性を<get_param proc=1 index=4 fmt=abs>%<if cond=param;1;4/gt/0>アップ</if><if cond=param;1;4/lt/0>ダウン</if>させ、<get_param proc=2 index=5>ターンの間、<target proc=2>の以下のアビリティの攻撃威力をアップする。<br><break h=12><color=default><get_param proc=2 index=4>アップ</color><br>「<ability_name ability_id=229241>」<br>「<ability_name ability_id=229242>」<br>「<ability_name ability_id=229243>」<br>「<ability_name ability_id=229244>」<br><break h=12><color=default>属性耐性</color>：<br><resist_elem list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>"
+    }, 
+    {
+        "6ZEyK95f": "229248", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=10>ターンの間、<target proc=1>の風属性耐性を<get_param proc=1 index=5 fmt=abs>%<if cond=param;1;5/gt/0>アップ</if><if cond=param;1;5/lt/0>ダウン</if>させ、<get_param proc=2 index=5>ターンの間、<target proc=2>の以下のアビリティの攻撃威力をアップする。<br><break h=12><color=default><get_param proc=2 index=4>アップ</color><br>「<ability_name ability_id=229241>」<br>「<ability_name ability_id=229242>」<br>「<ability_name ability_id=229243>」<br>「<ability_name ability_id=229244>」<br><break h=12><color=default>属性耐性</color>：<br><resist_elem list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>"
+    }, 
+    {
+        "6ZEyK95f": "229251", 
+        "P9iwo20z": "<color=default>効果</color>：<br><target proc=1>のMPを<get_param proc=1 index=1>回復し、<get_param proc=2 index=4>ターンの間、MPを徐々に回復し、火雷水風属性耐性を<get_param proc=3 index=1>%アップする。<br>さらに、<get_param proc=4 index=5 sub=1>ターンの間、「<ability_name ability_id=508931>」が使用可能になる。<break h=12><color=default>ターンMP回復基礎値</color>：<calc form=param;2;3/param;2;4><break h=12><color=default>属性耐性</color>：<br><resist_elem list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8><break h=12><hr><color=default>アビリティ名</color>：<ability_name proc=4 index=2 param_div=& div_index=1><break h=12><ability proc=4 index=2 param_div=& div_index=1>"
+    }, 
+    {
+        "6ZEyK95f": "229252", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=5>ターンの間、<target proc=1>の攻撃魔力を<get_param proc=1 index=1>%アップし、<get_param proc=2 index=5 sub=1>ターンの間、以下のアビリティの攻撃威力をアップする。<br>さらに、リミットバーストゲージを<get_param proc=3 index=1>増加し、<get_param proc=4 index=5 sub=1>ターンの間、「<ability_name ability_id=508931>」が使用可能になる。<break h=12><color=default><get_param proc=2 index=4>アップ</color><br>「<ability_name ability_id=229241>」<br>「<ability_name ability_id=229242>」<br>「<ability_name ability_id=229243>」<br>「<ability_name ability_id=229244>」<br><break h=12><hr><color=default>アビリティ名</color>：<ability_name proc=4 index=2 param_div=& div_index=1><break h=12><ability proc=4 index=2 param_div=& div_index=1>"
+    }, 
+    {
+        "6ZEyK95f": "229260", 
+        "P9iwo20z": "<color=default>効果</color>：<br>攻撃魔力が<get_param proc=1 index=1>%アップし、両手の装備品が武器1個だと武具の攻撃魔力が<get_param proc=3 index=1>%アップする。<br>さらに、バトル開始時に、1ターン「<ability_name ability_id=508931>」が使用可能になる。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※武具ステータスアップ系(武器1個)の上限は<rate_limit type=6>%です。<break h=12><hr><color=default>アビリティ名</color>：<ability_name ability_id=508931><break h=12><ability proc=2 index=1>"
+    }, 
+    {
+        "6ZEyK95f": "229261", 
+        "P9iwo20z": "<color=default>効果</color>：<br>MP、攻撃魔力が<get_param proc=1 index=1>%アップし、以下のアビリティの攻撃威力がアップする。<br>さらに、毎ターンMPを<get_param proc=4 index=1>%回復する。<break h=12><color=default><get_param proc=2 index=4>アップ</color><br>「<ability_name ability_id=229241>」<br>「<ability_name ability_id=229242>」<br>「<ability_name ability_id=229243>」<br>「<ability_name ability_id=229244>」<br><br><color=default><get_param proc=3 index=4>アップ</color><br>「<ability_name ability_id=229253>」<break h=16>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。"
+    }, 
+    {
+        "6ZEyK95f": "229274", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>HP吸収力</color>：<calc form=param;1;1*param;1;2 var=1><calc form=var;1/100><br><color=default>MP吸収力</color>：<calc form=param;2;1*param;2;2 var=2><calc form=var;2/100><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>のHPMPを吸収し、自分のリミットバーストゲージを<if cond=param;3;1/eq/param;3;2><get_param proc=3 index=1 fmt=abs></if><if cond=param;3;1/ne/param;3;2><get_param proc=3 index=1 fmt=abs>〜<get_param proc=3 index=2 fmt=abs></if>増加する。"
+    }, 
+    {
+        "6ZEyK95f": "229275", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=3 index=5><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=3><br>　<br><color=default>効果</color>：<br>自分の毒暗闇沈黙病気を回復し、攻撃防御魔力精神ダウン効果を解除し、ジャンプで空中に離脱し、<get_param proc=3 index=3><if cond=param;3;3/ne/param;3;4>〜<get_param proc=3 index=4></if>ターン後に落下して<target proc=3>に威力<get_param proc=3 index=5>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
+    }, 
+    {
+        "6ZEyK95f": "229276", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=4 index=5><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=4><br>　<br><color=default>効果</color>：<br>自分のHPを3000、MPを150回復し、リミットバーストゲージを1000増加し、ジャンプで空中に離脱し、次のターン任意タイミングで落下して<target proc=4>に威力<get_param proc=4 index=5>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
+    }, 
+    {
+        "6ZEyK95f": "229277", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=5><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br>　<br><color=default>効果</color>：<br>2ターンの間、自分に、物理攻撃時、獣系へのダメージを200%アップする効果を付与し、ジャンプで空中に離脱し、次のターン任意タイミングで落下して<target proc=2>に威力<get_param proc=2 index=5>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
+    }, 
+    {
+        "6ZEyK95f": "229281", 
+        "P9iwo20z": "<color=default>効果</color>：<br>HPを<get_param proc=2 index=5>%アップし、毎ターンMPを<get_param proc=3 index=1>%回復し、暗闇混乱を無効化する。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>"
+    }, 
+    {
+        "6ZEyK95f": "229283", 
+        "P9iwo20z": "<color=default>効果</color>：<br>攻撃を40%アップし、バーストストーンによる上昇量を50%アップし、リミットバーストのダメージが<get_param proc=3 index=1>%アップする。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。"
+    }, 
+    {
+        "6ZEyK95f": "229284", 
+        "P9iwo20z": "<color=default>効果</color>：<br><if cond=param;1;3/eq/0>片手用武器装備時、片手が空いた状態だと武具の攻撃が<get_param proc=1 index=1>%アップし、</if><if cond=param;1;3/eq/2>両手の装備品が武器1個だと武具の攻撃が<get_param proc=1 index=1>%アップし、</if><if cond=param;2;3/eq/0>物理</if><if cond=param;2;2/eq/0>魔法</if><if cond=param;2;2/eq/param;2;3>物理、魔法</if>攻撃時、<get_tribe proc=2 index=1>系へのダメージを<if cond=param;2;2/gt/0><get_param proc=2 index=2></if><if cond=param;2;2/eq/0><get_param proc=2 index=3></if>%アップし、ジャンプ系アビリティのダメージを<get_param proc=3 index=1>%アップする。<break h=12>※武具ステータスアップ系(武器1個)の上限は<rate_limit type=6>%です。<br>※種族ダメージアップ系の上限は<rate_limit type=10>%です。<br>※ジャンプダメージアップ系の上限は<rate_limit type=12>%です。"
+    }, 
+    {
+        "6ZEyK95f": "229290", 
+        "P9iwo20z": "<color=default>効果</color>：<br>自分以外の味方全体のMPを20回復し、以下のアビリティがランダムで1回使用可能になる。<br>　<br><hr><color=default>アビリティ名</color>：<ability_name ability_id=508954><br><color=default>確率</color>：<get_param proc=1 index=1 param_div=& div_index=2>%<br><ability ability_id=508954>　<br><hr><color=default>アビリティ名</color>：<ability_name ability_id=508955><br><color=default>確率</color>：<get_param proc=1 index=2 param_div=& div_index=2>%<br><ability ability_id=508955>　<br><hr><color=default>アビリティ名</color>：<ability_name ability_id=508956><br><color=default>確率</color>：<get_param proc=1 index=3 param_div=& div_index=2>%<br><ability ability_id=508956>　<br><hr><color=default>アビリティ名</color>：<ability_name ability_id=508957><br><color=default>確率</color>：<get_param proc=1 index=4 param_div=& div_index=2>%<br><ability ability_id=508957>"
+    }, 
+    {
+        "6ZEyK95f": "229297", 
+        "P9iwo20z": "<color=default>効果</color>：<br><target>の<if cond=param;1;1/eq/1>一部ステータスアップ効果</if><if cond=param;1;1/eq/0>一部ステータス効果</if>を解除し、<get_param proc=2 index=2>ターンの間、<target>を確率でストップ状態にする。<br>　<br><break h=12><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;2;1>"
+    }, 
+    {
+        "6ZEyK95f": "229299", 
+        "P9iwo20z": "<color=default>効果</color>：<br>火氷雷水風土光闇属性耐性を<get_param proc=1 index=1>%アップし、毎ターンMPを<get_param proc=2 index=1>%回復する。<br>　<br><break h=12><color=default>属性耐性</color>：<br><resist_elem list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>"
+    }, 
+    {
+        "6ZEyK95f": "229300", 
+        "P9iwo20z": "<color=default>効果</color>：<br>MP、精神を<get_param proc=1 index=4>%アップし、敵から狙われる確率が<get_param proc=2 index=1>%低下する。<br><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。"
+    }, 
+    {
+        "6ZEyK95f": "229302", 
+        "P9iwo20z": "<color=default>効果</color>：<br>探索クエストで歩くと<get_param proc=1 index=5>歩毎にHPを<if cond=param;1;1/eq/param;1;2><get_param proc=1 index=1></if><if cond=param;1;1/ne/param;1;2><get_param proc=1 index=1>〜<get_param proc=1 index=2></if>、MPを<if cond=param;1;3/eq/param;1;4><get_param proc=1 index=3></if><if cond=param;1;3/ne/param;1;4><get_param proc=1 index=3>〜<get_param proc=1 index=4></if>回復する。"
+    }, 
+    {
+        "6ZEyK95f": "229310", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、土属性耐性を<get_param proc=2 index=6 fmt=abs>%ダウンさせる。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
+    }, 
+    {
+        "6ZEyK95f": "229311", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、<target proc=2>の土属性耐性を<get_param proc=2 index=6>%アップする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
+    }, 
+    {
+        "6ZEyK95f": "229313", 
+        "P9iwo20z": "<color=default>効果</color>：<br><target proc=1>の毒暗闇睡眠沈黙麻痺混乱病気石化を回復し、リミットバーストゲージを<get_param proc=2 index=1>増加する。"
+    }, 
+    {
+        "6ZEyK95f": "229319", 
+        "P9iwo20z": "<color=default>効果</color>：<br>物理攻撃を受けると<get_param proc=1 index=1>%の確率で<if cond=param;1;2/eq/1>通常攻撃</if><if cond=param;1;2/eq/2>魔法</if><if cond=param;1;2/eq/3>アビリティ</if>の発動を<if cond=param;1;4/gt/0>最大<get_param proc=1 index=4>回</if>行う。<br>　<br><hr><color=default>アビリティ名</color>：<ability_name proc=1 index=3><break h=12><ability proc=1 index=3>"
+    }, 
+    {
+        "6ZEyK95f": "229320", 
+        "P9iwo20z": "<color=default>効果</color>：<br>魔法攻撃を受けると<get_param proc=1 index=1>%の確率で<if cond=param;1;2/eq/1>通常攻撃</if><if cond=param;1;2/eq/2>魔法</if><if cond=param;1;2/eq/3>アビリティ</if>の発動を<if cond=param;1;4/gt/0>最大<get_param proc=1 index=4>回</if>行う。<br>　<br><hr><color=default>アビリティ名</color>：<ability_name proc=1 index=3><break h=12><ability proc=1 index=3>"
+    }, 
+    {
+        "6ZEyK95f": "229332", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、風光属性耐性を<get_param proc=2 index=5 fmt=abs>%ダウンさせる。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
     }, 
     {
         "6ZEyK95f": "253000117", 
@@ -4557,7 +4709,7 @@
     }, 
     {
         "6ZEyK95f": "501520", 
-        "P9iwo20z": "<break h=12>"
+        "P9iwo20z": "<get_param proc=1 index=10>ターンの間、<target proc=1>の<if cond=param;1;1/ne/0>火属性耐性を<get_param proc=1 index=1 fmt=abs></if><if cond=param;1;2/ne/0>氷属性耐性を<get_param proc=1 index=2 fmt=abs></if><if cond=param;1;3/ne/0>雷属性耐性を<get_param proc=1 index=3 fmt=abs></if><if cond=param;1;4/ne/0>水属性耐性を<get_param proc=1 index=4 fmt=abs></if><if cond=param;1;5/ne/0>風属性耐性を<get_param proc=1 index=5 fmt=abs></if><if cond=param;1;6/ne/0>土属性耐性を<get_param proc=1 index=6 fmt=abs></if><if cond=param;1;7/ne/0>光属性耐性を<get_param proc=1 index=7 fmt=abs></if><if cond=param;1;8/ne/0>闇属性耐性を<get_param proc=1 index=8 fmt=abs></if>%ダウンする。<br>　<br><color=default>属性耐性</color>：<br><resist_elem list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>"
     }, 
     {
         "6ZEyK95f": "501800", 
@@ -5265,11 +5417,11 @@
     }, 
     {
         "6ZEyK95f": "508572", 
-        "P9iwo20z": "<color=default>効果</color>：<br>敵全体を5%の確率で魅了状態にし、<get_param proc=2 index=7>ターンの間、<get_param proc=2 index=5>%の確率で味方<if cond=param;1;2/eq/1>女性ユニット</if>に対する<if cond=param;2;9/eq/1>物理</if><if cond=param;2;9/eq/2>魔法</if>攻撃を代わりに受ける。<break h=12><color=default>ダメージ軽減率</color>：<get_param proc=2 index=3><if cond=param;2;3/ne/param;2;4>〜<get_param proc=2 index=4></if>%<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
+        "P9iwo20z": "<color=default>効果</color>：<br>敵全体を確率で魅了状態にし、<get_param proc=2 index=7>ターンの間、<get_param proc=2 index=5>%の確率で味方<if cond=param;1;2/eq/1>女性ユニット</if>に対する<if cond=param;2;9/eq/1>物理</if><if cond=param;2;9/eq/2>魔法</if>攻撃を代わりに受ける。<break h=12><color=default>ダメージ軽減率</color>：<get_param proc=2 index=3><if cond=param;2;3/ne/param;2;4>〜<get_param proc=2 index=4></if>%<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
     }, 
     {
         "6ZEyK95f": "508573", 
-        "P9iwo20z": "<color=default>効果</color>：<br>敵全体を5%の確率で魅了状態にし、1ターンの間、自分への魔法ダメージを90%軽減する。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
+        "P9iwo20z": "<color=default>効果</color>：<br>敵全体を確率で魅了状態にし、1ターンの間、自分への魔法ダメージを90%軽減する。<br>　<br><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=10;1;2>"
     }, 
     {
         "6ZEyK95f": "508574", 
@@ -5484,6 +5636,42 @@
         "P9iwo20z": "<color=default>効果</color>：<br><target proc=1>を確率で<get_badstate list=1;4;1/2;4;2/3;4;3/4;4;4/5;4;5/6;4;6/7;4;7/8;4;8>状態にし、<get_param proc=3 index=5>ターンの間、攻撃防御魔力精神をダウンさせる。<break h=12><color=default>攻撃防御魔力精神ダウン率</color>：<br>1ターン目：<get_param proc=1 index=1 fmt=abs>%<br>2ターン目：<get_param proc=2 index=1 fmt=abs>%<br>3ターン目：<get_param proc=3 index=1 fmt=abs>%<br><break h=12><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=1;4;1/2;4;2/3;4;3/4;4;4/5;4;5/6;4;6/7;4;7/8;4;8>"
     }, 
     {
+        "6ZEyK95f": "508932", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>攻撃威力</color>：<calc form=param;1;9/2>/<calc form=param;1;10/2><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<calc form=param;1;9/2>/<calc form=param;1;10/2>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=5 sub=1>ターンの間、「<ability_name ability_id=508931>」が使用可能になる。<break h=12><color=default>攻撃属性</color>：<br><atk_elem><hr><color=default>アビリティ名</color>：<ability_name proc=2 index=2 param_div=& div_index=1><break h=12><ability proc=2 index=2 param_div=& div_index=1>"
+    }, 
+    {
+        "6ZEyK95f": "508933", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=5>ターンの間、<target proc=1>の攻撃魔力、火雷水風闇属性耐性を<get_param proc=2 index=1 fmt=abs>%ダウンさせる。<break h=12><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8>"
+    }, 
+    {
+        "6ZEyK95f": "508940", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=5><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><get_param proc=1 index=5>ターンの間、<target proc=1>の攻撃防御を<get_param proc=1 index=1 fmt=abs>%ダウンさせ、ジャンプで空中に離脱し、次のターン任意タイミングで落下して<target proc=2>に威力<get_param proc=2 index=5>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
+    }, 
+    {
+        "6ZEyK95f": "508942", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=5><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><get_param proc=1 index=5>ターンの間、<target proc=1>の魔力精神を<get_param proc=1 index=3 fmt=abs>%ダウンさせ、ジャンプで空中に離脱し、次のターン任意タイミングで落下して<target proc=2>に威力<get_param proc=2 index=5>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
+    }, 
+    {
+        "6ZEyK95f": "508944", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=2 index=5><br><color=default>HIT数   </color>：<hit proc=2><br><color=default>TARGET  </color>：<target proc=2><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><get_param proc=1 index=10>ターンの間、<target proc=1>の風属性耐性を<get_param proc=1 index=5 fmt=abs>%ダウンさせ、ジャンプで空中に離脱し、次のターン任意タイミングで落下して<target proc=2>に威力<get_param proc=2 index=5>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
+    }, 
+    {
+        "6ZEyK95f": "508946", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=5><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br>ジャンプで空中に離脱し、15ターン後任意タイミングで落下して<target proc=1>に威力<get_param proc=1 index=5>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与える。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
+    }, 
+    {
+        "6ZEyK95f": "508948", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=2>ターンの間、<target>への一部物理攻撃を<get_param proc=1 index=1 fmt=abs>回回避する効果を付与し、<br>次のターン、<br>「ダウンフォース」が「ダウンフォース・改」<br>「エアリアルショット」が「エアリアルショット・改」<br>「ゲイルグリッド」が「ゲイルグリッド・改」<br>「スパインダイブ零式・改」が「真スパインダイブ零式」<br>に変化する。"
+    }, 
+    {
+        "6ZEyK95f": "508954", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=10>ターンの間、味方全体の毒暗闇睡眠沈黙麻痺混乱病気石化耐性を100%アップする。<br>　<br><resist_badstate list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>"
+    }, 
+    {
+        "6ZEyK95f": "508955", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=7>ターンの間、<target proc=1>の攻撃防御魔力精神ダウン耐性を100%アップする。"
+    }, 
+    {
         "6ZEyK95f": "700530", 
         "P9iwo20z": "<color=default>効果</color>：<br>歌っている<get_param proc=1 index=5>ターンの間、<target proc=1>の<if cond=param;1;1/ne/0>攻撃</if><if cond=param;1;2/ne/0>防御</if><if cond=param;1;3/ne/0>魔力</if><if cond=param;1;4/ne/0>精神</if>を<get_param proc=1 index=1>%アップする。"
     }, 
@@ -5621,7 +5809,7 @@
     }, 
     {
         "6ZEyK95f": "706120", 
-        "P9iwo20z": "<color=default>効果</color>：<br>受ける<if cond=param;1;1/eq/1>火</if><if cond=param;1;2/eq/1>氷</if><if cond=param;1;3/eq/1>雷</if><if cond=param;1;4/eq/1>水</if><if cond=param;1;5/eq/1>風</if><if cond=param;1;6/eq/1>土</if><if cond=param;1;7/eq/1>光</if><if cond=param;1;8/eq/1>闇</if>属性ダメージを回復値に変換し、<br>HPが<get_param proc=2 index=4>%<if cond=param;2;5/eq/0>以下</if><if cond=param;2;5/eq/1>以上</if>の時、<if cond=param;2;6/ne/-1><get_param proc=2 index=6>ターンの間</if><get_status proc=2 index=1><if cond=param;3;1/lt/5><get_status proc=3 index=1></if>を<get_param proc=2 index=2>%アップし、重鎧を装備すると魔力精神が25%アップし、、物理攻撃を受けると<get_param proc=5 index=1>%の確率で「<ability_name proc=5 index=3>」を発動する。<br>　<br><if cond=param;2;3/lt/100>(<get_param proc=2 index=3>回まで発動)<break h=12></if>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<hr><color=default>アビリティ名</color>：<ability_name proc=5 index=3><break h=12><ability proc=5 index=3>"
+        "P9iwo20z": "<color=default>効果</color>：<br>受ける<if cond=param;1;1/eq/1>火</if><if cond=param;1;2/eq/1>氷</if><if cond=param;1;3/eq/1>雷</if><if cond=param;1;4/eq/1>水</if><if cond=param;1;5/eq/1>風</if><if cond=param;1;6/eq/1>土</if><if cond=param;1;7/eq/1>光</if><if cond=param;1;8/eq/1>闇</if>属性ダメージを回復値に変換し、<br>HPが<get_param proc=2 index=4>%<if cond=param;2;5/eq/0>以下</if><if cond=param;2;5/eq/1>以上</if>の時、<if cond=param;2;6/ne/-1><get_param proc=2 index=6>ターンの間</if><get_status proc=2 index=1><if cond=param;3;1/lt/5><get_status proc=3 index=1></if>を<get_param proc=2 index=2>%アップし、重鎧を装備すると魔力精神が25%アップし、物理攻撃を受けると<get_param proc=5 index=1>%の確率で「<ability_name proc=5 index=3>」を発動する。<br>　<br><if cond=param;2;3/lt/100>(<get_param proc=2 index=3>回まで発動)<break h=12></if>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<hr><color=default>アビリティ名</color>：<ability_name proc=5 index=3><break h=12><ability proc=5 index=3>"
     }, 
     {
         "6ZEyK95f": "706130", 
@@ -5642,6 +5830,14 @@
     {
         "6ZEyK95f": "707186", 
         "P9iwo20z": "<color=default>効果</color>：<br><target>のストップを解除し、<get_param proc=2 index=7>ターンの間、ストップ耐性を<get_param proc=2 index=5>%アップする。"
+    }, 
+    {
+        "6ZEyK95f": "707245", 
+        "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<break h=12><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=9;3;5>"
+    }, 
+    {
+        "6ZEyK95f": "707275", 
+        "P9iwo20z": "<color=default>効果</color>：<br>精神を<get_param proc=1 index=4>%アップし、毎ターン自分のHPを回復する。<break h=12><br><color=default>HP回復基礎値</color>：600<br><color=default>HP回復変動値</color>：180<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※HP回復変動値は魔力、精神によって変動します。"
     }, 
     {
         "6ZEyK95f": "707296", 
@@ -5745,7 +5941,7 @@
     }, 
     {
         "6ZEyK95f": "707467", 
-        "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=10;100>"
+        "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=9;4;5/10;4;6>"
     }, 
     {
         "6ZEyK95f": "707476", 
@@ -5796,12 +5992,64 @@
         "P9iwo20z": "<color=default>効果</color>：<br>物理、魔法攻撃を受けると<get_param proc=1 index=1>%の確率で、それぞれ最大1回自分のHPMPを15%回復し、1ターンの間、「ファルコンクロウ」が使用可能になり、バトル開始時、および戦闘不能から回復時に、「烈火のウルフ」が発動する。<br><hr><color=default>アビリティ名</color>：烈火のウルフ<break h=12><color=default>効果</color>：<br>3ターンの間、自分の攻撃を80%アップし、1ターンの間、「ウルフファング」が使用可能になる。　<br><hr><color=default>アビリティ名</color>：ファルコンクロウ<break h=12><color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：580<br><color=default>HIT数   </color>：4<br><color=default>TARGET  </color>：敵1体<br>　<br><color=default>効果</color>：<br>敵1体に威力580のダメージを与え、1ターンの間、「ウルフファング」「バイソンホーン」が使用可能になる。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem list=1;0/2;0/3;0/4;0/5;0/6;0/7;0/8;0><break h=16><hr><color=default>アビリティ名</color>：ウルフファング<break h=12><color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：350<br><color=default>HIT数   </color>：2<br><color=default>TARGET  </color>：敵1体<br>　<br><color=default>効果</color>：<br>敵1体に威力350のダメージを与え、3ターンの間、自分の防御精神を80%アップし、1ターンの間、「バイソンホーン」が使用可能になる。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem list=1;0/2;0/3;0/4;0/5;0/6;0/7;0/8;0><break h=16><hr><color=default>アビリティ名</color>：バイソンホーン<break h=12><color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：350<br><color=default>HIT数   </color>：2<br><color=default>TARGET  </color>：敵1体<br>　<br><color=default>効果</color>：<br>敵1体に威力350のダメージを与え、3ターンの間、自分の攻撃を80%アップし、1ターンの間、「ウルフファング」が使用可能になる。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem list=1;0/2;0/3;0/4;0/5;0/6;0/7;0/8;0>"
     }, 
     {
+        "6ZEyK95f": "707522", 
+        "P9iwo20z": "<color=default>効果</color>：<br><if cond=param;1;3/eq/0>片手用武器装備時、片手が空いた状態だと武具の攻撃が<get_param proc=1 index=1>%アップし、</if><if cond=param;1;3/eq/2>両手の装備品が武器1個だと武具の攻撃が<get_param proc=1 index=1>%アップし、</if>槍を装備すると攻撃が<get_param proc=2 index=2>%アップする。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※武具ステータスアップ系(武器1個)の上限は<rate_limit type=6>%です。"
+    }, 
+    {
+        "6ZEyK95f": "707523", 
+        "P9iwo20z": "<color=default>効果</color>：<br><if cond=param;1;3/eq/0>片手用武器装備時、片手が空いた状態だと武具の攻撃が<get_param proc=1 index=1>%アップし、</if><if cond=param;1;3/eq/2>両手の装備品が武器1個だと武具の攻撃が<get_param proc=1 index=1>%アップし、</if>槍を装備すると攻撃が<get_param proc=2 index=2>%アップし、リミットバーストのダメージが<get_param proc=3 index=1>%アップする。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>※武具ステータスアップ系(武器1個)の上限は<rate_limit type=6>%です。"
+    }, 
+    {
+        "6ZEyK95f": "707534", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、雷属性耐性を60%ダウンし、確率で麻痺状態にし、3ターンの間、自分の物理攻撃に雷属性を付与する。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
+    }, 
+    {
+        "6ZEyK95f": "707535", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=10>ターンの間、雷属性耐性を75%ダウンし、確率で麻痺状態にし、3ターンの間、自分の物理攻撃に雷属性を付与する。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>属性耐性</color>：<br><resist_elem list=1;2;1/2;2;2/3;2;3/4;2;4/5;2;5/6;2;6/7;2;7/8;2;8><break h=16><color=default>状態異常/ステータス異常付与</color>：<br><atk_badstate list=1;3;1/2;3;2/3;3;3/4;3;4/5;3;5/6;3;6/7;3;7/8;3;8>"
+    }, 
+    {
+        "6ZEyK95f": "707536", 
+        "P9iwo20z": "<color=default>効果</color>：<br>次のターン1回自分の魔法攻撃時の魔力が200%アップし、2ターンの間、攻撃を100%アップし、<br>「ファイアランス」が「紅炎竜騎槍」<br>「ダークランス」が「闇黒竜騎槍」<br>「ファイアブレス」が「バーニングチャージ」<br>「ダークブレス」が「イクリプスチャージ」<br>に変化する。"
+    }, 
+    {
+        "6ZEyK95f": "707537", 
+        "P9iwo20z": "<color=default>効果</color>：<br>次のターン1回自分の魔法攻撃時の魔力が250%アップし、2ターンの間、攻撃を150%アップし、<br>「ファイアランス」が「紅炎竜騎槍」<br>「ダークランス」が「闇黒竜騎槍」<br>「ファイアブレス」が「バーニングチャージ」<br>「ダークブレス」が「イクリプスチャージ」<br>に変化する。"
+    }, 
+    {
+        "6ZEyK95f": "707538", 
+        "P9iwo20z": "<color=default>効果</color>：<br>兜を装備すると魔力が30%アップし、以下のアビリティの攻撃威力をそれぞれアップする。<break h=16><color=default><get_param proc=2 index=4>アップ</color><br>「<ability_name proc=2 index=1 param_div=& div_index=1>」<br>「<ability_name proc=2 index=1 param_div=& div_index=2>」<br>「<ability_name proc=2 index=1 param_div=& div_index=3>」<br>「<ability_name proc=2 index=1 param_div=& div_index=4>」<br><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。"
+    }, 
+    {
+        "6ZEyK95f": "707539", 
+        "P9iwo20z": "<color=default>効果</color>：<br>兜を装備すると魔力が30%アップし、以下のアビリティの攻撃威力をそれぞれアップする。<break h=16><color=default><get_param proc=2 index=4>アップ</color><br>「<ability_name proc=2 index=1 param_div=& div_index=1>」<br>「<ability_name proc=2 index=1 param_div=& div_index=2>」<br>「<ability_name proc=2 index=1 param_div=& div_index=3>」<br>「<ability_name proc=2 index=1 param_div=& div_index=4>」<br><break h=12><color=default><get_param proc=3 index=4>アップ</color><br>「<ability_name proc=3 index=1 param_div=& div_index=1>」<br>「<ability_name proc=3 index=1 param_div=& div_index=2>」<br>「<ability_name proc=3 index=1 param_div=& div_index=3>」<br>「<ability_name proc=3 index=1 param_div=& div_index=4>」<br><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。"
+    }, 
+    {
+        "6ZEyK95f": "707543", 
+        "P9iwo20z": "<color=default>効果</color>：<br>睡眠麻痺混乱石化を無効化し、MPを30%アップし、バトル開始時に、1ターンの間、「軍神の舞踏」「護神の舞踏」が使用可能になる。<break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8><br>　<br><hr><color=default>アビリティ名</color>：軍神の舞踏<br><color=default>効果</color>：<br>1ターンの間、味方全体の攻撃防御魔力精神を100%アップし、防御精神ダウン効果を解除し、次のターン「刀槍の舞」「魔杖の舞」が「奮闘の舞」に変化<hr><color=default>アビリティ名</color>：護神の舞踏<br><color=default>効果</color>：<br>1ターンの間、味方全体の攻撃防御魔力精神を100%アップし、攻撃魔力ダウン効果を解除し、次のターン「戦盾の舞」「勇気の舞」が「堅陣の舞」に変化<hr>"
+    }, 
+    {
+        "6ZEyK95f": "707544", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=7>ターンの間、<target proc=1>の攻撃防御魔力精神ダウン耐性を100%アップし、HPを回復する。<break h=12><if cond=param;2;3/ne/0><color=default>ターンHP回復基礎値</color>：<calc form=param;2;3/param;2;4><br></if><if cond=param;2;1/ne/0><color=default>ターンHP回復変動値</color>：<calc form=param;2;1/param;2;4><break h=12>※ターンHP回復変動値は魔力、精神によって変動します。</if>"
+    }, 
+    {
+        "6ZEyK95f": "707545", 
+        "P9iwo20z": "<color=default>効果</color>：<br><get_param proc=1 index=7>ターンの間、<target proc=1>の攻撃防御魔力精神ダウン耐性を100%アップし、HPMPを回復する。<break h=12><if cond=param;2;3/ne/0><color=default>ターンHP回復基礎値</color>：<calc form=param;2;3/param;2;4><br></if><if cond=param;2;1/ne/0><color=default>ターンHP回復変動値</color>：<calc form=param;2;1/param;2;4><break h=12></if><if cond=param;3;3/ne/0><color=default>ターンMP回復基礎値</color>：<calc form=param;3;3/param;3;4><br></if><if cond=param;3;1/ne/0><color=default>ターンMP回復変動値</color>：<calc form=param;3;1/param;3;4></if><break h=12>※ターンHP回復変動値は魔力、精神によって変動します。"
+    }, 
+    {
+        "6ZEyK95f": "707548", 
+        "P9iwo20z": "<color=default>参照パラメータ</color>：<atk_type><break h=12><color=default>MP吸収力</color>：<calc form=param;1;1*param;1;2 var=2><calc form=var;2/100><br><color=default>TARGET  </color>：<target><br>　<br><color=default>効果</color>：<br><target proc=1>のMPを吸収し、自分以外の味方全員のMPを10回復する。<break h=12>"
+    }, 
+    {
+        "6ZEyK95f": "707557", 
+        "P9iwo20z": "<color=default>効果</color>：<br><explain type=long><break h=12>※ユニットステータスアップ系の上限は<rate_limit type=0>%です。<br>　<br><color=default>状態異常/ステータス異常耐性</color>：<br><resist_badstate list=1;1;1/2;1;2/3;1;3/4;1;4/5;1;5/6;1;6/7;1;7/8;1;8>"
+    }, 
+    {
         "6ZEyK95f": "900000017", 
         "P9iwo20z": "<color=default>参照パラメータ</color>：魔力<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=3>(魔法防御無視率：<get_param proc=1 index=4 fmt=abs>%)<br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target>に威力<get_param proc=1 index=3>(魔法防御無視率：<get_param proc=1 index=4 fmt=abs>%)の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=5>ターンの間、精神を<get_param proc=2 index=4 fmt=abs>%ダウンする。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16>"
     }, 
     {
         "6ZEyK95f": "900000027", 
-        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=2>ターンの間、防御を<get_param proc=3 index=2 fmt=abs>%ダウンし、<get_param proc=2 index=1>%の確率でストップ状態にし、自分のHPを100%回復する。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;2;1>"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=7><br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target proc=1><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target proc=1>に威力<get_param proc=1 index=7>の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=2>ターンの間、防御を<get_param proc=3 index=2 fmt=abs>%ダウンし、確率でストップ状態にし、自分のHPを100%回復する。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem><break h=16><color=default>追加状態異常/ステータス異常</color>：<br><atk_badstate list=9;2;1>"
     }, 
     {
         "6ZEyK95f": "900000037", 

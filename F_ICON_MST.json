@@ -2420,9 +2420,29 @@
         "qtkvrS60": "spd_20161101_bn_list_FFT.png"
     }, 
     {
+        "0HUPxDf1": "7310103", 
+        "G4L0YIB2": "FFT復刻_愛にすべてを", 
+        "qtkvrS60": "spd_20180611_bn_list_FFT.png"
+    }, 
+    {
+        "0HUPxDf1": "7310104", 
+        "G4L0YIB2": "FFT復刻 愛にすべてを_最終日", 
+        "qtkvrS60": "spd_20180611_bn_list_FFT_last.png"
+    }, 
+    {
         "0HUPxDf1": "7320101", 
         "G4L0YIB2": "FFT第三弾強敵", 
         "qtkvrS60": "spd_20161107_bn_list_FFT_02.png"
+    }, 
+    {
+        "0HUPxDf1": "7320103", 
+        "G4L0YIB2": "FFT復刻_完全なる聖大天使", 
+        "qtkvrS60": "spd_20180611_bn_list_FFT_02.png"
+    }, 
+    {
+        "0HUPxDf1": "7320104", 
+        "G4L0YIB2": "FFT復刻_完全なる聖大天使_最終日", 
+        "qtkvrS60": "spd_20180611_bn_list_FFT_02_last.png"
     }, 
     {
         "0HUPxDf1": "7330101", 
@@ -2743,6 +2763,16 @@
         "0HUPxDf1": "7561202", 
         "G4L0YIB2": "ユニット紹介クエスト（イグニシオ）_最終日", 
         "qtkvrS60": "spd_20180510_bn_list_FFBE_i_last.png"
+    }, 
+    {
+        "0HUPxDf1": "7561301", 
+        "G4L0YIB2": "ユニット紹介クエスト（シド）", 
+        "qtkvrS60": "spd_20180611_bn_list_FFBE_c.png"
+    }, 
+    {
+        "0HUPxDf1": "7561302", 
+        "G4L0YIB2": "ユニット紹介クエスト（シド）_最終日", 
+        "qtkvrS60": "spd_20180611_bn_list_FFBE_c_last.png"
     }, 
     {
         "0HUPxDf1": "7570101", 
@@ -3458,6 +3488,16 @@
         "0HUPxDf1": "8270102", 
         "G4L0YIB2": "ティアマット討伐_最終日", 
         "qtkvrS60": "spd_20180531_bn_list_FFT_02_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8280101", 
+        "G4L0YIB2": "天穹翔ける夢", 
+        "qtkvrS60": "spd_20180611_bn_list_ffbe.png"
+    }, 
+    {
+        "0HUPxDf1": "8280102", 
+        "G4L0YIB2": "天穹翔ける夢_最終日", 
+        "qtkvrS60": "spd_20180611_bn_list_ffbe_last.png"
     }, 
     {
         "0HUPxDf1": "8973001", 
@@ -6515,6 +6555,31 @@
         "qtkvrS60": "item_8402.png"
     }, 
     {
+        "0HUPxDf1": "227000100", 
+        "G4L0YIB2": "姿勢制御装置", 
+        "qtkvrS60": "item_8408.png"
+    }, 
+    {
+        "0HUPxDf1": "227000200", 
+        "G4L0YIB2": "風虫の糸", 
+        "qtkvrS60": "item_8409.png"
+    }, 
+    {
+        "0HUPxDf1": "227000300", 
+        "G4L0YIB2": "厚手の帆布", 
+        "qtkvrS60": "item_8410.png"
+    }, 
+    {
+        "0HUPxDf1": "227000400", 
+        "G4L0YIB2": "闇夜の翼", 
+        "qtkvrS60": "item_8411.png"
+    }, 
+    {
+        "0HUPxDf1": "227000500", 
+        "G4L0YIB2": "浮遊石の欠片", 
+        "qtkvrS60": "item_8412.png"
+    }, 
+    {
         "0HUPxDf1": "270000100", 
         "G4L0YIB2": "白の晶石", 
         "qtkvrS60": "item_8220.png"
@@ -8120,6 +8185,11 @@
         "qtkvrS60": "item_10920.png"
     }, 
     {
+        "0HUPxDf1": "306002500", 
+        "G4L0YIB2": "打撃スパナ", 
+        "qtkvrS60": "item_10921.png"
+    }, 
+    {
         "0HUPxDf1": "307000200", 
         "G4L0YIB2": "ブロンズメイス", 
         "qtkvrS60": "item_11500.png"
@@ -8393,6 +8463,11 @@
         "0HUPxDf1": "308004500", 
         "G4L0YIB2": "ランスオブカイン", 
         "qtkvrS60": "item_11041.png"
+    }, 
+    {
+        "0HUPxDf1": "308004600", 
+        "G4L0YIB2": "スカイフェザー", 
+        "qtkvrS60": "item_11042.png"
     }, 
     {
         "0HUPxDf1": "309000300", 
@@ -10070,6 +10145,11 @@
         "qtkvrS60": "item_30160.png"
     }, 
     {
+        "0HUPxDf1": "403046100", 
+        "G4L0YIB2": "クリストローゼ", 
+        "qtkvrS60": "item_30163.png"
+    }, 
+    {
         "0HUPxDf1": "404000200", 
         "G4L0YIB2": "ブロンズヘルム", 
         "qtkvrS60": "item_30200.png"
@@ -10228,6 +10308,11 @@
         "0HUPxDf1": "404003600", 
         "G4L0YIB2": "イグニシオの兜", 
         "qtkvrS60": "item_30236.png"
+    }, 
+    {
+        "0HUPxDf1": "404003700", 
+        "G4L0YIB2": "ドワーフ大将の兜", 
+        "qtkvrS60": "item_30237.png"
     }, 
     {
         "0HUPxDf1": "405000200", 
@@ -12193,6 +12278,16 @@
         "0HUPxDf1": "409025500", 
         "G4L0YIB2": "白虎の指輪", 
         "qtkvrS60": "item_50377.png"
+    }, 
+    {
+        "0HUPxDf1": "409025600", 
+        "G4L0YIB2": "メタルグリーヴ", 
+        "qtkvrS60": "item_50381.png"
+    }, 
+    {
+        "0HUPxDf1": "409025700", 
+        "G4L0YIB2": "フラップウィングス", 
+        "qtkvrS60": "item_50380.png"
     }, 
     {
         "0HUPxDf1": "600000010", 
