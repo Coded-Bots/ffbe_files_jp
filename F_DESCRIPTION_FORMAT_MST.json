@@ -4685,15 +4685,15 @@
     }, 
     {
         "6ZEyK95f": "400090", 
-        "P9iwo20z": "<if cond=param;1;3/eq/0>物理</if>"
+        "P9iwo20z": "<color=default>効果</color>：<br>HPが<get_param proc=1 index=4>%<if cond=param;1;5/eq/0>以下</if><if cond=param;1;5/eq/1>以上</if>になると、<if cond=param;1;6/ne/-1><get_param proc=1 index=6>ターンの間</if><if cond=param;1;1/lt/5><get_status proc=1 index=1>を<get_param proc=1 index=2>%アップする。</if><if cond=param;1;3/lt/100>(<get_param proc=1 index=3>回まで発動)</if><if cond=param;1;1/eq/20>毎ターンHPが徐々に回復する。</if>"
     }, 
     {
         "6ZEyK95f": "500260", 
-        "P9iwo20z": "<if cond=param;1;2/eq/0>魔法</if>"
+        "P9iwo20z": "<color=default>効果</color>：<br><target>のHPを<if cond=param;1;1/eq/param;1;2><get_param proc=1 index=2></if><if cond=param;1;1/ne/param;1;2><get_param proc=1 index=1>〜<get_param proc=1 index=2></if>%回復する。"
     }, 
     {
         "6ZEyK95f": "501170", 
-        "P9iwo20z": "<if cond=param;1;2/eq/param;1;3>物理、魔法</if>攻撃時、"
+        "P9iwo20z": "1ターン「<ability_name proc=1 index=2>」が使用可能になる。<br>　<br><hr><color=default>アビリティ名</color>：<ability_name proc=1 index=2><break h=12><ability proc=1 index=2>"
     }, 
     {
         "6ZEyK95f": "501320", 
@@ -4705,7 +4705,7 @@
     }, 
     {
         "6ZEyK95f": "501360", 
-        "P9iwo20z": "<get_tribe proc=1 index=1>系へのダメージを<if cond=param;1;2/gt/0><get_param proc=1 index=2></if><if cond=param;1;2/eq/0><get_param proc=1 index=3></if>%アップする。"
+        "P9iwo20z": "<color=default>参照パラメータ</color>：攻撃<break h=12><color=default>攻撃威力</color>：<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)<br><color=default>HIT数   </color>：<hit proc=1><br><color=default>TARGET  </color>：<target><br><if cond=lb/eq/1><color=default>LBコスト</color>：<lb_cost><br></if>　<br><color=default>効果</color>：<br><target>に威力<get_param proc=1 index=3>(防御無視率：<get_param proc=1 index=4 fmt=abs>%)の<if cond=atk_elem/gt/0><get_atk_elem>属性</if>ダメージを与え、<get_param proc=2 index=2>ターンの間、<target proc=2>へのダメージを<get_param proc=2 index=1>%軽減する。<br>　<br><color=default>攻撃属性</color>：<br><atk_elem>"
     }, 
     {
         "6ZEyK95f": "501520", 
