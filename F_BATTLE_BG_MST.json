@@ -1686,6 +1686,30 @@
         "IS4s7uYk": "battle_bg_0295_01.jpg"
     }, 
     {
+        "9ZCEWn0z": "106016", 
+        "DYTx1Is3": "102961", 
+        "Dc5w1Yda": "battle_bg_0296_01.ssbp#battle_bg_0296_01,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_0296_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106016", 
+        "DYTx1Is3": "102971", 
+        "Dc5w1Yda": "battle_bg_0297_01.ssbp#battle_bg_0297_01,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_0297_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106016", 
+        "DYTx1Is3": "102981", 
+        "Dc5w1Yda": "battle_bg_0298_01.ssbp#battle_bg_0298_01,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_0298_01.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106016", 
+        "DYTx1Is3": "103001", 
+        "Dc5w1Yda": "battle_bg_0300_01.ssbp#battle_bg_0300_01,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_0300_01.jpg"
+    }, 
+    {
         "9ZCEWn0z": "106501", 
         "DYTx1Is3": "120011", 
         "Dc5w1Yda": "battle_bg_2000_01.ssbp#battle_bg_2000_01,back/anime,0,216", 
@@ -1732,6 +1756,18 @@
         "DYTx1Is3": "120033", 
         "Dc5w1Yda": "battle_bg_2002_03.ssbp#battle_bg_2002_03,back/anime,0,216", 
         "IS4s7uYk": "battle_bg_2002_03.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106504", 
+        "DYTx1Is3": "120034", 
+        "Dc5w1Yda": "battle_bg_2002_04.ssbp#battle_bg_2002_04,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_2002_04.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106504", 
+        "DYTx1Is3": "120035", 
+        "Dc5w1Yda": "battle_bg_2002_05.ssbp#battle_bg_2002_05,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_2002_05.jpg"
     }, 
     {
         "9ZCEWn0z": "106501", 
@@ -2212,5 +2248,17 @@
         "DYTx1Is3": "900023", 
         "Dc5w1Yda": "battle_bg_9001_13.ssbp#battle_bg_9001_13,back/anime,0,216", 
         "IS4s7uYk": "battle_bg_9001_13.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106505", 
+        "DYTx1Is3": "900024", 
+        "Dc5w1Yda": "battle_bg_9001_14.ssbp#battle_bg_9001_14,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_9001_14.jpg"
+    }, 
+    {
+        "9ZCEWn0z": "106505", 
+        "DYTx1Is3": "900025", 
+        "Dc5w1Yda": "battle_bg_9001_15.ssbp#battle_bg_9001_15,back/anime,0,216", 
+        "IS4s7uYk": "battle_bg_9001_15.jpg"
     }
 ]

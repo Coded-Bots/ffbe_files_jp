@@ -3241,6 +3241,13 @@
         "o2ye8th6": "blow1(green)"
     }, 
     {
+        "2HjxCGo6": "atk_blow1_green.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "200", 
+        "h5t4yBm2": "1001691", 
+        "o2ye8th6": "blow1(green200)"
+    }, 
+    {
         "2HjxCGo6": "atk_blow1_purple.bmb", 
         "I1B7wNWc": "5", 
         "avX1k34K": "100", 
@@ -7679,6 +7686,20 @@
         "o2ye8th6": "zowater1"
     }, 
     {
+        "2HjxCGo6": "bm_2056_zofire_back.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "2000630", 
+        "o2ye8th6": "zofire_back"
+    }, 
+    {
+        "2HjxCGo6": "bm_2056_zofire_front.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "2000640", 
+        "o2ye8th6": "zofire_front"
+    }, 
+    {
         "2HjxCGo6": "wm_1002_cure_front.bmb", 
         "I1B7wNWc": "5", 
         "avX1k34K": "100", 
@@ -8918,6 +8939,13 @@
         "o2ye8th6": "ankoku1_R"
     }, 
     {
+        "2HjxCGo6": "sp_20016_ankoku_front.bmb:0:0:45", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "5000022", 
+        "o2ye8th6": "ankoku1_FR45"
+    }, 
+    {
         "2HjxCGo6": "sp_20019_kick.bmb", 
         "I1B7wNWc": "5", 
         "avX1k34K": "100", 
@@ -9000,34 +9028,6 @@
         "avX1k34K": "400", 
         "h5t4yBm2": "5000074", 
         "o2ye8th6": "auracanon2(400)"
-    }, 
-    {
-        "2HjxCGo6": "sp_200XX_auracannon.bmb:270:0:0", 
-        "I1B7wNWc": "5", 
-        "avX1k34K": "100", 
-        "h5t4yBm2": "5000075", 
-        "o2ye8th6": "auracanon1R270"
-    }, 
-    {
-        "2HjxCGo6": "sp_200XX_auracannon.bmb:290:0:0", 
-        "I1B7wNWc": "5", 
-        "avX1k34K": "100", 
-        "h5t4yBm2": "5000076", 
-        "o2ye8th6": "auracanon1R290"
-    }, 
-    {
-        "2HjxCGo6": "sp_200XX_auracannon.bmb:315:0:0", 
-        "I1B7wNWc": "5", 
-        "avX1k34K": "100", 
-        "h5t4yBm2": "5000077", 
-        "o2ye8th6": "auracanon1R315"
-    }, 
-    {
-        "2HjxCGo6": "sp_200XX_auracannon.bmb:330:0:0", 
-        "I1B7wNWc": "5", 
-        "avX1k34K": "100", 
-        "h5t4yBm2": "5000078", 
-        "o2ye8th6": "auracanon1R330"
     }, 
     {
         "2HjxCGo6": "sp_20023_jump.bmb", 
@@ -9912,6 +9912,20 @@
         "o2ye8th6": "shockwaveS(purple150)"
     }, 
     {
+        "2HjxCGo6": "eff_shockwave1_purple_S.bmb:0:0:45", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "150", 
+        "h5t4yBm2": "5000742", 
+        "o2ye8th6": "shockwaveS(purple150)R45"
+    }, 
+    {
+        "2HjxCGo6": "eff_shockwave1_purple_S.bmb:0:0:135", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "150", 
+        "h5t4yBm2": "5000743", 
+        "o2ye8th6": "shockwaveS(purple150)R135"
+    }, 
+    {
         "2HjxCGo6": "eff_shockwave1_red_L.bmb", 
         "I1B7wNWc": "5", 
         "avX1k34K": "100", 
@@ -9931,6 +9945,20 @@
         "avX1k34K": "100", 
         "h5t4yBm2": "5000762", 
         "o2ye8th6": "shockwaveS(red)Ｒ90"
+    }, 
+    {
+        "2HjxCGo6": "eff_shockwave1_red_S.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "150", 
+        "h5t4yBm2": "5000763", 
+        "o2ye8th6": "shockwaveS(red150)"
+    }, 
+    {
+        "2HjxCGo6": "eff_shockwave1_red_S.bmb:0:0:90", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "150", 
+        "h5t4yBm2": "5000764", 
+        "o2ye8th6": "shockwaveS(red150)Ｒ90"
     }, 
     {
         "2HjxCGo6": "eff_shockwave1_red_S.bmb", 
@@ -12124,6 +12152,13 @@
         "o2ye8th6": "aero1(B_green)"
     }, 
     {
+        "2HjxCGo6": "atk_aero1_black_green.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "150", 
+        "h5t4yBm2": "5003241", 
+        "o2ye8th6": "aero1(B_green150)"
+    }, 
+    {
         "2HjxCGo6": "atk_aero1_black_purple.bmb", 
         "I1B7wNWc": "5", 
         "avX1k34K": "100", 
@@ -12696,6 +12731,13 @@
         "avX1k34K": "70", 
         "h5t4yBm2": "5003574", 
         "o2ye8th6": "aero3(yellow70)"
+    }, 
+    {
+        "2HjxCGo6": "atk_aero3_yellow.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "200", 
+        "h5t4yBm2": "5003575", 
+        "o2ye8th6": "aero3(yellow200)"
     }, 
     {
         "2HjxCGo6": "atk_bio1_pink.bmb", 
@@ -19803,6 +19845,13 @@
         "o2ye8th6": "atk_slash9_f060_yellow_R90"
     }, 
     {
+        "2HjxCGo6": "atk_slash9_f060_yellow.bmb:0:0:45", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "5011002", 
+        "o2ye8th6": "atk_slash9_f060_yellow_R45"
+    }, 
+    {
         "2HjxCGo6": "atk_slash9_f090_blue.bmb", 
         "I1B7wNWc": "5", 
         "avX1k34K": "100", 
@@ -21945,6 +21994,13 @@
         "o2ye8th6": "magiccircle_004_blue（200）R90"
     }, 
     {
+        "2HjxCGo6": "atk_magiccircle_004_blue.bmb:0:0:90", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "5013212", 
+        "o2ye8th6": "magiccircle_004_blueR90"
+    }, 
+    {
         "2HjxCGo6": "atk_magiccircle_004_green.bmb", 
         "I1B7wNWc": "5", 
         "avX1k34K": "100", 
@@ -22020,6 +22076,13 @@
         "avX1k34K": "200", 
         "h5t4yBm2": "5013264", 
         "o2ye8th6": "magiccircle_004_purpleR90(200)"
+    }, 
+    {
+        "2HjxCGo6": "atk_magiccircle_004_purple.bmb:0:0:90", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "250", 
+        "h5t4yBm2": "5013265", 
+        "o2ye8th6": "magiccircle_004_purpleR90(250)"
     }, 
     {
         "2HjxCGo6": "atk_magiccircle_004_red.bmb", 
@@ -29757,6 +29820,13 @@
         "o2ye8th6": "eff_sword_bullet_purple"
     }, 
     {
+        "2HjxCGo6": "eff_sword_bullet_purple.bmb:0:0:90", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "5022581", 
+        "o2ye8th6": "eff_sword_bullet_purpleR90"
+    }, 
+    {
         "2HjxCGo6": "eff_sword_bullet_red.bmb", 
         "I1B7wNWc": "5", 
         "avX1k34K": "100", 
@@ -32646,6 +32716,27 @@
         "avX1k34K": "200", 
         "h5t4yBm2": "5025770", 
         "o2ye8th6": "auracanon1(200)"
+    }, 
+    {
+        "2HjxCGo6": "sp_200XX_auracannon_r.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "200", 
+        "h5t4yBm2": "5025771", 
+        "o2ye8th6": "auracanonＲ用1(200)"
+    }, 
+    {
+        "2HjxCGo6": "sp_200XX_auracannon_r.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "5025772", 
+        "o2ye8th6": "auracanonＲ用1"
+    }, 
+    {
+        "2HjxCGo6": "sp_200XX_auracannon_r.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "500", 
+        "h5t4yBm2": "5025773", 
+        "o2ye8th6": "auracanonＲ用1(500)"
     }, 
     {
         "2HjxCGo6": "atk_vp_hiteffect.bmb", 
@@ -38372,6 +38463,48 @@
         "avX1k34K": "100", 
         "h5t4yBm2": "8002586", 
         "o2ye8th6": "lb_100019506_sid_front_unit"
+    }, 
+    {
+        "2HjxCGo6": "lb_204001705_RF_FFIV_Golbeza_back_center.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "8002590", 
+        "o2ye8th6": "204001705_RF_FFIV_Golbeza_back_center"
+    }, 
+    {
+        "2HjxCGo6": "lb_204001705_RF_FFIV_Golbeza_back_unit.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "8002591", 
+        "o2ye8th6": "204001705_RF_FFIV_Golbeza_back_unit"
+    }, 
+    {
+        "2HjxCGo6": "lb_204001705_RF_FFIV_Golbeza_front_unit.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "8002592", 
+        "o2ye8th6": "204001705_RF_FFIV_Golbeza_front_unit"
+    }, 
+    {
+        "2HjxCGo6": "lb_204001706_RF_FFIV_Golbeza_back_center.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "8002593", 
+        "o2ye8th6": "204001706_RF_FFIV_Golbeza_back_center"
+    }, 
+    {
+        "2HjxCGo6": "lb_204001706_RF_FFIV_Golbeza_back_unit.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "8002594", 
+        "o2ye8th6": "204001706_RF_FFIV_Golbeza_back_unit"
+    }, 
+    {
+        "2HjxCGo6": "lb_204001706_RF_FFIV_Golbeza_front_unit.bmb", 
+        "I1B7wNWc": "5", 
+        "avX1k34K": "100", 
+        "h5t4yBm2": "8002595", 
+        "o2ye8th6": "204001706_RF_FFIV_Golbeza_front_unit"
     }, 
     {
         "2HjxCGo6": "bm_2001_fire1.bmb", 

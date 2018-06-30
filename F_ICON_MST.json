@@ -245,6 +245,11 @@
         "qtkvrS60": "map_icon_3610201_2.png"
     }, 
     {
+        "0HUPxDf1": "16201", 
+        "G4L0YIB2": "ヘスの子作戦本部", 
+        "qtkvrS60": "map_icon_3620201_2.png"
+    }, 
+    {
         "0HUPxDf1": "76508", 
         "G4L0YIB2": "run9-8", 
         "qtkvrS60": "map_icon_76508.png"
@@ -1975,6 +1980,41 @@
         "qtkvrS60": "map_icon_3610106_2.png"
     }, 
     {
+        "0HUPxDf1": "3570101", 
+        "G4L0YIB2": "明暗の谷", 
+        "qtkvrS60": "map_icon_3620101_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3570102", 
+        "G4L0YIB2": "人知れずの荒野", 
+        "qtkvrS60": "map_icon_3620102_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3570103", 
+        "G4L0YIB2": "悲しみと嘆きの街ザッハ", 
+        "qtkvrS60": "map_icon_3620103_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3570104", 
+        "G4L0YIB2": "魔導兵器生産工場", 
+        "qtkvrS60": "map_icon_3620104_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3570105", 
+        "G4L0YIB2": "強制労働場", 
+        "qtkvrS60": "map_icon_3620105.png"
+    }, 
+    {
+        "0HUPxDf1": "3570106", 
+        "G4L0YIB2": "新エネルギー変換施設", 
+        "qtkvrS60": "map_icon_3620106.png"
+    }, 
+    {
+        "0HUPxDf1": "3570107", 
+        "G4L0YIB2": "禁断の地", 
+        "qtkvrS60": "map_icon_3620107.png"
+    }, 
+    {
         "0HUPxDf1": "4010101", 
         "G4L0YIB2": "強き心の修練", 
         "qtkvrS60": "spd_20161021_bn_list_ffbe.png"
@@ -3500,6 +3540,46 @@
         "qtkvrS60": "spd_20180611_bn_list_ffbe_last.png"
     }, 
     {
+        "0HUPxDf1": "8290101", 
+        "G4L0YIB2": "オーダーズと魔導の遺跡", 
+        "qtkvrS60": "spd_20180620_bn_list_orders.png"
+    }, 
+    {
+        "0HUPxDf1": "8290102", 
+        "G4L0YIB2": "オーダーズと魔導の遺跡_最終日", 
+        "qtkvrS60": "spd_20180620_bn_list_orders_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8300101", 
+        "G4L0YIB2": "魔導の遺跡・中枢区画", 
+        "qtkvrS60": "spd_20180620_bn_list_orders_02.png"
+    }, 
+    {
+        "0HUPxDf1": "8300102", 
+        "G4L0YIB2": "魔導の遺跡・中枢区画_最終日", 
+        "qtkvrS60": "spd_20180620_bn_list_orders_last_02.png"
+    }, 
+    {
+        "0HUPxDf1": "8310101", 
+        "G4L0YIB2": "ゾットの塔", 
+        "qtkvrS60": "spd_20180629_bn_list_FF4.png"
+    }, 
+    {
+        "0HUPxDf1": "8310102", 
+        "G4L0YIB2": "ゾットの塔_最終日", 
+        "qtkvrS60": "spd_20180629_bn_list_FF4_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8320101", 
+        "G4L0YIB2": "ドワーフの城", 
+        "qtkvrS60": "spd_20180629_bn_list_FF4_02.png"
+    }, 
+    {
+        "0HUPxDf1": "8320102", 
+        "G4L0YIB2": "ドワーフの城_最終日", 
+        "qtkvrS60": "spd_20180629_bn_list_FF4_02_last.png"
+    }, 
+    {
         "0HUPxDf1": "8973001", 
         "G4L0YIB2": "ねむれるしし降臨HELL", 
         "qtkvrS60": "spd_20170731_bn_list_SBF_04.png"
@@ -3528,6 +3608,16 @@
         "0HUPxDf1": "8973006", 
         "G4L0YIB2": "ギルガメッシュ降臨HELL", 
         "qtkvrS60": "spd_20180531_bn_list_SBF_09.png"
+    }, 
+    {
+        "0HUPxDf1": "8973007", 
+        "G4L0YIB2": "闇の魔物たちHELL", 
+        "qtkvrS60": "spd_20180629_bn_list_SBF_10.png"
+    }, 
+    {
+        "0HUPxDf1": "8992101", 
+        "G4L0YIB2": "週刊 挑戦の狭間", 
+        "qtkvrS60": "spd_bn_list_00011.png"
     }, 
     {
         "0HUPxDf1": "8993001", 
@@ -4525,6 +4615,11 @@
         "qtkvrS60": "item_2018.png"
     }, 
     {
+        "0HUPxDf1": "105007200", 
+        "G4L0YIB2": "征服者のガベル・攻魔", 
+        "qtkvrS60": "item_2019.png"
+    }, 
+    {
         "0HUPxDf1": "106000100", 
         "G4L0YIB2": "テント", 
         "qtkvrS60": "item_5001.png"
@@ -4903,6 +4998,16 @@
         "0HUPxDf1": "106305800", 
         "G4L0YIB2": "青の宝玉", 
         "qtkvrS60": "item_9204.png"
+    }, 
+    {
+        "0HUPxDf1": "106305900", 
+        "G4L0YIB2": "防衛システムレイドコイン", 
+        "qtkvrS60": "item_9206.png"
+    }, 
+    {
+        "0HUPxDf1": "106306000", 
+        "G4L0YIB2": "マグマのいしの欠片", 
+        "qtkvrS60": "item_9207.png"
     }, 
     {
         "0HUPxDf1": "107000100", 
@@ -6580,6 +6685,31 @@
         "qtkvrS60": "item_8412.png"
     }, 
     {
+        "0HUPxDf1": "228000100", 
+        "G4L0YIB2": "黄金回路", 
+        "qtkvrS60": "item_8407.png"
+    }, 
+    {
+        "0HUPxDf1": "228000200", 
+        "G4L0YIB2": "針のない羅針盤", 
+        "qtkvrS60": "item_8404.png"
+    }, 
+    {
+        "0HUPxDf1": "228000300", 
+        "G4L0YIB2": "帯電したフィラメント", 
+        "qtkvrS60": "item_8405.png"
+    }, 
+    {
+        "0HUPxDf1": "228000400", 
+        "G4L0YIB2": "赤銅のボルト", 
+        "qtkvrS60": "item_8406.png"
+    }, 
+    {
+        "0HUPxDf1": "228000500", 
+        "G4L0YIB2": "歯抜けの歯車", 
+        "qtkvrS60": "item_8403.png"
+    }, 
+    {
         "0HUPxDf1": "270000100", 
         "G4L0YIB2": "白の晶石", 
         "qtkvrS60": "item_8220.png"
@@ -7560,6 +7690,11 @@
         "qtkvrS60": "item_10269.png"
     }, 
     {
+        "0HUPxDf1": "302007300", 
+        "G4L0YIB2": "アルドール精兵用軍剣", 
+        "qtkvrS60": "item_10270.png"
+    }, 
+    {
         "0HUPxDf1": "303000100", 
         "G4L0YIB2": "グレートソード", 
         "qtkvrS60": "item_10301.png"
@@ -7788,6 +7923,16 @@
         "0HUPxDf1": "303005400", 
         "G4L0YIB2": "カオスブレイド(FFT)", 
         "qtkvrS60": "item_10348.png"
+    }, 
+    {
+        "0HUPxDf1": "303005500", 
+        "G4L0YIB2": "ビッグチョッパー", 
+        "qtkvrS60": "item_10349.png"
+    }, 
+    {
+        "0HUPxDf1": "303005600", 
+        "G4L0YIB2": "ダイヤセイバー", 
+        "qtkvrS60": "item_10308.png"
     }, 
     {
         "0HUPxDf1": "304000100", 
@@ -8188,6 +8333,11 @@
         "0HUPxDf1": "306002500", 
         "G4L0YIB2": "打撃スパナ", 
         "qtkvrS60": "item_10921.png"
+    }, 
+    {
+        "0HUPxDf1": "306002600", 
+        "G4L0YIB2": "だいちのハンマー(FFIV)", 
+        "qtkvrS60": "item_10922.png"
     }, 
     {
         "0HUPxDf1": "307000200", 
@@ -8618,6 +8768,21 @@
         "0HUPxDf1": "309003800", 
         "G4L0YIB2": "PNK-2パンチ", 
         "qtkvrS60": "item_11638.png"
+    }, 
+    {
+        "0HUPxDf1": "309003900", 
+        "G4L0YIB2": "黒手甲・陰陽布", 
+        "qtkvrS60": "item_11325.png"
+    }, 
+    {
+        "0HUPxDf1": "309004000", 
+        "G4L0YIB2": "じごくのつめ", 
+        "qtkvrS60": "item_11639.png"
+    }, 
+    {
+        "0HUPxDf1": "309004100", 
+        "G4L0YIB2": "タイガーファング(FFBE)", 
+        "qtkvrS60": "item_11641.png"
     }, 
     {
         "0HUPxDf1": "309020200", 
@@ -9295,6 +9460,16 @@
         "qtkvrS60": "item_11441.png"
     }, 
     {
+        "0HUPxDf1": "313004900", 
+        "G4L0YIB2": "二三式アルドール銃", 
+        "qtkvrS60": "item_11442.png"
+    }, 
+    {
+        "0HUPxDf1": "313005000", 
+        "G4L0YIB2": "ヒールガン", 
+        "qtkvrS60": "item_11443.png"
+    }, 
+    {
         "0HUPxDf1": "314000200", 
         "G4L0YIB2": "レザーウィップ", 
         "qtkvrS60": "item_11200.png"
@@ -9373,6 +9548,16 @@
         "0HUPxDf1": "314001900", 
         "G4L0YIB2": "デスウィップ", 
         "qtkvrS60": "item_11218.png"
+    }, 
+    {
+        "0HUPxDf1": "314002000", 
+        "G4L0YIB2": "ファストテアラー", 
+        "qtkvrS60": "item_11219.png"
+    }, 
+    {
+        "0HUPxDf1": "314002100", 
+        "G4L0YIB2": "バイオレントテンタクル", 
+        "qtkvrS60": "item_11220.png"
     }, 
     {
         "0HUPxDf1": "315000100", 
@@ -9685,6 +9870,11 @@
         "qtkvrS60": "item_40125.png"
     }, 
     {
+        "0HUPxDf1": "401002800", 
+        "G4L0YIB2": "忘れられた古盾", 
+        "qtkvrS60": "item_40126.png"
+    }, 
+    {
         "0HUPxDf1": "402000200", 
         "G4L0YIB2": "ラージシールド", 
         "qtkvrS60": "item_40202.png"
@@ -9823,6 +10013,11 @@
         "0HUPxDf1": "402003100", 
         "G4L0YIB2": "グリモアシールド", 
         "qtkvrS60": "item_40230.png"
+    }, 
+    {
+        "0HUPxDf1": "402003200", 
+        "G4L0YIB2": "ダイヤシールド(FFIV)", 
+        "qtkvrS60": "item_40231.png"
     }, 
     {
         "0HUPxDf1": "403000100", 
@@ -10148,6 +10343,21 @@
         "0HUPxDf1": "403046100", 
         "G4L0YIB2": "クリストローゼ", 
         "qtkvrS60": "item_30163.png"
+    }, 
+    {
+        "0HUPxDf1": "403046200", 
+        "G4L0YIB2": "モルボル人形", 
+        "qtkvrS60": "item_30162.png"
+    }, 
+    {
+        "0HUPxDf1": "403046300", 
+        "G4L0YIB2": "化生面・黒狐", 
+        "qtkvrS60": "item_30165.png"
+    }, 
+    {
+        "0HUPxDf1": "403046400", 
+        "G4L0YIB2": "ガラスのマスク", 
+        "qtkvrS60": "item_30164.png"
     }, 
     {
         "0HUPxDf1": "404000200", 
@@ -10948,6 +11158,11 @@
         "0HUPxDf1": "407004000", 
         "G4L0YIB2": "ゴーレムの外殻", 
         "qtkvrS60": "item_20336.png"
+    }, 
+    {
+        "0HUPxDf1": "407004100", 
+        "G4L0YIB2": "ゴルベーザの甲冑", 
+        "qtkvrS60": "item_20337.png"
     }, 
     {
         "0HUPxDf1": "408000100", 
@@ -12288,6 +12503,26 @@
         "0HUPxDf1": "409025700", 
         "G4L0YIB2": "フラップウィングス", 
         "qtkvrS60": "item_50380.png"
+    }, 
+    {
+        "0HUPxDf1": "409025800", 
+        "G4L0YIB2": "陰陽紋の腰飾り", 
+        "qtkvrS60": "item_50378.png"
+    }, 
+    {
+        "0HUPxDf1": "409026000", 
+        "G4L0YIB2": "強兵の証", 
+        "qtkvrS60": "item_50379.png"
+    }, 
+    {
+        "0HUPxDf1": "409026100", 
+        "G4L0YIB2": "炎のマント", 
+        "qtkvrS60": "item_50382.png"
+    }, 
+    {
+        "0HUPxDf1": "409026200", 
+        "G4L0YIB2": "こくりゅうの鱗", 
+        "qtkvrS60": "item_50383.png"
     }, 
     {
         "0HUPxDf1": "600000010", 
