@@ -2069,14 +2069,14 @@
     }, 
     {
         "ChNp40MG": "0", 
-        "G4L0YIB2": "モーグリ王", 
+        "G4L0YIB2": "モーグリ大臣", 
         "Gh92V3Tx": "9001", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "900118", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "5", 
-        "mBVN12cS": "モーグリ王"
+        "mBVN12cS": "モーグリ大臣"
     }, 
     {
         "ChNp40MG": "0", 
@@ -2091,14 +2091,14 @@
     }, 
     {
         "ChNp40MG": "0", 
-        "G4L0YIB2": "モーグリ王", 
+        "G4L0YIB2": "モーグリ大臣", 
         "Gh92V3Tx": "9001", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "900120", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "5", 
-        "mBVN12cS": "モーグリ王"
+        "mBVN12cS": "モーグリ大臣"
     }, 
     {
         "ChNp40MG": "0", 
@@ -2124,25 +2124,25 @@
     }, 
     {
         "ChNp40MG": "0", 
-        "G4L0YIB2": "モーグリ王", 
+        "G4L0YIB2": "モーグリ大臣", 
         "Gh92V3Tx": "9001", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "900123", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "5", 
-        "mBVN12cS": "モーグリ王"
+        "mBVN12cS": "モーグリ大臣"
     }, 
     {
         "ChNp40MG": "0", 
-        "G4L0YIB2": "モーグリ王", 
+        "G4L0YIB2": "モーグリ大臣", 
         "Gh92V3Tx": "9001", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "900124", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "5", 
-        "mBVN12cS": "モーグリ王"
+        "mBVN12cS": "モーグリ大臣"
     }, 
     {
         "ChNp40MG": "0", 
@@ -2300,14 +2300,14 @@
     }, 
     {
         "ChNp40MG": "0", 
-        "G4L0YIB2": "モーグリ王", 
+        "G4L0YIB2": "モーグリ大臣", 
         "Gh92V3Tx": "9001", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "900139", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "5", 
-        "mBVN12cS": "モーグリ王"
+        "mBVN12cS": "モーグリ大臣"
     }, 
     {
         "ChNp40MG": "0", 
@@ -2319,6 +2319,50 @@
         "juA0Z4m7": "0", 
         "kaG4xf3I": "5", 
         "mBVN12cS": "モーグリ王"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "モーグリ王", 
+        "Gh92V3Tx": "9001", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "900141", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "5", 
+        "mBVN12cS": "モーグリ王"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "モーグリ王", 
+        "Gh92V3Tx": "9001", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "900142", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "5", 
+        "mBVN12cS": "モーグリ王"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "モーグリ王", 
+        "Gh92V3Tx": "9001", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "900143", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "5", 
+        "mBVN12cS": "モーグリ王"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "挑戦の間交換所", 
+        "Gh92V3Tx": "9013", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "901301", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "5", 
+        "mBVN12cS": "フィオ"
     }, 
     {
         "ChNp40MG": "0", 
@@ -2656,6 +2700,50 @@
         "Gh92V3Tx": "16102", 
         "MyY8Ba5P": "", 
         "Z20mNDvL": "1610201", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "3", 
+        "mBVN12cS": "ママチョコボ"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "武器屋", 
+        "Gh92V3Tx": "17101", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "1710101", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "1", 
+        "mBVN12cS": "店主"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "防具屋", 
+        "Gh92V3Tx": "17101", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "1710102", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "1", 
+        "mBVN12cS": "店主"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "雑貨屋", 
+        "Gh92V3Tx": "17101", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "1710103", 
+        "dIPkNn61": "", 
+        "juA0Z4m7": "0", 
+        "kaG4xf3I": "1", 
+        "mBVN12cS": "店主"
+    }, 
+    {
+        "ChNp40MG": "0", 
+        "G4L0YIB2": "ママチョコボの住処", 
+        "Gh92V3Tx": "17102", 
+        "MyY8Ba5P": "", 
+        "Z20mNDvL": "1710201", 
         "dIPkNn61": "", 
         "juA0Z4m7": "0", 
         "kaG4xf3I": "3", 

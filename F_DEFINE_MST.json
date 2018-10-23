@@ -75,6 +75,21 @@
         "YjIUDJ97": "0"
     }, 
     {
+        "AK8Nn7ta": "CHALLENGE_QUEST_ITEMNUM_DISP_FLG", 
+        "G4L0YIB2": "挑戦の間表示フラグ2", 
+        "YjIUDJ97": "0"
+    }, 
+    {
+        "AK8Nn7ta": "CHALLENGE_QUEST_NOTICE_DISP_FLG", 
+        "G4L0YIB2": "挑戦の間表示フラグ", 
+        "YjIUDJ97": "0"
+    }, 
+    {
+        "AK8Nn7ta": "CHALLENGE_QUEST_REWARD_BANNER_FLG", 
+        "G4L0YIB2": "挑戦の間表示フラグ3", 
+        "YjIUDJ97": "0"
+    }, 
+    {
         "AK8Nn7ta": "CONTINUE_COST", 
         "G4L0YIB2": "コンティニューコスト", 
         "YjIUDJ97": "100"
@@ -355,9 +370,29 @@
         "YjIUDJ97": "9001"
     }, 
     {
+        "AK8Nn7ta": "PARTY_SLOT_LIST_COUNT", 
+        "G4L0YIB2": "スロットリスト数", 
+        "YjIUDJ97": "20"
+    }, 
+    {
+        "AK8Nn7ta": "PARTY_SLOT_LOAD_CAUTION_TEXT", 
+        "G4L0YIB2": "呼び出しスロットメッセージ", 
+        "YjIUDJ97": "SLOTにあるパーティの<color=255:255:0>ユニット</color>、<color=255:255:0>装備</color>、<color=255:255:0>幻獣</color>が呼出されます。<br><color=255:255:0>売却、覚醒、武具強化</color>等が行われていると、<color=255:255:0>外れた状態</color>で呼出されます。"
+    }, 
+    {
+        "AK8Nn7ta": "PARTY_SLOT_SAVE_CAUTION_TEXT", 
+        "G4L0YIB2": "保存スロットメッセージ", 
+        "YjIUDJ97": "現在のパーティの<color=255:255:0>ユニット</color>、<color=255:255:0>装備</color>、<color=255:255:0>幻獣</color>が保存されます。<br><color=255:255:0>売却、覚醒、武具強化</color>等を行うと、呼出の際に<color=255:255:0>外れた状態</color>になります。"
+    }, 
+    {
         "AK8Nn7ta": "PASSIVE_ADD_LIMIT", 
         "G4L0YIB2": "パッシブ加算限界", 
         "YjIUDJ97": "37:10000,45:100,47:100"
+    }, 
+    {
+        "AK8Nn7ta": "QUEST_REPORT_EPISODE", 
+        "G4L0YIB2": "クエストレポート表示調整", 
+        "YjIUDJ97": "1"
     }, 
     {
         "AK8Nn7ta": "RAID_MENU_ROUTINE_MARGIN_TIME", 
@@ -427,7 +462,7 @@
     {
         "AK8Nn7ta": "SHOP_MOOGLE_TEXT", 
         "G4L0YIB2": "", 
-        "YjIUDJ97": "ラピスを購入するとEXVIUSポイントが<br>貯まっていくクポ！<br>今なら<color=255:0:0>獲得EXポイント1.5倍キャンペーン</color>中クポ！<br>開催期間：6/11 17：00〜6/20 13：59"
+        "YjIUDJ97": "ラピスを購入するとEXVIUSポイントが<br>貯まっていくクポ！<br>所持ポイントに応じていろんな特典が<br>獲得できるクポ〜！"
     }, 
     {
         "AK8Nn7ta": "SPPT_DEF", 
@@ -518,6 +553,11 @@
         "AK8Nn7ta": "UNIT_EQUIP_BULK_CNT", 
         "G4L0YIB2": "ユニット装備変更一括件数", 
         "YjIUDJ97": "50"
+    }, 
+    {
+        "AK8Nn7ta": "UNIT_ROLE_TYPE_FLG", 
+        "G4L0YIB2": "ユニットタイプ表示フラグ", 
+        "YjIUDJ97": "1"
     }, 
     {
         "AK8Nn7ta": "UNIT_SELL_BULK_CNT", 

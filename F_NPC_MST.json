@@ -2481,6 +2481,14 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "素朴な青年", 
+        "Qvb5N1WT": "1610014", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200101000.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "キノコ採りの男", 
         "Qvb5N1WT": "1620010", 
         "mJjnb8Q3": "1", 
@@ -2601,6 +2609,14 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "影のあるヘスの子の妻", 
+        "Qvb5N1WT": "1660011", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200105130.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "人懐こそうな機関士", 
         "Qvb5N1WT": "1670010", 
         "mJjnb8Q3": "1", 
@@ -2645,6 +2661,54 @@
         "Qvb5N1WT": "1690011", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc200105030.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "影のあるヘスの子", 
+        "Qvb5N1WT": "1690012", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200105030.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "ヘスの子支援担当", 
+        "Qvb5N1WT": "1690013", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200107850.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "アシュラ一家若衆", 
+        "Qvb5N1WT": "1700011", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108600.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "年老いた画家", 
+        "Qvb5N1WT": "1710010", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200101600.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "旅の学者", 
+        "Qvb5N1WT": "1720010", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200103100.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "探検家", 
+        "Qvb5N1WT": "1720011", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200104000.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -2829,6 +2893,14 @@
         "Qvb5N1WT": "100000110", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc100000110.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "64:64,16,6,0", 
+        "G4L0YIB2": "レイン（武器無し）", 
+        "Qvb5N1WT": "100000120", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100000120.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -3096,6 +3168,22 @@
         "w8Ujb6Vf": "0:0"
     }, 
     {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "シャルロット(新)", 
+        "Qvb5N1WT": "100003010", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100003010.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "シャルロット(走り)", 
+        "Qvb5N1WT": "100003050", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100003050.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
         "7DTnc2Lt": "", 
         "G4L0YIB2": "メルセデス", 
         "Qvb5N1WT": "100003100", 
@@ -3197,6 +3285,14 @@
         "Qvb5N1WT": "100004100", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc100004100.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "アイリーン(ドレス)", 
+        "Qvb5N1WT": "100004110", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100004110.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -3317,6 +3413,14 @@
         "Qvb5N1WT": "100005300", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc100005300.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "アヤカ(晴れ着)", 
+        "Qvb5N1WT": "100005310", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100005310.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -3593,6 +3697,22 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "十三闘星のジュラガ(仮面なし)", 
+        "Qvb5N1WT": "100007710", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100007710.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "十三闘星のジュラガ(走り)", 
+        "Qvb5N1WT": "100007750", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100007750.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "十四闘星のグドン", 
         "Qvb5N1WT": "100007800", 
         "mJjnb8Q3": "1", 
@@ -3617,7 +3737,15 @@
     }, 
     {
         "7DTnc2Lt": "", 
-        "G4L0YIB2": "十六闘星のファイサリス(走り)", 
+        "G4L0YIB2": "ファイサリス（子供）", 
+        "Qvb5N1WT": "100008010", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100008010.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "ファイサリス", 
         "Qvb5N1WT": "100008030", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc100008030.png", 
@@ -3629,6 +3757,14 @@
         "Qvb5N1WT": "100008050", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc100008050.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "グリ（昔）", 
+        "Qvb5N1WT": "100008060", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100008060.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -4073,6 +4209,14 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "マリー", 
+        "Qvb5N1WT": "100012900", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100012900.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "アルドール皇帝", 
         "Qvb5N1WT": "100013000", 
         "mJjnb8Q3": "1", 
@@ -4176,7 +4320,7 @@
         "w8Ujb6Vf": "0:0"
     }, 
     {
-        "7DTnc2Lt": "", 
+        "7DTnc2Lt": "58:58,16,4,0", 
         "G4L0YIB2": "レジーナ", 
         "Qvb5N1WT": "100014100", 
         "mJjnb8Q3": "1", 
@@ -4513,6 +4657,14 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "ミルファス(走り)", 
+        "Qvb5N1WT": "100017150", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100017150.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "クリムゾン", 
         "Qvb5N1WT": "100017200", 
         "mJjnb8Q3": "1", 
@@ -4584,6 +4736,222 @@
         "w8Ujb6Vf": "0:0"
     }, 
     {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "トモエ", 
+        "Qvb5N1WT": "100017900", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100017900.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "グレイビー", 
+        "Qvb5N1WT": "100018000", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018000.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "マジョラ", 
+        "Qvb5N1WT": "100018100", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018100.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "シルヴィア", 
+        "Qvb5N1WT": "100018200", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018200.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "シェラタン", 
+        "Qvb5N1WT": "100018300", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018300.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "シェラタン(黒ローブ)", 
+        "Qvb5N1WT": "100018310", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018310.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "王", 
+        "Qvb5N1WT": "100018400", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018400.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "ビャルクア", 
+        "Qvb5N1WT": "100018500", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018500.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "キュアノス", 
+        "Qvb5N1WT": "100018600", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018600.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "天女", 
+        "Qvb5N1WT": "100018700", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018700.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "餓鬼", 
+        "Qvb5N1WT": "100018800", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018800.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "蛾", 
+        "Qvb5N1WT": "100018900", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100018900.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "絶皇星のインフェルノ", 
+        "Qvb5N1WT": "100019000", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100019000.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "極皇星", 
+        "Qvb5N1WT": "100019200", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100019200.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "真皇星", 
+        "Qvb5N1WT": "100019400", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100019400.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "カガネ", 
+        "Qvb5N1WT": "100019600", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100019600.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "ヴラド皇帝", 
+        "Qvb5N1WT": "100019700", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100019700.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "エルマウル", 
+        "Qvb5N1WT": "100020100", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020100.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "ベスビア", 
+        "Qvb5N1WT": "100020200", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020200.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "ベスビア(強化兵士Ver)", 
+        "Qvb5N1WT": "100020250", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020250.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "ベスビア(走り)", 
+        "Qvb5N1WT": "100020280", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020280.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "アンバー", 
+        "Qvb5N1WT": "100020300", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020300.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "カーニャ", 
+        "Qvb5N1WT": "100020400", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020400.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "フリーゼ", 
+        "Qvb5N1WT": "100020500", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020500.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "フリーゼ(走り)", 
+        "Qvb5N1WT": "100020550", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020550.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "シェパード", 
+        "Qvb5N1WT": "100020600", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020600.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "シェパード(走り)", 
+        "Qvb5N1WT": "100020650", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020650.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
         "7DTnc2Lt": "", 
         "G4L0YIB2": "グランシェルト兵", 
         "Qvb5N1WT": "200100120", 
@@ -4625,6 +4993,14 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "一般兵", 
+        "Qvb5N1WT": "200100170", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200100170.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "グランシェルト隊長", 
         "Qvb5N1WT": "200100220", 
         "mJjnb8Q3": "1", 
@@ -4645,6 +5021,14 @@
         "Qvb5N1WT": "200100240", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc200100240.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "ビャルクア隊", 
+        "Qvb5N1WT": "200100250", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200100250.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -4960,7 +5344,7 @@
         "w8Ujb6Vf": "0:0"
     }, 
     {
-        "7DTnc2Lt": "", 
+        "7DTnc2Lt": "58:58,16,4,0", 
         "G4L0YIB2": "女の子（エマ）", 
         "Qvb5N1WT": "200101580", 
         "mJjnb8Q3": "1", 
@@ -5057,6 +5441,14 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "侍女", 
+        "Qvb5N1WT": "200102110", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200102110.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "水夫", 
         "Qvb5N1WT": "200102200", 
         "mJjnb8Q3": "1", 
@@ -5133,6 +5525,14 @@
         "Qvb5N1WT": "200102740", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc200102740.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "構成員", 
+        "Qvb5N1WT": "200102750", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200102750.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -5769,10 +6169,138 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "モラク青年1", 
+        "Qvb5N1WT": "200108000", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108000.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "モラク青年2", 
+        "Qvb5N1WT": "200108010", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108010.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "モラク中年", 
+        "Qvb5N1WT": "200108100", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108100.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "モラク男の子", 
+        "Qvb5N1WT": "200108200", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108200.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "モラク女性1", 
+        "Qvb5N1WT": "200108300", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108300.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "モラク女性2", 
+        "Qvb5N1WT": "200108310", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108310.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "モラクおばさん", 
+        "Qvb5N1WT": "200108400", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108400.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "モラク女の子", 
+        "Qvb5N1WT": "200108500", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108500.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "侍風の男（新）", 
+        "Qvb5N1WT": "200108600", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108600.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "クリスタル化したモンスター(ラット系)", 
+        "Qvb5N1WT": "900101110", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc900101110.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "クリスタル化サハギン", 
+        "Qvb5N1WT": "900101210", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc900101210.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "FF2兵士", 
         "Qvb5N1WT": "900102800", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc900102800.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "クリスタル化雪狼", 
+        "Qvb5N1WT": "900103010", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc900103010.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "トーンアドゥ", 
+        "Qvb5N1WT": "900103560", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc900103560.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "クリスタル化したモンスター(ボム系)", 
+        "Qvb5N1WT": "900103710", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc900103710.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "コカトリス", 
+        "Qvb5N1WT": "900103810", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc900103810.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "クリスタル化イーグル", 
+        "Qvb5N1WT": "900103820", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc900103820.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
