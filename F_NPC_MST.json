@@ -705,6 +705,14 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "義賊のメモ", 
+        "Qvb5N1WT": "1107061", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200103010.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "店員", 
         "Qvb5N1WT": "1107080", 
         "mJjnb8Q3": "1", 
@@ -825,6 +833,14 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "遭難者の手紙", 
+        "Qvb5N1WT": "1108081", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100000920.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "男性", 
         "Qvb5N1WT": "1109010", 
         "mJjnb8Q3": "1", 
@@ -849,10 +865,26 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "古い日記", 
+        "Qvb5N1WT": "1109022", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100000920.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "謎のメモ", 
         "Qvb5N1WT": "1110010", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc100000910.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "謎のメモ", 
+        "Qvb5N1WT": "1110011", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100000920.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -917,6 +949,14 @@
         "Qvb5N1WT": "1110090", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc100000910.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "ナゾの鍵", 
+        "Qvb5N1WT": "1110091", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100000920.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -1317,6 +1357,14 @@
         "Qvb5N1WT": "1200012", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc100000910.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "質素な指輪", 
+        "Qvb5N1WT": "1200013", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100000920.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -2689,6 +2737,14 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "修行中の侍", 
+        "Qvb5N1WT": "1700012", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200108010.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "年老いた画家", 
         "Qvb5N1WT": "1710010", 
         "mJjnb8Q3": "1", 
@@ -2713,10 +2769,26 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "ベスビア", 
+        "Qvb5N1WT": "1730010", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020200.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "カラスのマークのメモ", 
         "Qvb5N1WT": "2003010", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc200103000.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "カラスのマークのメモ", 
+        "Qvb5N1WT": "2003011", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc200103010.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
@@ -4873,6 +4945,30 @@
     }, 
     {
         "7DTnc2Lt": "", 
+        "G4L0YIB2": "フィオ", 
+        "Qvb5N1WT": "100019800", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100019800.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "ミルティ", 
+        "Qvb5N1WT": "100019900", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100019900.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
+        "G4L0YIB2": "グレス", 
+        "Qvb5N1WT": "100020000", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020000.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "", 
         "G4L0YIB2": "エルマウル", 
         "Qvb5N1WT": "100020100", 
         "mJjnb8Q3": "1", 
@@ -4949,6 +5045,54 @@
         "Qvb5N1WT": "100020650", 
         "mJjnb8Q3": "1", 
         "pJ56sAEo": "npc100020650.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "ヘリアーク", 
+        "Qvb5N1WT": "100020700", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020700.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "ヘリアーク(半ソル) ", 
+        "Qvb5N1WT": "100020710", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020710.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "ヘリアーク(走り) ", 
+        "Qvb5N1WT": "100020750", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020750.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "ペルテイラ", 
+        "Qvb5N1WT": "100020800", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020800.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:58,16,4,0", 
+        "G4L0YIB2": "ペルテイラ(走り)", 
+        "Qvb5N1WT": "100020850", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020850.png", 
+        "w8Ujb6Vf": "0:0"
+    }, 
+    {
+        "7DTnc2Lt": "58:116,16,4,0", 
+        "G4L0YIB2": "イクリプサ", 
+        "Qvb5N1WT": "100020900", 
+        "mJjnb8Q3": "1", 
+        "pJ56sAEo": "npc100020900.png", 
         "w8Ujb6Vf": "0:0"
     }, 
     {
