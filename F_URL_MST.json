@@ -32,11 +32,19 @@
         "gu8McTA6": "ARMS_EVENT_INFO_URL"
     }, 
     {
-        "1X65WPLU": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/contact.php", 
-        "7Aw3E5od": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/contact.php", 
+        "1X65WPLU": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/challenge_top.php", 
+        "7Aw3E5od": "https://v24-android.game.exvius.com/lapis/app/php/web/statics/challenge_top.php", 
+        "G4L0YIB2": "挑戦の間イベントの遊び方TOPURL", 
+        "TR3HQmV8": "https://v24-kindle.game.exvius.com/lapis/app/php/web/statics/challenge_top.php", 
+        "Vd5z8q7S": "https://v24-andapp.game.exvius.com/lapis/app/php/web/statics/challenge_top.php", 
+        "gu8McTA6": "CHALLENGE_EVENT_INFO_URL"
+    }, 
+    {
+        "1X65WPLU": "https://v24.notice.exvius.com/content/contact", 
+        "7Aw3E5od": "https://v24.notice.exvius.com/content/contact", 
         "G4L0YIB2": "お問い合わせ", 
-        "TR3HQmV8": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/contact.php", 
-        "Vd5z8q7S": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/contact.php", 
+        "TR3HQmV8": "https://v24.notice.exvius.com/content/contact", 
+        "Vd5z8q7S": "https://v24.notice.exvius.com/content/contact", 
         "gu8McTA6": "CONTACT_URL"
     }, 
     {
@@ -70,6 +78,30 @@
         "TR3HQmV8": "http://wiki.famitsu.com/ffbraveexvius/?ref=ffbe", 
         "Vd5z8q7S": "http://wiki.famitsu.com/ffbraveexvius/?ref=ffbe", 
         "gu8McTA6": "FMT_WIKI_URL"
+    }, 
+    {
+        "1X65WPLU": "https://wiki.famitsu.com/ffbraveexvius/%E5%BE%A9%E5%B8%B0%E8%80%85%E5%90%91%E3%81%91%E6%83%85%E5%A0%B1%E3%81%BE%E3%81%A8%E3%82%81", 
+        "7Aw3E5od": "https://wiki.famitsu.com/ffbraveexvius/%E5%BE%A9%E5%B8%B0%E8%80%85%E5%90%91%E3%81%91%E6%83%85%E5%A0%B1%E3%81%BE%E3%81%A8%E3%82%81", 
+        "G4L0YIB2": "ファミ通wiki攻略ページ（カムバックから7日以内）", 
+        "TR3HQmV8": "https://wiki.famitsu.com/ffbraveexvius/%E5%BE%A9%E5%B8%B0%E8%80%85%E5%90%91%E3%81%91%E6%83%85%E5%A0%B1%E3%81%BE%E3%81%A8%E3%82%81", 
+        "Vd5z8q7S": "https://wiki.famitsu.com/ffbraveexvius/%E5%BE%A9%E5%B8%B0%E8%80%85%E5%90%91%E3%81%91%E6%83%85%E5%A0%B1%E3%81%BE%E3%81%A8%E3%82%81", 
+        "gu8McTA6": "FMT_WIKI_URL_COMEBACK"
+    }, 
+    {
+        "1X65WPLU": "https://wiki.famitsu.com/ffbraveexvius/%E5%88%9D%E5%BF%83%E8%80%85%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89", 
+        "7Aw3E5od": "https://wiki.famitsu.com/ffbraveexvius/%E5%88%9D%E5%BF%83%E8%80%85%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89", 
+        "G4L0YIB2": "ファミ通wiki攻略ページ（ランク50以下）", 
+        "TR3HQmV8": "https://wiki.famitsu.com/ffbraveexvius/%E5%88%9D%E5%BF%83%E8%80%85%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89", 
+        "Vd5z8q7S": "https://wiki.famitsu.com/ffbraveexvius/%E5%88%9D%E5%BF%83%E8%80%85%E6%94%BB%E7%95%A5%E3%82%AC%E3%82%A4%E3%83%89", 
+        "gu8McTA6": "FMT_WIKI_URL_RANK50_U"
+    }, 
+    {
+        "1X65WPLU": "http://wiki.famitsu.com/ffbraveexvius/?ref=ffbe", 
+        "7Aw3E5od": "http://wiki.famitsu.com/ffbraveexvius/?ref=ffbe", 
+        "G4L0YIB2": "ファミ通wiki攻略ページ（ランク51以上）", 
+        "TR3HQmV8": "http://wiki.famitsu.com/ffbraveexvius/?ref=ffbe", 
+        "Vd5z8q7S": "http://wiki.famitsu.com/ffbraveexvius/?ref=ffbe", 
+        "gu8McTA6": "FMT_WIKI_URL_RANK51_O"
     }, 
     {
         "1X65WPLU": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/probability/summons_list.html", 
@@ -120,6 +152,14 @@
         "gu8McTA6": "OFFICIAL_URL"
     }, 
     {
+        "1X65WPLU": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/raid_top.php", 
+        "7Aw3E5od": "https://v24-android.game.exvius.com/lapis/app/php/web/statics/raid_top.php", 
+        "G4L0YIB2": "レイドイベントの遊び方TOPURL", 
+        "TR3HQmV8": "https://v24-kindle.game.exvius.com/lapis/app/php/web/statics/raid_top.php", 
+        "Vd5z8q7S": "https://v24-andapp.game.exvius.com/lapis/app/php/web/statics/raid_top.php", 
+        "gu8McTA6": "RAID_EVENT_INFO_URL"
+    }, 
+    {
         "1X65WPLU": "http://notice.dev.lapis-alim.com/recommendation", 
         "7Aw3E5od": "http://notice.dev.lapis-alim.com/recommendation", 
         "G4L0YIB2": "おすすめアプリ", 
@@ -150,6 +190,14 @@
         "TR3HQmV8": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/spChallenge.php", 
         "Vd5z8q7S": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/spChallenge.php", 
         "gu8McTA6": "SP_CHALLENGE_DETAIL_URL"
+    }, 
+    {
+        "1X65WPLU": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/story_top.php", 
+        "7Aw3E5od": "https://v24-android.game.exvius.com/lapis/app/php/web/statics/story_top.php", 
+        "G4L0YIB2": "ストーリーイベントの遊び方TOPURL", 
+        "TR3HQmV8": "https://v24-kindle.game.exvius.com/lapis/app/php/web/statics/story_top.php", 
+        "Vd5z8q7S": "https://v24-andapp.game.exvius.com/lapis/app/php/web/statics/story_top.php", 
+        "gu8McTA6": "STORY_EVENT_INFO_URL"
     }, 
     {
         "1X65WPLU": "https://v24.notice.exvius.com/helpchild/etc/2.php", 
@@ -184,11 +232,27 @@
         "gu8McTA6": "TERMS_OF_USE_URL"
     }, 
     {
+        "1X65WPLU": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/tower_top.php", 
+        "7Aw3E5od": "https://v24-android.game.exvius.com/lapis/app/php/web/statics/tower_top.php", 
+        "G4L0YIB2": "タワーイベントの遊び方TOPURL", 
+        "TR3HQmV8": "https://v24-kindle.game.exvius.com/lapis/app/php/web/statics/tower_top.php", 
+        "Vd5z8q7S": "https://v24-andapp.game.exvius.com/lapis/app/php/web/statics/tower_top.php", 
+        "gu8McTA6": "TOWER_EVENT_INFO_URL"
+    }, 
+    {
         "1X65WPLU": "http://notice.dev.lapis-alim.com/news", 
         "7Aw3E5od": "http://notice.dev.lapis-alim.com/news", 
         "G4L0YIB2": "最新情報", 
         "TR3HQmV8": "http://notice.dev.lapis-alim.com/news", 
         "Vd5z8q7S": "http://notice.dev.lapis-alim.com/news", 
         "gu8McTA6": "UPDATE_INFO_URL"
+    }, 
+    {
+        "1X65WPLU": "https://v24-ios.game.exvius.com/lapis/app/php/web/statics/wave_top.php", 
+        "7Aw3E5od": "https://v24-android.game.exvius.com/lapis/app/php/web/statics/wave_top.php", 
+        "G4L0YIB2": "WAVEイベントの遊び方TOPURL", 
+        "TR3HQmV8": "https://v24-kindle.game.exvius.com/lapis/app/php/web/statics/wave_top.php", 
+        "Vd5z8q7S": "https://v24-andapp.game.exvius.com/lapis/app/php/web/statics/wave_top.php", 
+        "gu8McTA6": "WAVE_EVENT_INFO_URL"
     }
 ]

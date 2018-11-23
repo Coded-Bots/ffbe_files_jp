@@ -192,6 +192,14 @@
         "pJ56sAEo": "area_ex26_31vipE0e.cpk"
     }, 
     {
+        "3LHdc6Qa": "area", 
+        "6uvHX2JG": "", 
+        "Nnb20keZ": "108599", 
+        "dX0SkK3j": "100", 
+        "drE35YcF": "area", 
+        "pJ56sAEo": "area_tower_f5vWe8pM.cpk"
+    }, 
+    {
         "3LHdc6Qa": "movie", 
         "6uvHX2JG": "", 
         "Nnb20keZ": "121002", 
@@ -3306,6 +3314,14 @@
     {
         "3LHdc6Qa": "sound/bgm", 
         "6uvHX2JG": "", 
+        "Nnb20keZ": "400816", 
+        "dX0SkK3j": "400", 
+        "drE35YcF": "sound", 
+        "pJ56sAEo": "la816_bgm_ff5_Battle2.acb"
+    }, 
+    {
+        "3LHdc6Qa": "sound/bgm", 
+        "6uvHX2JG": "", 
         "Nnb20keZ": "400817", 
         "dX0SkK3j": "400", 
         "drE35YcF": "sound", 
@@ -3926,6 +3942,14 @@
         "dX0SkK3j": "400", 
         "drE35YcF": "sound", 
         "pJ56sAEo": "la897_bgm_WOFF_NineWoodsHill_world.acb"
+    }, 
+    {
+        "3LHdc6Qa": "sound/bgm", 
+        "6uvHX2JG": "", 
+        "Nnb20keZ": "400901", 
+        "dX0SkK3j": "400", 
+        "drE35YcF": "sound", 
+        "pJ56sAEo": "la901_bgm_FF5_Main.acb"
     }, 
     {
         "3LHdc6Qa": "map2/01", 

@@ -4195,6 +4195,26 @@
         "qtkvrS60": "spd_20181030_bn_list_3500dl_last.png"
     }, 
     {
+        "0HUPxDf1": "8570101", 
+        "G4L0YIB2": "バリアの塔", 
+        "qtkvrS60": "spd_20181120_bn_list_ff5_01.png"
+    }, 
+    {
+        "0HUPxDf1": "8570102", 
+        "G4L0YIB2": "バリアの塔_最終日", 
+        "qtkvrS60": "spd_20181120_bn_list_ff5_01_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8580101", 
+        "G4L0YIB2": "フォークタワー　黒の塔", 
+        "qtkvrS60": "spd_20181120_bn_list_ff5_02.png"
+    }, 
+    {
+        "0HUPxDf1": "8580102", 
+        "G4L0YIB2": "フォークタワー　黒の塔_最終日", 
+        "qtkvrS60": "spd_20181120_bn_list_ff5_02_last.png"
+    }, 
+    {
         "0HUPxDf1": "8973001", 
         "G4L0YIB2": "ねむれるしし 真降臨", 
         "qtkvrS60": "spd_20170731_bn_list_SBF_04.png"
@@ -4243,6 +4263,11 @@
         "0HUPxDf1": "8973011", 
         "G4L0YIB2": "舞い降りた氷鳥 真降臨", 
         "qtkvrS60": "spd_20180928_bn_list_SBF_13.png"
+    }, 
+    {
+        "0HUPxDf1": "8973012", 
+        "G4L0YIB2": "雄々しき巨角 真降臨", 
+        "qtkvrS60": "spd_20181120_bn_list_SBF_15.png"
     }, 
     {
         "0HUPxDf1": "8992101", 
@@ -4368,6 +4393,16 @@
         "0HUPxDf1": "9000002", 
         "G4L0YIB2": "聖夜はサンタに大変身!?", 
         "qtkvrS60": "spd_20161222_bn_list_christmas.png"
+    }, 
+    {
+        "0HUPxDf1": "9100101", 
+        "G4L0YIB2": "聖霊殿エルティラ", 
+        "qtkvrS60": "spd_20181120_bn_list_tower.png"
+    }, 
+    {
+        "0HUPxDf1": "9100102", 
+        "G4L0YIB2": "聖霊殿エルティラ_最終日", 
+        "qtkvrS60": "spd_20181120_bn_list_tower_last.png"
     }, 
     {
         "0HUPxDf1": "10100100", 
@@ -5733,6 +5768,11 @@
         "0HUPxDf1": "106306800", 
         "G4L0YIB2": "クレジットチップ", 
         "qtkvrS60": "item_9222.png"
+    }, 
+    {
+        "0HUPxDf1": "106306900", 
+        "G4L0YIB2": "アトモスレイドコイン", 
+        "qtkvrS60": "item_9225.png"
     }, 
     {
         "0HUPxDf1": "107000100", 
@@ -7695,6 +7735,31 @@
         "qtkvrS60": "item_8460.png"
     }, 
     {
+        "0HUPxDf1": "235002100", 
+        "G4L0YIB2": "毒々しい牙", 
+        "qtkvrS60": "item_8462.png"
+    }, 
+    {
+        "0HUPxDf1": "235002200", 
+        "G4L0YIB2": "黒の糸", 
+        "qtkvrS60": "item_8463.png"
+    }, 
+    {
+        "0HUPxDf1": "235002300", 
+        "G4L0YIB2": "黒の木材", 
+        "qtkvrS60": "item_8464.png"
+    }, 
+    {
+        "0HUPxDf1": "235002400", 
+        "G4L0YIB2": "融合石", 
+        "qtkvrS60": "item_8465.png"
+    }, 
+    {
+        "0HUPxDf1": "235002500", 
+        "G4L0YIB2": "金属の輪", 
+        "qtkvrS60": "item_8461.png"
+    }, 
+    {
         "0HUPxDf1": "270000100", 
         "G4L0YIB2": "白の晶石", 
         "qtkvrS60": "item_8220.png"
@@ -8728,6 +8793,11 @@
         "0HUPxDf1": "302007800", 
         "G4L0YIB2": "セイバーカービン(FFXIII)", 
         "qtkvrS60": "item_10275.png"
+    }, 
+    {
+        "0HUPxDf1": "302007900", 
+        "G4L0YIB2": "ガラフの剣", 
+        "qtkvrS60": "item_10276.png"
     }, 
     {
         "0HUPxDf1": "303000100", 
@@ -10130,6 +10200,11 @@
         "qtkvrS60": "item_10642.png"
     }, 
     {
+        "0HUPxDf1": "310004900", 
+        "G4L0YIB2": "ポイズンロッド", 
+        "qtkvrS60": "item_10643.png"
+    }, 
+    {
         "0HUPxDf1": "311000200", 
         "G4L0YIB2": "サクラの杖", 
         "qtkvrS60": "item_10501.png"
@@ -10843,6 +10918,11 @@
         "0HUPxDf1": "315022700", 
         "G4L0YIB2": "ホークアイ(FFXIII)", 
         "qtkvrS60": "item_11329.png"
+    }, 
+    {
+        "0HUPxDf1": "315022800", 
+        "G4L0YIB2": "ライジングサン(FFBE)", 
+        "qtkvrS60": "item_11330.png"
     }, 
     {
         "0HUPxDf1": "316000100", 
@@ -11613,6 +11693,11 @@
         "0HUPxDf1": "403048200", 
         "G4L0YIB2": "アヤカの髪飾り", 
         "qtkvrS60": "item_30171.png"
+    }, 
+    {
+        "0HUPxDf1": "403048300", 
+        "G4L0YIB2": "クルルの髪どめ", 
+        "qtkvrS60": "item_30172.png"
     }, 
     {
         "0HUPxDf1": "404000200", 
@@ -12693,6 +12778,11 @@
         "0HUPxDf1": "408004600", 
         "G4L0YIB2": "アストラルローブ", 
         "qtkvrS60": "item_20445.png"
+    }, 
+    {
+        "0HUPxDf1": "408004700", 
+        "G4L0YIB2": "くろのローブ", 
+        "qtkvrS60": "item_20446.png"
     }, 
     {
         "0HUPxDf1": "409000100", 
@@ -13998,6 +14088,21 @@
         "0HUPxDf1": "409029200", 
         "G4L0YIB2": "ヘリオライト", 
         "qtkvrS60": "item_50413.png"
+    }, 
+    {
+        "0HUPxDf1": "409029300", 
+        "G4L0YIB2": "ほのおのゆびわ", 
+        "qtkvrS60": "item_50416.png"
+    }, 
+    {
+        "0HUPxDf1": "409029400", 
+        "G4L0YIB2": "さんごのゆびわ", 
+        "qtkvrS60": "item_50417.png"
+    }, 
+    {
+        "0HUPxDf1": "409029500", 
+        "G4L0YIB2": "暗黒の指輪", 
+        "qtkvrS60": "item_50415.png"
     }, 
     {
         "0HUPxDf1": "600000010", 

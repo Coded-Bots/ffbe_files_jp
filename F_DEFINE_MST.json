@@ -77,17 +77,17 @@
     {
         "AK8Nn7ta": "CHALLENGE_QUEST_ITEMNUM_DISP_FLG", 
         "G4L0YIB2": "挑戦の間表示フラグ2", 
-        "YjIUDJ97": "0"
+        "YjIUDJ97": "1"
     }, 
     {
         "AK8Nn7ta": "CHALLENGE_QUEST_NOTICE_DISP_FLG", 
         "G4L0YIB2": "挑戦の間表示フラグ", 
-        "YjIUDJ97": "0"
+        "YjIUDJ97": "1"
     }, 
     {
-        "AK8Nn7ta": "CHALLENGE_QUEST_REWARD_BANNER_FLG", 
+        "AK8Nn7ta": "CHALLENGE_QUEST_REWARD_BANNER_DISP_FLG", 
         "G4L0YIB2": "挑戦の間表示フラグ3", 
-        "YjIUDJ97": "0"
+        "YjIUDJ97": "1"
     }, 
     {
         "AK8Nn7ta": "CONTINUE_COST", 
@@ -103,6 +103,11 @@
         "AK8Nn7ta": "CRAFT_TIME_REDUCTION_COST_LIMIT", 
         "G4L0YIB2": "クラフト時間短縮コスト上限", 
         "YjIUDJ97": "5000"
+    }, 
+    {
+        "AK8Nn7ta": "DAMEGE_BONUS_LIMIT", 
+        "G4L0YIB2": "ダメージボーナス上限", 
+        "YjIUDJ97": "1:480,2:1000,3:2000,4:4200"
     }, 
     {
         "AK8Nn7ta": "DEFAULT_CLSM_PROGRESS_ID", 
@@ -425,9 +430,24 @@
         "YjIUDJ97": "3600"
     }, 
     {
+        "AK8Nn7ta": "REINFORCEMENT_SETTING_COUNT", 
+        "G4L0YIB2": "同行者設定可能数", 
+        "YjIUDJ97": "5"
+    }, 
+    {
+        "AK8Nn7ta": "REINFORCEMENT_SETTING_DISABLE_MESSAGE", 
+        "G4L0YIB2": "同行者設定不可メッセージ", 
+        "YjIUDJ97": "現在、機能が制限されています。"
+    }, 
+    {
+        "AK8Nn7ta": "REINFORCEMENT_SETTING_HELP_DISP_FLG", 
+        "G4L0YIB2": "同行者設定ヘルプ", 
+        "YjIUDJ97": "1"
+    }, 
+    {
         "AK8Nn7ta": "REIN_FRI_DISP_CNT", 
         "G4L0YIB2": "フレンド援軍表示件数", 
-        "YjIUDJ97": "20"
+        "YjIUDJ97": "15"
     }, 
     {
         "AK8Nn7ta": "REIN_NRM_DISP_CNT", 
@@ -437,7 +457,7 @@
     {
         "AK8Nn7ta": "REIN_NRM_RES_CNT", 
         "G4L0YIB2": "通常援軍レスポンス件数", 
-        "YjIUDJ97": "25"
+        "YjIUDJ97": "20"
     }, 
     {
         "AK8Nn7ta": "RESOURCE_DL_RETRY_CNT", 
