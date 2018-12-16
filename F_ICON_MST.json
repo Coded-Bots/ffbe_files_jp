@@ -400,6 +400,21 @@
         "qtkvrS60": "map_icon_3520103_1.png"
     }, 
     {
+        "0HUPxDf1": "86101", 
+        "G4L0YIB2": "run27-ナトゥリアの大樹", 
+        "qtkvrS60": "map_icon_3310104_1.png"
+    }, 
+    {
+        "0HUPxDf1": "86102", 
+        "G4L0YIB2": "run27-ミザス山地", 
+        "qtkvrS60": "map_icon_3510101_1.png"
+    }, 
+    {
+        "0HUPxDf1": "86103", 
+        "G4L0YIB2": "run27-魔獣兵器開発施設", 
+        "qtkvrS60": "map_icon_3610105_1.png"
+    }, 
+    {
         "0HUPxDf1": "110001", 
         "G4L0YIB2": "FF1", 
         "qtkvrS60": "dic_ff1.png"
@@ -2245,6 +2260,31 @@
         "qtkvrS60": "map_icon_3750105_3.png"
     }, 
     {
+        "0HUPxDf1": "3760101", 
+        "G4L0YIB2": "煙る洞窟", 
+        "qtkvrS60": "map_icon_3760101_3.png"
+    }, 
+    {
+        "0HUPxDf1": "3760102", 
+        "G4L0YIB2": "光照らす平原", 
+        "qtkvrS60": "map_icon_3760102_3.png"
+    }, 
+    {
+        "0HUPxDf1": "3760103", 
+        "G4L0YIB2": "火吹きの川", 
+        "qtkvrS60": "map_icon_3760103_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3760104", 
+        "G4L0YIB2": "緋色の高台（夕方）", 
+        "qtkvrS60": "map_icon_3760104_2.png"
+    }, 
+    {
+        "0HUPxDf1": "3760106", 
+        "G4L0YIB2": "光重なる地（夜）", 
+        "qtkvrS60": "map_icon_3760106_2.png"
+    }, 
+    {
         "0HUPxDf1": "4010101", 
         "G4L0YIB2": "強き心の修練", 
         "qtkvrS60": "spd_20161021_bn_list_ffbe.png"
@@ -3215,6 +3255,16 @@
         "qtkvrS60": "spd_20170514_bn_list_FF10_last.png"
     }, 
     {
+        "0HUPxDf1": "7580103", 
+        "G4L0YIB2": "復刻_霊峰ガガゼトwave", 
+        "qtkvrS60": "spd_20181211_bn_list_FF10.png"
+    }, 
+    {
+        "0HUPxDf1": "7580104", 
+        "G4L0YIB2": "復刻_霊峰ガガゼトwave_最終日", 
+        "qtkvrS60": "spd_20181211_bn_list_FF10_last.png"
+    }, 
+    {
         "0HUPxDf1": "7590101", 
         "G4L0YIB2": "ガガゼト山探索", 
         "qtkvrS60": "spd_20170508_bn_list_FF10_02.png"
@@ -3223,6 +3273,16 @@
         "0HUPxDf1": "7590102", 
         "G4L0YIB2": "ガガゼト山探索_最終日", 
         "qtkvrS60": "spd_20170514_bn_list_FF10_02_last.png"
+    }, 
+    {
+        "0HUPxDf1": "7590103", 
+        "G4L0YIB2": "復刻_ガガゼト山探索", 
+        "qtkvrS60": "spd_20181211_bn_list_FF10_02.png"
+    }, 
+    {
+        "0HUPxDf1": "7590104", 
+        "G4L0YIB2": "復刻_ガガゼト山探索_最終日", 
+        "qtkvrS60": "spd_20181211_bn_list_FF10_02_last.png"
     }, 
     {
         "0HUPxDf1": "7600101", 
@@ -3493,6 +3553,16 @@
         "0HUPxDf1": "7860102", 
         "G4L0YIB2": "鍛鉄城メルフィキア_最終日", 
         "qtkvrS60": "spd_20180219_bn_list_wp_last_02.png"
+    }, 
+    {
+        "0HUPxDf1": "7860103", 
+        "G4L0YIB2": "鍛鉄城メルフィキア_最終日", 
+        "qtkvrS60": "spd_20180410_bn_list_wp_last.png"
+    }, 
+    {
+        "0HUPxDf1": "7860104", 
+        "G4L0YIB2": "鍛鉄城メルフィキア_最終日", 
+        "qtkvrS60": "spd_20181130_bn_list_wp_last_03.png"
     }, 
     {
         "0HUPxDf1": "7870101", 
@@ -4215,59 +4285,89 @@
         "qtkvrS60": "spd_20181120_bn_list_ff5_02_last.png"
     }, 
     {
+        "0HUPxDf1": "8590101", 
+        "G4L0YIB2": "エクスデス城", 
+        "qtkvrS60": "spd_20181130_bn_list_FF5.png"
+    }, 
+    {
+        "0HUPxDf1": "8590102", 
+        "G4L0YIB2": "エクスデス城_最終日", 
+        "qtkvrS60": "spd_20181130_bn_list_FF5_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8600101", 
+        "G4L0YIB2": "エクスデス城・探索", 
+        "qtkvrS60": "spd_20181130_bn_list_FF5_02.png"
+    }, 
+    {
+        "0HUPxDf1": "8600102", 
+        "G4L0YIB2": "エクスデス城・探索_最終日", 
+        "qtkvrS60": "spd_20181130_bn_list_FF5_02_last.png"
+    }, 
+    {
+        "0HUPxDf1": "8610101", 
+        "G4L0YIB2": "ファン・ファン・ファイサリス", 
+        "qtkvrS60": "spd_20181211_bn_list_fanfan.png"
+    }, 
+    {
+        "0HUPxDf1": "8610102", 
+        "G4L0YIB2": "ファン・ファン・ファイサリス_最終日", 
+        "qtkvrS60": "spd_20181211_bn_list_fanfan_last.png"
+    }, 
+    {
         "0HUPxDf1": "8973001", 
-        "G4L0YIB2": "ねむれるしし 真降臨", 
-        "qtkvrS60": "spd_20170731_bn_list_SBF_04.png"
+        "G4L0YIB2": "【真降臨】ねむれるしし", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_04.png"
     }, 
     {
         "0HUPxDf1": "8973002", 
-        "G4L0YIB2": "押し寄せる強者ども 真降臨", 
-        "qtkvrS60": "spd_20170929_bn_list_SBF_05.png"
+        "G4L0YIB2": "【真降臨】押し寄せる強者ども", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_05.png"
     }, 
     {
         "0HUPxDf1": "8973003", 
-        "G4L0YIB2": "アンテノラ 真降臨", 
-        "qtkvrS60": "spd_20171130_bn_list_SBF_06.png"
+        "G4L0YIB2": "【真降臨】アンテノラ", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_06.png"
     }, 
     {
         "0HUPxDf1": "8973004", 
-        "G4L0YIB2": "2ヘッドドラゴン 真降臨", 
-        "qtkvrS60": "spd_20180131_bn_list_SBF_07.png"
+        "G4L0YIB2": "【真降臨】2ヘッドドラゴン", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_07.png"
     }, 
     {
         "0HUPxDf1": "8973005", 
-        "G4L0YIB2": "狂魔の行進 真降臨", 
-        "qtkvrS60": "spd_20180330_bn_list_SBF_08.png"
+        "G4L0YIB2": "【真降臨】狂魔の行進", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_08.png"
     }, 
     {
         "0HUPxDf1": "8973006", 
-        "G4L0YIB2": "ギルガメッシュ 真降臨", 
-        "qtkvrS60": "spd_20180531_bn_list_SBF_09.png"
+        "G4L0YIB2": "【真降臨】ギルガメッシュ", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_09.png"
     }, 
     {
         "0HUPxDf1": "8973007", 
-        "G4L0YIB2": "闇の魔物たち 真降臨", 
-        "qtkvrS60": "spd_20180629_bn_list_SBF_10.png"
+        "G4L0YIB2": "【真降臨】闇の魔物たち", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_10.png"
     }, 
     {
         "0HUPxDf1": "8973008", 
-        "G4L0YIB2": "憎めぬタコと大先生 真降臨", 
-        "qtkvrS60": "spd_20180730_bn_list_SBF_11.png"
+        "G4L0YIB2": "【真降臨】憎めぬタコと大先生", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_11.png"
     }, 
     {
         "0HUPxDf1": "8973010", 
-        "G4L0YIB2": "邪悪なる紅い月 真降臨", 
-        "qtkvrS60": "spd_20181030_bn_list_SBF_14.png"
+        "G4L0YIB2": "【真降臨】邪悪なる紅い月", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_14.png"
     }, 
     {
         "0HUPxDf1": "8973011", 
-        "G4L0YIB2": "舞い降りた氷鳥 真降臨", 
-        "qtkvrS60": "spd_20180928_bn_list_SBF_13.png"
+        "G4L0YIB2": "【真降臨】舞い降りた氷鳥", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_13.png"
     }, 
     {
         "0HUPxDf1": "8973012", 
-        "G4L0YIB2": "雄々しき巨角 真降臨", 
-        "qtkvrS60": "spd_20181120_bn_list_SBF_15.png"
+        "G4L0YIB2": "【真降臨】雄々しき巨角", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_15.png"
     }, 
     {
         "0HUPxDf1": "8992101", 
@@ -4276,113 +4376,118 @@
     }, 
     {
         "0HUPxDf1": "8993001", 
-        "G4L0YIB2": "ねむれるしし降臨", 
-        "qtkvrS60": "spd_20160831_bn_list_BF01.png"
+        "G4L0YIB2": "【降臨】ねむれるしし", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_01.png"
     }, 
     {
         "0HUPxDf1": "8993002", 
-        "G4L0YIB2": "押し寄せる強者ども", 
-        "qtkvrS60": "spd_20160831_bn_list_BF02.png"
+        "G4L0YIB2": "【降臨】押し寄せる強者ども", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_02.png"
     }, 
     {
         "0HUPxDf1": "8993003", 
-        "G4L0YIB2": "アンテノラ降臨", 
-        "qtkvrS60": "spd_20160831_bn_list_BF03.png"
+        "G4L0YIB2": "【降臨】アンテノラ", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_03.png"
     }, 
     {
         "0HUPxDf1": "8993004", 
-        "G4L0YIB2": "2ヘッドドラゴン降臨", 
-        "qtkvrS60": "spd_20160831_bn_list_BF04.png"
+        "G4L0YIB2": "【降臨】2ヘッドドラゴン", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_04.png"
     }, 
     {
         "0HUPxDf1": "8993005", 
-        "G4L0YIB2": "狂魔の行進", 
-        "qtkvrS60": "spd_20160831_bn_list_BF05.png"
+        "G4L0YIB2": "【降臨】狂魔の行進", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_05.png"
     }, 
     {
         "0HUPxDf1": "8993006", 
-        "G4L0YIB2": "ギルガメッシュ降臨", 
-        "qtkvrS60": "spd_20160831_bn_list_BF06.png"
+        "G4L0YIB2": "【降臨】ギルガメッシュ", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_06.png"
     }, 
     {
         "0HUPxDf1": "8993007", 
-        "G4L0YIB2": "闇の魔物たち", 
-        "qtkvrS60": "spd_20160831_bn_list_BF07.png"
+        "G4L0YIB2": "【降臨】闇の魔物たち", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_07.png"
     }, 
     {
         "0HUPxDf1": "8993008", 
-        "G4L0YIB2": "憎めぬタコと大先生", 
-        "qtkvrS60": "spd_20160831_bn_list_BF08.png"
+        "G4L0YIB2": "【降臨】憎めぬタコと大先生", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_08.png"
     }, 
     {
         "0HUPxDf1": "8993009", 
-        "G4L0YIB2": "破滅をもたらす機神", 
-        "qtkvrS60": "spd_20161121_bn_list_BF09.png"
+        "G4L0YIB2": "【降臨】破滅をもたらす機神", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_11.png"
     }, 
     {
         "0HUPxDf1": "8993010", 
-        "G4L0YIB2": "邪悪なる紅い月", 
-        "qtkvrS60": "spd_20170228_bn_list_BF10.png"
+        "G4L0YIB2": "【降臨】邪悪なる紅い月", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_12.png"
     }, 
     {
         "0HUPxDf1": "8993011", 
-        "G4L0YIB2": "舞い降りた氷鳥", 
-        "qtkvrS60": "spd_20170330_bn_list_BF10.png"
+        "G4L0YIB2": "【降臨】舞い降りた氷鳥", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_09.png"
     }, 
     {
         "0HUPxDf1": "8993012", 
-        "G4L0YIB2": "雄々しき巨角", 
-        "qtkvrS60": "spd_20170427_bn_list_BF10.png"
+        "G4L0YIB2": "【降臨】雄々しき巨角", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_10.png"
     }, 
     {
         "0HUPxDf1": "8993013", 
-        "G4L0YIB2": "白竜 真降臨", 
-        "qtkvrS60": "spd_20170529_bn_list_SBF_01.png"
+        "G4L0YIB2": "【真降臨】白竜", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_01.png"
     }, 
     {
         "0HUPxDf1": "8993014", 
-        "G4L0YIB2": "デビルキマイラ 真降臨", 
-        "qtkvrS60": "spd_20170529_bn_list_SBF_02.png"
+        "G4L0YIB2": "【真降臨】デビルキマイラ", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_02.png"
     }, 
     {
         "0HUPxDf1": "8993015", 
-        "G4L0YIB2": "ブラキオレイドス 真降臨", 
-        "qtkvrS60": "spd_20170529_bn_list_SBF_03.png"
+        "G4L0YIB2": "【真降臨】ブラキオレイドス", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_03.png"
     }, 
     {
         "0HUPxDf1": "8993016", 
-        "G4L0YIB2": "暴威をふるう鉄鎧", 
-        "qtkvrS60": "spd_20170630_bn_list_BF13.png"
+        "G4L0YIB2": "【降臨】暴威をふるう鉄鎧", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_13.png"
     }, 
     {
         "0HUPxDf1": "8993017", 
-        "G4L0YIB2": "大爆発祭り", 
-        "qtkvrS60": "spd_20170831_bn_list_BF_14.png"
+        "G4L0YIB2": "【降臨】大爆発祭り", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_14.png"
     }, 
     {
         "0HUPxDf1": "8993018", 
-        "G4L0YIB2": "最凶の古代兵器", 
-        "qtkvrS60": "spd_20171031_bn_list_BF_15.png"
+        "G4L0YIB2": "【降臨】最凶の古代兵器", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_18.png"
     }, 
     {
         "0HUPxDf1": "8993019", 
-        "G4L0YIB2": "超猛毒性異形植物", 
-        "qtkvrS60": "spd_20171227_bn_list_BF_16.png"
+        "G4L0YIB2": "【降臨】超猛毒性異形植物", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_15.png"
     }, 
     {
         "0HUPxDf1": "8993020", 
-        "G4L0YIB2": "嗤い踊る人形", 
-        "qtkvrS60": "spd_20180228_bn_list_BF_17.png"
+        "G4L0YIB2": "【降臨】嗤い踊る人形", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_16.png"
     }, 
     {
         "0HUPxDf1": "8993021", 
-        "G4L0YIB2": "闇の魔物たち・Ⅱ", 
-        "qtkvrS60": "spd_20180427_bn_list_BF_18.png"
+        "G4L0YIB2": "【降臨】闇の魔物たち・Ⅱ", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_17.png"
     }, 
     {
         "0HUPxDf1": "8993022", 
-        "G4L0YIB2": "リッチ_真降臨", 
-        "qtkvrS60": "spd_20180830_bn_list_SBF_12.png"
+        "G4L0YIB2": "【真降臨】リッチ", 
+        "qtkvrS60": "spd_20181211_bn_list_SBF_12.png"
+    }, 
+    {
+        "0HUPxDf1": "8993023", 
+        "G4L0YIB2": "【降臨】深淵より出でし竜", 
+        "qtkvrS60": "spd_20181211_bn_list_BF_19.png"
     }, 
     {
         "0HUPxDf1": "9000001", 
@@ -4393,6 +4498,16 @@
         "0HUPxDf1": "9000002", 
         "G4L0YIB2": "聖夜はサンタに大変身!?", 
         "qtkvrS60": "spd_20161222_bn_list_christmas.png"
+    }, 
+    {
+        "0HUPxDf1": "9060101", 
+        "G4L0YIB2": "追憶の間", 
+        "qtkvrS60": "spd_20181211_bn_top_memory.png"
+    }, 
+    {
+        "0HUPxDf1": "9091101", 
+        "G4L0YIB2": "ネオエクスデス", 
+        "qtkvrS60": "spd_20181130_bn_list_SBB_001.png"
     }, 
     {
         "0HUPxDf1": "9100101", 
@@ -4558,6 +4673,11 @@
         "0HUPxDf1": "10500400", 
         "G4L0YIB2": "極限の戦い", 
         "qtkvrS60": "award_10500400.png"
+    }, 
+    {
+        "0HUPxDf1": "10500500", 
+        "G4L0YIB2": "伝説との戦い", 
+        "qtkvrS60": "award_10500500.png"
     }, 
     {
         "0HUPxDf1": "10600200", 
@@ -4913,6 +5033,21 @@
         "0HUPxDf1": "30101031", 
         "G4L0YIB2": "3周年記念エンブレム", 
         "qtkvrS60": "emblem_20101.png"
+    }, 
+    {
+        "0HUPxDf1": "30101032", 
+        "G4L0YIB2": "伝説との戦い（ゴールド）", 
+        "qtkvrS60": "emblem_70031.png"
+    }, 
+    {
+        "0HUPxDf1": "30101033", 
+        "G4L0YIB2": "伝説との戦い（シルバー）", 
+        "qtkvrS60": "emblem_70032.png"
+    }, 
+    {
+        "0HUPxDf1": "30101034", 
+        "G4L0YIB2": "伝説との戦い（ブロンズ）", 
+        "qtkvrS60": "emblem_70033.png"
     }, 
     {
         "0HUPxDf1": "100000000", 
@@ -5310,6 +5445,11 @@
         "qtkvrS60": "item_2021.png"
     }, 
     {
+        "0HUPxDf1": "105007600", 
+        "G4L0YIB2": "土陣の魔法書", 
+        "qtkvrS60": "item_2022.png"
+    }, 
+    {
         "0HUPxDf1": "106000100", 
         "G4L0YIB2": "テント", 
         "qtkvrS60": "item_5001.png"
@@ -5423,6 +5563,11 @@
         "0HUPxDf1": "106211270", 
         "G4L0YIB2": "3周年記念召喚チケット", 
         "qtkvrS60": "item_9220.png"
+    }, 
+    {
+        "0HUPxDf1": "106211340", 
+        "G4L0YIB2": "スーパートラストモーグリ交換チケット", 
+        "qtkvrS60": "item_9227.png"
     }, 
     {
         "0HUPxDf1": "106300100", 
@@ -5773,6 +5918,11 @@
         "0HUPxDf1": "106306900", 
         "G4L0YIB2": "アトモスレイドコイン", 
         "qtkvrS60": "item_9225.png"
+    }, 
+    {
+        "0HUPxDf1": "106307000", 
+        "G4L0YIB2": "飛竜草", 
+        "qtkvrS60": "item_9226.png"
     }, 
     {
         "0HUPxDf1": "107000100", 
@@ -7760,6 +7910,31 @@
         "qtkvrS60": "item_8461.png"
     }, 
     {
+        "0HUPxDf1": "235003010", 
+        "G4L0YIB2": "アルドールウーツ鉱", 
+        "qtkvrS60": "item_8467.png"
+    }, 
+    {
+        "0HUPxDf1": "235003020", 
+        "G4L0YIB2": "グンガン漆", 
+        "qtkvrS60": "item_8470.png"
+    }, 
+    {
+        "0HUPxDf1": "235003030", 
+        "G4L0YIB2": "ガンパウダー", 
+        "qtkvrS60": "item_8469.png"
+    }, 
+    {
+        "0HUPxDf1": "235003040", 
+        "G4L0YIB2": "フッ素ゴム", 
+        "qtkvrS60": "item_8466.png"
+    }, 
+    {
+        "0HUPxDf1": "235003050", 
+        "G4L0YIB2": "チーク原木", 
+        "qtkvrS60": "item_8468.png"
+    }, 
+    {
         "0HUPxDf1": "270000100", 
         "G4L0YIB2": "白の晶石", 
         "qtkvrS60": "item_8220.png"
@@ -8800,6 +8975,26 @@
         "qtkvrS60": "item_10276.png"
     }, 
     {
+        "0HUPxDf1": "302008000", 
+        "G4L0YIB2": "バッツの剣", 
+        "qtkvrS60": "item_10277.png"
+    }, 
+    {
+        "0HUPxDf1": "302008100", 
+        "G4L0YIB2": "テンペスト・エア", 
+        "qtkvrS60": "item_10280.png"
+    }, 
+    {
+        "0HUPxDf1": "302008200", 
+        "G4L0YIB2": "こだいのつるぎ(FFV)", 
+        "qtkvrS60": "item_10278.png"
+    }, 
+    {
+        "0HUPxDf1": "302008300", 
+        "G4L0YIB2": "エクスカリパー(FFV)", 
+        "qtkvrS60": "item_10279.png"
+    }, 
+    {
         "0HUPxDf1": "303000100", 
         "G4L0YIB2": "グレートソード", 
         "qtkvrS60": "item_10301.png"
@@ -9063,6 +9258,11 @@
         "0HUPxDf1": "303006100", 
         "G4L0YIB2": "ライオンハート(WOFF)", 
         "qtkvrS60": "item_10334.png"
+    }, 
+    {
+        "0HUPxDf1": "303006200", 
+        "G4L0YIB2": "アイスブランド(FFV)", 
+        "qtkvrS60": "item_10353.png"
     }, 
     {
         "0HUPxDf1": "304000100", 
@@ -9393,6 +9593,11 @@
         "0HUPxDf1": "305002500", 
         "G4L0YIB2": "イグニッションアックス", 
         "qtkvrS60": "item_10825.png"
+    }, 
+    {
+        "0HUPxDf1": "305002600", 
+        "G4L0YIB2": "採掘用ピッケル", 
+        "qtkvrS60": "item_10826.png"
     }, 
     {
         "0HUPxDf1": "306000100", 
@@ -9783,6 +9988,16 @@
         "0HUPxDf1": "308004900", 
         "G4L0YIB2": "ダイヤランス", 
         "qtkvrS60": "item_11011.png"
+    }, 
+    {
+        "0HUPxDf1": "308005000", 
+        "G4L0YIB2": "パルチザン(FFV)", 
+        "qtkvrS60": "item_11045.png"
+    }, 
+    {
+        "0HUPxDf1": "308005100", 
+        "G4L0YIB2": "獣牙双刃", 
+        "qtkvrS60": "item_11046.png"
     }, 
     {
         "0HUPxDf1": "309000300", 
@@ -10405,6 +10620,16 @@
         "qtkvrS60": "item_10508.png"
     }, 
     {
+        "0HUPxDf1": "311004800", 
+        "G4L0YIB2": "さばきのつえ(FFV)", 
+        "qtkvrS60": "item_10540.png"
+    }, 
+    {
+        "0HUPxDf1": "311004900", 
+        "G4L0YIB2": "ひかりのつえ(FFV)", 
+        "qtkvrS60": "item_10541.png"
+    }, 
+    {
         "0HUPxDf1": "312000100", 
         "G4L0YIB2": "ショートボウ", 
         "qtkvrS60": "item_10700.png"
@@ -10713,6 +10938,16 @@
         "0HUPxDf1": "313005400", 
         "G4L0YIB2": "A式スナイパーライフル", 
         "qtkvrS60": "item_11447.png"
+    }, 
+    {
+        "0HUPxDf1": "313005500", 
+        "G4L0YIB2": "ピースキーパー", 
+        "qtkvrS60": "item_11450.png"
+    }, 
+    {
+        "0HUPxDf1": "313005600", 
+        "G4L0YIB2": "リバティアクション", 
+        "qtkvrS60": "item_11451.png"
     }, 
     {
         "0HUPxDf1": "314000200", 
@@ -11313,6 +11548,11 @@
         "0HUPxDf1": "402003500", 
         "G4L0YIB2": "ナイトオブグランシェルト", 
         "qtkvrS60": "item_40233.png"
+    }, 
+    {
+        "0HUPxDf1": "402003600", 
+        "G4L0YIB2": "ダイヤシールド(FFBE)", 
+        "qtkvrS60": "item_40210.png"
     }, 
     {
         "0HUPxDf1": "403000100", 
@@ -12555,6 +12795,11 @@
         "qtkvrS60": "item_20338.png"
     }, 
     {
+        "0HUPxDf1": "407004300", 
+        "G4L0YIB2": "グドンアーマー", 
+        "qtkvrS60": "item_20339.png"
+    }, 
+    {
         "0HUPxDf1": "408000100", 
         "G4L0YIB2": "木綿のローブ", 
         "qtkvrS60": "item_20400.png"
@@ -12783,6 +13028,11 @@
         "0HUPxDf1": "408004700", 
         "G4L0YIB2": "くろのローブ", 
         "qtkvrS60": "item_20446.png"
+    }, 
+    {
+        "0HUPxDf1": "408004800", 
+        "G4L0YIB2": "溶岩のローブ", 
+        "qtkvrS60": "item_20447.png"
     }, 
     {
         "0HUPxDf1": "409000100", 
@@ -14103,6 +14353,21 @@
         "0HUPxDf1": "409029500", 
         "G4L0YIB2": "暗黒の指輪", 
         "qtkvrS60": "item_50415.png"
+    }, 
+    {
+        "0HUPxDf1": "409029600", 
+        "G4L0YIB2": "エルメスの靴(FFV)", 
+        "qtkvrS60": "item_50418.png"
+    }, 
+    {
+        "0HUPxDf1": "409029700", 
+        "G4L0YIB2": "チョコボの羽飾り", 
+        "qtkvrS60": "item_50423.png"
+    }, 
+    {
+        "0HUPxDf1": "409029800", 
+        "G4L0YIB2": "竜の紋章(FFBE)", 
+        "qtkvrS60": "item_50420.png"
     }, 
     {
         "0HUPxDf1": "600000010", 
